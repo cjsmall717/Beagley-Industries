@@ -14,8 +14,50 @@
     "projects.hotstuff.overview.title":[
         "site.hopen", "Overview", "site.hclose"
     ],
+   "projects.burners.gallery.title": [
+        "site.hopen", "Burner Box Gallery", "site.hclose"
+    ],
+    "projects.burners.gallery.embed.1": [
+        "site.iopen",
+        "burners",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.burners.gallery": [
+        "projects.burners.gallery.title",
+        "projects.burners.gallery.embed.1"
+    ],
+   "projects.furnace.gallery.title": [
+        "site.hopen", "Furnace Gallery", "site.hclose"
+    ],
+    "projects.furnace.gallery.embed.1": [
+        "site.iopen",
+        "furnace",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.furnace.gallery": [
+        "projects.furnace.gallery.title",
+        "projects.furnace.gallery.embed.1"
+    ],
+   "projects.forges.gallery.title": [
+        "site.hopen", "Forge Gallery", "site.hclose"
+    ],
+    "projects.forges.gallery.embed.1": [
+        "site.iopen",
+        "forges",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.forges.gallery": [
+        "projects.forges.gallery.title",
+        "projects.forges.gallery.embed.1"
+    ],
     "site.pages.hotstuff": [
         "projects.hotstuff.title",
+        "projects.burners.gallery",
+        "projects.furnace.gallery",
+        "projects.forges.gallery",
         "site.return"
   ]
 }
