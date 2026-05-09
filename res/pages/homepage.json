@@ -47,6 +47,11 @@
   "home.foundation.title": [
     "site.hopen", "Afterword", "site.hclose"
   ],
+  "home.reveries": [
+    "site.ulopen",
+    "navigate.reveries",
+    "site.ulclose"
+  ],
   "site.pages.homepage": [
     "site.who",
     "home.projects.title",

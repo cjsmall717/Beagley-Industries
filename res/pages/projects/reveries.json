@@ -1,0 +1,22 @@
+{
+    "projects.reveries.title":[
+        "site.hopen",
+        "projects.reveries.title.text",
+        "site.hclose",
+        "site.popen",
+        "Cool Tools, Baby!",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.reveries.title.text":[
+        "Contemplations, Beers, and Poetry"
+    ],
+    "projects.reveries.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "site.pages.reveries": [
+        "projects.reveries.title",
+        "site.return"
+  ]
+}
+
