@@ -44,7 +44,7 @@
     "navigate.inspirations",
     "site.br"
   ],
-  "home.Afterword.title": [
+  "home.afterword.title": [
     "site.hopen", "Afterword", "site.hclose"
   ],
   "home.reveries": [
@@ -64,6 +64,7 @@
     "home.tooling",
     "home.greenhouse",
     "site.br",
+    "home.afterword.title",
     "home.reveries",
     "site.br",
     "home.inspirations",
