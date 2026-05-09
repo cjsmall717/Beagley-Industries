@@ -44,6 +44,9 @@
     "navigate.inspirations",
     "site.br"
   ],
+  "home.foundation.title": [
+    "site.hopen", "Afterword", "site.hclose"
+  ],
   "site.pages.homepage": [
     "site.who",
     "home.projects.title",

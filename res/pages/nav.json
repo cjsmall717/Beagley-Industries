@@ -55,12 +55,17 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.reveries": [
+    "<li class=\"li-link\" onclick=\"loadPage('reveries');\">",
+    "site.lopen",
+    "Reveries - and a Beer",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",
     "</a>"
   ]
 }
-
-
 

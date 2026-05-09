@@ -16,5 +16,7 @@
     "./res/pages/projects/hotstuff.json",
     "./res/pages/projects/tooling.json",
     "./res/pages/projects/greenhouse.json"
+
+    "./res/pages/projects/reveries.json"
   ]
 }
