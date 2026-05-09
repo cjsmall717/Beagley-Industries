@@ -58,7 +58,7 @@
   "navigate.reveries": [
     "<li class=\"li-link\" onclick=\"loadPage('reveries');\">",
     "site.lopen",
-    "Reveries - and a Beer",
+    "Reveries... and a Beer",
     "site.lclose",
     "site.liclose"
   ],
