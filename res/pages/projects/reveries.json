@@ -68,9 +68,31 @@
     "site.br"
     ],
 
-    "projects.midyears.title": [
-        "site.hopen", "Honours Year", "site.hclose", "site.br"
+    "projects.uniyears.title": [
+        "site.hopen", "University", "site.hclose", "site.br"
     ],
+    "projects.undergrad.title": [
+        "site.hopen", "Another Fire", "site.hclose"
+    ],
+    "projects.undergrad.discussion.1": [
+    "site.popen", 
+    "I was in my third year, studying Microbiology and Immunology and attending a lab class. We were supposed to be culturing bacteria on agar plates. The two supervising academics were out front and one was yapping incessantly. Students did what student do and started fidgeting. We were supplied with wire loops, for inocculating plates; alcohol, for sterilizing the loop, and a bunsen. The process involved dipping the loop in alcohol, flaming it, dipping it in liquid culture, then inoculating the plate. The alcohol had been supplied in plastic beakers:-| (What could possibly go wrong?). Whilst the lecturer was yapping, one of the students set fire to the alcohol in the beaker, then, sat there with her hand raised whilst the lecturer droned on. Realization was heralded by a melting, deformed beaker! Panic! The lecturer swiped her lab coat past the beaker and spread the fire.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.undergrad.discussion.2": [
+    "site.popen", 
+    "It was almost comical. The 2IC did the right thing and covered the minor conflagration with his lab coat (it was closer to hand than a fire blanket) and smothered the fire. Unbelievably, he leaned over the desk and WHOOMP! The hot fumes reignited and singed the 2IC's eyebrows off. ",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.undergrad.discussion.3": [
+    "site.popen", 
+    "Whilst this little melodrama played out, someone at my desk did the same thing. We had a burning beaker. Being as acquainted with fire as I was, I grabbed a piece of paper and placed it between my hand and the beaker, effectively smothering the fire. My fellow student was, I think, grateful for being saved from the same indignity. About two minutes later, the beakers were replaced with glass beakers.",
+    "site.pclose",
+    "site.br"
+    ],
+
     "site.pages.reveries": [
         "projects.reveries.title",
         "projects.earlyyears.title",
@@ -85,7 +107,11 @@
         "projects.thefuse.discussion.4",
         "projects.shockingblue.title",
         "projects.shockingblue.discussion.1",
-        "projects.midyears.title",
+        "projects.uniyears.title",
+        "projects.undergrad.title",
+        "projects.undergrad.discussion.1",
+        "projects.undergrad.discussion.2",
+        "projects.undergrad.discussion.3",
 
         "site.return"
   ]
