@@ -92,6 +92,33 @@
     "site.pclose",
     "site.br"
     ],
+    "projects.honours.title": [
+        "site.hopen", "Honours &mdash; Another Fire", "site.hclose"
+    ],
+    "projects.honours.discussion.1": [
+    "site.popen", 
+    "I'd opted to steer away from biology and focus more on chemistry. to that end, I'd pursued an advanced chemistry project that led into my honours year. I was running HPLC separations for a large part of that year. I was consuming litres of hexane/ethyl acetate &mdash; or at least, my experiments were. With he volume of solvent I was pumping through the HPLC system, I wanted a larger stock-bottle in which to store my solvent mix. I found one in the store room and it was the grottiest thing I'd seen in awhile. It had some sort of residue that I had been unable to remove with alcohol, acetone, or hot water + detergent. Not even aqua regia would move it.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.honours.discussion.2": [
+    "site.popen", 
+    "Chromic acid was the last resort. I decided to make it in situ. My supervisor was working in the lab that day &mdash; a rare occurrence, and she had her back to me. I had already loaded two spoons of Chromium Trioxide into the filthy stock bottle and I was in the process of loading a third when I thought I heard a sizzling noise. I stopped, looked to the side of the bottle and I thought I saw a dull orange flash. I took a step back and was rewarded for my efforts with the all too familiar \"WHOOMP!!\", followed by a rain of green soot, and a fire.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.honours.discussion.3": [
+    "site.popen", 
+    "My supervisor heard the noise and turned to see what had happened. In a mildly annoyed but quiet voice, she ordered, \"Put that fire out!\". I picked the bottle up to swing it to the bench behind me. It was then that she became a little agitated and squawked, \"Don't pick it up!\". I thought to myself, \"If she only knew what I had on my bench, she'd understand!\". I ignored her moved the bottle, then covered it with a piece of paper and my hand. She again squawked, \"Don't put your hand over it!! Put the stopper in it!!\". I thought, \"No, there's probably an excess of oxidising agent. If there is any more unreacted reducing agent, the bottle will explode. If there's an excess of reducing agent, then covering the bottle with my hand is the safest option to avoid an explosion, or a sustained fire that risks shattering the bottle.\"",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.honours.discussion.4": [
+    "site.popen", 
+    "What my supervisor was unaware of was that I had about 40 open vials with  about 20-30mL, each, of EtOAc/Hex mixture. I had two large 4L winchester bottles, both open, and I also had an open bottle of diethyl ether. The latter has a flash-point of -40 Dec. C, and it heavier than air. It was a warm day - it could very well have become much, much warmer. ",
+    "site.pclose",
+    "site.br"
+    ],
 
     "site.pages.reveries": [
         "projects.reveries.title",
@@ -112,6 +139,12 @@
         "projects.undergrad.discussion.1",
         "projects.undergrad.discussion.2",
         "projects.undergrad.discussion.3",
+        "projects.undergrad.discussion.4",
+        "projects.honours.title",
+        "projects.honours.discussion.1",
+        "projects.honours.discussion.2",
+        "projects.honours.discussion.3",
+        "projects.honours.discussion.4",
 
         "site.return"
   ]
