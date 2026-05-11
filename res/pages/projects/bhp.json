@@ -282,7 +282,25 @@
   ],
   "projects.y2k.discussion.1": [
     "site.popen", 
-      "BHP-IT implemented a remediation program to address Y2K-related deficiencies in commercial and locally developed software. PDP-11s were physically limited. They all ran RSX-11M+. The solution to the date problem was to run the clocks at an earlier overlapping date and to massage the figures after the fact.",
+      "BHP-IT implemented a remediation program to address Y2K-related deficiencies in commercial and locally developed software. PDP-11 systems were physically constrained and all ran RSX-11M+. The solution to the date problem was to run the clocks at an earlier overlapping day-date and massage the year field after the fact.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.y2k.discussion.2": [
+    "site.popen", 
+      "PDPs were mostly Level 3 machines in the Computer Integrated Manufacturing model. They handled minute-by-minute operational events. PLCs communicated with Level 3 systems and occupied Level 2 in the hierarchy. The device under control sat at Level 1. Level 4 systems formed the transition between business systems and engineering systems. Mainframe, at Level 5, orchestrated all activities.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.y2k.discussion.3": [
+    "site.popen", 
+      "PDP-11 machines were kept in service because they were reliable, and the hardware workshop technicians were proficient in their repair. They had a stockpile of spare parts. Another reason for their longevity was the fact that there was no suitable, cost-efficient replacement for supervisory machines for some of the mechanical testing rigs, mills, and other facilities.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.y2k.discussion.4": [
+    "site.popen", 
+      "Upgrades of the messaging systems were constrained by many factors. Operating system support, MoM client versions, API dependencies, and peer-to-peer server compatibility all complicated upgrade efforts. In addition to software constraints, coordination with business unit owners, IS managers and other stakeholders was mandatory. Outages were never taken lightly and there was usually a requirement to have adequate feedstock available to keep mills running if an upstream business unit was offline.",
     "site.pclose",
     "site.br"
   ],
@@ -330,6 +348,10 @@
     "projects.wphsm.discussion.5",
     "projects.wphsm.discussion.6",
     "projects.y2k.title",
+    "projects.y2k.discussion.1",
+    "projects.y2k.discussion.2",
+    "projects.y2k.discussion.3",
+    "projects.y2k.discussion.4",
 
     "site.return"
   ]
