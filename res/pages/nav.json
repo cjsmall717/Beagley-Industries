@@ -83,7 +83,7 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.Cray": [
+  "navigate.cray": [
     "<li class=\"li-link\" onclick=\"loadPage('cray');\">",
     "site.lopen",
     "Cray",
