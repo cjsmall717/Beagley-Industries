@@ -1,0 +1,26 @@
+{ "projects.cray.title":[
+        "site.hopen",
+        "projects.cray.title.text",
+        "site.hclose",
+        "site.br"
+    ],
+    "projects.cray.title.text":[
+        "Contemplations, Beers, Poetry ... and the Occasional Fire"
+    ],
+    "projects.bullshit.title": [
+        "site.hopen", "Bullshit!!", "site.hclose", "site.br"
+    ],
+    "projects.bullshit.discussion.1": [
+    "site.popen", 
+    "site.pclose"
+    ],
+
+    "site.pages.cray": [
+        "projects.cray.title",
+        "projects.bullshit.title",
+        "projects.bullshit.discussion.1",
+
+        "site.return"
+  ]
+}
+

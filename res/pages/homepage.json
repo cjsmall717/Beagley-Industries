@@ -2,6 +2,11 @@
   "home.projects.title": [
     "site.hopen", "Selected Work", "site.hclose"
   ],
+  "home.clamp": [
+    "site.ulopen",
+    "navigate.clamp",
+    "site.ulclose"
+  ],
   "home.luggagebox": [
     "site.ulopen",
     "navigate.luggagebox",
@@ -44,18 +49,35 @@
     "navigate.inspirations",
     "site.br"
   ],
-  "home.afterword.title": [
-    "site.hopen", "Afterword", "site.hclose"
+  "home.reverie.title": [
+    "site.hopen", "Reverie", "site.hclose"
   ],
-  "home.reveries": [
+  "home.early": [
     "site.ulopen",
-    "navigate.reveries",
+    "navigate.early",
     "site.ulclose"
   ],
+  "home.uni": [
+    "site.ulopen",
+    "navigate.uni",
+    "site.ulclose"
+  ],
+  "home.bhp": [
+    "site.ulopen",
+    "navigate.bhp",
+    "site.ulclose"
+  ],
+  "home.cray": [
+    "site.ulopen",
+    "navigate.cray",
+    "site.ulclose"
+  ],
+
   "site.pages.homepage": [
     "site.who",
     "home.projects.title",
     "home.hydrogel",
+    "home.clamp",
     "home.luggagebox",
     "home.sickles",
     "home.hadoopcluster",
@@ -64,8 +86,11 @@
     "home.tooling",
     "home.greenhouse",
     "site.br",
-    "home.afterword.title",
-    "home.reveries",
+    "home.reverie.title",
+    "home.early",
+    "home.uni",
+    "home.bhp",
+    "home.cray",
     "site.br",
     "home.inspirations",
     "site.br",

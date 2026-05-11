@@ -1,0 +1,165 @@
+{ 
+  "projects.uni.title":[
+    "site.hopen",
+      "projects.uni.title.text",
+    "site.hclose",
+    "projects.uni.discussion.1",
+    "projects.uni.discussion.2",
+    "projects.uni.discussion.3",
+    "site.br"
+  ],
+  "projects.uni.title.text":[
+    "More Contemplation, and the Inevitable Fires"
+  ],
+  "projects.uni.discussion.1": [
+    "site.popen",
+      "I didn't want to go to university. When I finished school, I'd heard of a Technical Officer position that was on offer at Wollongong TAFE in the metallurgy labs. I didn’t land the position but, perhaps inevitably, ended up learning to cast metal in those same labs twenty years later.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.uni.discussion.2": [
+    "site.popen",
+      "First year was not enjoyable. Most days, I had long periods between lectures and pracs. I would not settle into studying &mdash; rarely opened a book. Instead, although probably ill-advised, I'd take a solitary walk up Mount Keira and back. Eventually, though, I settled into the flow of a university existence.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.uni.discussion.3": [
+    "site.popen",
+      "I was never one for studying, and I tended to leave everything to the last. Practical work and reports tended to span more than one week as I progressed through second and third year. Some experiments required long periods of waiting for reactions to proceed. One day it occurred to me that there was a better way. I sat down and analysed the whole lab manual and drew up a flow-chart, with anticipated timings, and rendered the fourteen-week schedule down to three weeks.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.uni.discussion.3": [
+    "site.popen",
+    "Man, I was busy!",
+    "site.pclose",
+    "site.br"
+  ],
+  
+  "projects.undergrad.title": [
+    "site.hopen", "Another Fire", "site.hclose"
+  ],
+  "projects.undergrad.discussion.1": [
+    "site.popen", 
+      "I was in my third year, studying Microbiology and Immunology and attending a lab class. We were supposed to be culturing bacteria on agar plates. The two supervising academics were out front and one was yapping incessantly. Students did what student do and started fidgeting. We were supplied with wire loops, for inocculating plates; alcohol, for sterilizing the loop, and a bunsen. The process involved dipping the loop in alcohol, flaming it, dipping it in liquid culture, then inoculating the plate. The alcohol had been supplied in plastic beakers:-| (What could possibly go wrong?). Whilst the lecturer was yapping, one of the students set fire to the alcohol in the beaker, then, sat there with her hand raised whilst the lecturer droned on. Realization was heralded by a melting, deformed beaker! Panic! The lecturer swiped her lab coat past the beaker and spread the fire.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.undergrad.discussion.2": [
+    "site.popen", 
+      "It was almost comical. The 2IC did the right thing and covered the minor conflagration with his lab coat (it was closer to hand than a fire blanket) and smothered the fire. Unbelievably, he leaned over the desk and WHOOMP! The hot fumes reignited and singed the 2IC's eyebrows off.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.undergrad.discussion.3": [
+    "site.popen", 
+      "Whilst this little melodrama played out, someone at my desk did the same thing. We had a burning beaker. Being as acquainted with fire as I was, I grabbed a piece of paper and placed it between my hand and the beaker, effectively smothering the fire. My fellow student was, I think, grateful for being saved from the same indignity. About two minutes later, the beakers were replaced with glass beakers.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.honours.title": [
+    "site.hopen", "Honours &mdash; Another Fire", "site.hclose"
+  ],
+  "projects.honours.discussion.1": [
+    "site.popen", 
+      "I'd opted to steer away from biology and focus more on chemistry. To that end, I'd pursued an advanced chemistry project that led into my honours year. I was running HPLC separations for a large part of that year. I was consuming litres of hexane/ethyl acetate &mdash; or at least, my experiments were. With the volume of solvent I was pumping through the HPLC system, I wanted a larger stock-bottle in which to store my solvent mix. I found one in the store room and it was the grottiest thing I'd seen in awhile. It had some sort of residue that I had been unable to remove with alcohol, acetone, or hot water + detergent. Not even aqua regia would move it.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.honours.discussion.2": [
+    "site.popen", 
+      "Chromic acid was the last resort. I decided to make it in situ. My supervisor was working in the lab that day &mdash; a rare occurrence, and she had her back to me. I had already loaded two spoons of Chromium Trioxide into the filthy stock bottle and I was in the process of loading a third when I thought I heard a sizzling noise. I stopped, looked to the side of the bottle and I thought I saw a dull orange flash. I took a step back and was rewarded for my efforts with the all too familiar \"WHOOMP!!\", followed by a rain of green soot, and a fire.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.honours.discussion.3": [
+    "site.popen", 
+      "My supervisor heard the noise and turned to see what had happened. In a mildly annoyed but quiet voice, she ordered, \"Put that fire out!\". I picked the bottle up to swing it to the bench behind me. It was then that she became a little agitated and squawked, \"Don't pick it up!\". I thought to myself, \"If she only knew what I had on my bench, she'd understand!\". I ignored her moved the bottle, then covered it with a piece of paper and my hand. She again squawked, \"Don't put your hand over it!! Put the stopper in it!!\". I thought, \"No, there's probably an excess of oxidising agent. If there is any more unreacted reducing agent, the bottle will explode. If, on the other hand, there's an excess of reducing agent, then covering the bottle with my hand is the safest option to avoid an explosion, or a sustained fire that risks shattering the bottle.\"",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.honours.discussion.4": [
+    "site.popen", 
+      "What my supervisor was unaware of was that I had about 40 open vials with  about 20-30mL, each, of EtOAc/Hex mixture. I had two large 4L winchester bottles, both open, and I also had an open bottle of diethyl ether. The latter has a flash-point of -40 Dec. C, and it heavier than air. It was a warm day &mdash; it could very well have become much, much warmer.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.postgrad.title": [
+    "site.hopen", "A Derelict PhD &mdash; Two Actually &mdash; A Dumpster Fire", "site.hclose"
+  ],
+  "projects.postgrad.discussion.1": [
+    "site.popen", 
+      "After completing my honours degree, I embarked on a PhD. It did not take long before it decayed into something entirely unrelated to what I had signed up for. I attempted to address my misgivings in a reasonable manner but the status quo remaind very much quo. I left! Abruptly! The person originally meant to take the project turned it down at the last minute. I spent six months on it. Rumour has it that two other candidates signed up but also dumped the project each spending successively shorter amounts of time.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.2": [
+    "site.popen", 
+      "I took a research job at ADFA and spent one year full-time, and one year part time during which I completed a Diploma of Education. First Term of 1992 was spent teaching high school as an emergency placement. I returned to research shortly after my engagement was complete and worked on the electrochemical determination of Aluminium in potable water. Research is a fickle occupation and it tends where the funding blows it. When that project ended, I took on another PhD project. As part of that project I worked in Japan for two weeks at Hokkaido University, in Sapporo. It was a great experience.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.3": [
+    "site.popen", 
+      "The team held a mini-conference whilst I was there. It involved going to a Hot Springs Resort. During the day, we were standing around outside at one point &mdash; A huge insect flew by. I turned to the bloke, next to me, to ask what it was. He wasn't there. I looked around - every one of the group was lying on the ground. I said, \"Watcha doing down there, and what was that thing?\" He responded, \"Killer Hornet! Very dangerous!\". I thought, \"Oh, good-oh!\".",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.4": [
+    "site.popen", 
+      "Evening rolled around and we did the hot springs thing and then assembled for dinner. I recall it being very good, though, a cuisine that was unfamiliar to me. We had beer! Then sake! The sake was warm, and served in little vessels similar in size to a shot glass. In those days, I rarely drank. I'd already consumed about half a dozen middies’ worth of fine Sapporo beer. I did not count the sake shots but then, they graduated to drinking it from tea cups. At some point, one of the blokes came up, fists raised, and said, \"Fight!\". I thought, \"What the Hell?!?\". I grabbed another bloke who was fairly proficient in English and asked him, \"Does Taka (not his name), here, want to fight me?\". My impromptu interpreter turned to Taka and talked for a minute. Taka's eyes went wide, and his hands waved side to side. \"Nooo!!\". Another burst of conversation between the two Japanese blokes. Taka was trying to tell me to \"Work Hard\". That could have had an interesting outcome.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.5": [
+    "site.popen", 
+      "I was sick! I did not eat for three days.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.6": [
+    "site.popen", 
+      "I headed back to Australia, a bit worse for wear. I passed through the Airport at Sapporo, arrived at Cairns, and watched as my bag disappeared into the X-ray machine. The operator suddenly sat bolt upright, as though he's had a broom rammed up his date. He ran my bag back and forth. I was asked by two security personnel to pick up my bag. They escorted me to a table whereupon I was asked to open my bag. I thought, \"Oh goody! Here we go!\". One of the guards asked me, \"Would you care to explain this?\". I thought, \"Nooo! Not really!\". My bag was loaded with vials of white powder, gels, and I had galvanostat - from memory, it was one that our workshop had made &mdash; so non-commercial.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.7": [
+    "site.popen", 
+      "I told them precisely what I had. I could almost hear the crackle of their eyes glazing over. One said to the other, \"Ah, should we let him go? I think he's on the level.\" The other responded, \"Yup!\". And that was the end of that. What they did not know, and I was unaware of until many years later, was that one of my electrodes was platinum. I had platinum to the value of several thousand dollars in my bag.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.postgrad.discussion.8": [
+    "site.popen", 
+      "I'd spent two years on my PhD before concluding that being at the mercy of funding bodies was not a life I was keen to commit to. I changed tack and pursued a career in some computing-allied field.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "site.pages.uni": [
+    "projects.uni.title",
+    "projects.undergrad.title",
+    "projects.undergrad.discussion.1",
+    "projects.undergrad.discussion.2",
+    "projects.undergrad.discussion.3",
+    "projects.undergrad.discussion.4",
+    "projects.honours.title",
+    "projects.honours.discussion.1",
+    "projects.honours.discussion.2",
+    "projects.honours.discussion.3",
+    "projects.honours.discussion.4",
+    "projects.postgrad.title",
+    "projects.postgrad.discussion.1",
+    "projects.postgrad.discussion.2",
+    "projects.postgrad.discussion.3",
+    "projects.postgrad.discussion.4",
+    "projects.postgrad.discussion.5",
+    "projects.postgrad.discussion.6",
+    "projects.postgrad.discussion.7",
+    "projects.postgrad.discussion.8",
+  
+    "site.return"
+  ]
+}
+

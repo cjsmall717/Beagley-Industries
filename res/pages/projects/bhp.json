@@ -1,0 +1,192 @@
+{ 
+  "projects.bhp.title":[
+     "site.hopen",
+     "projects.bhp.title.text",
+     "site.hclose",
+     "projects.bhp.discussion.1",
+     "projects.bhp.discussion.2",
+     "projects.bhp.discussion.3",
+     "projects.bhp.discussion.4",
+     "projects.bhp.discussion.5",
+     "site.br"
+  ],
+  "projects.bhp.title.text":[
+    "Stress and Fires of an Altogether Different Kind"
+  ],
+  "projects.bhp.discussion.1":[
+    "site.popen", 
+      "People talk of a baptism in fire. My first year working for BHP-IT might just fit that characterisation &mdash; not in terms of physical duress, though there was certainly sleep deprivation to have to contend with, but the insane learning curve. The stress was not like anything I'd ever encountered before. Every outage was severe, and in many cases, an outage was considered to be money off the bottom line.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bhp.discussion.2":[
+    "site.popen", 
+      "The job began sedately enough &mdash; boring, if the truth be known. I was doing busy-work that had to be seen to be done. One of the people sharing my cubicle seemed permanently run off his feet. I heard him talking about `courier' and `postman'. This went on for a couple of days. Feeling bored with what I was doing, I said to young Ben, \"If you show me how that courier thing of yours works, I might be able to help\". He looked at me strangely and ran from the room.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bhp.discussion.3":[
+    "site.popen", 
+    "What the Hell just happened???",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bhp.discussion.4":[
+    "site.popen", 
+    "Young Ben came back with our ruddy-faced, corpulent manager in tow. They were arguing. When the argument concluded, Ben ran from the room, though he made a few short appearances, for the next couple of days by way of a supposed handover &mdash; and then he was gone! Only two weeks before, I'd been working on chemistry problems and considering the value of a PhD, in Australia. Now I was looking after something called 'The Courier', and another unknown entity called 'The Postman'. These were the application messaging systems that the Slab and Plate Products, and Sheet and Coil Divisions of BHP depended upon. Apparently, now, I was It!",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bhp.discussion.5":[
+    "site.popen", 
+      "I had no idea what was about to hit me.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.courier.title": [
+    "site.hopen", "The Courier and the Postman", "site.hclose"
+  ],
+  "projects.courier.discussion.1": [
+    "site.popen", 
+     "Postman had been written in the 1980s to provide single-message transfer and file-transfer services between the Wollongong MVS mainframe LPARs hosted on a Token Ring network and the VMS and PDP-11 systems hosted on a DECnet network, via a gateway running on VMS. It was written in Fortran-77 and PL/1. The MVS system ran LU6.0 but the Token Ring was LU6.2. Upgrading the mainframe was prohibitively expensive, so the mainframe communicated with the Token Ring via an SNA Protocol converter that made use of a proprietary serial protocol. The mainframe side was dependent on the IMS transaction processor. The VMS side made use of binary files, for the message buffers.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.courier.discussion.2": [
+    "site.popen", 
+      "At some point, the source code was deleted because the storage was required for something that was deemed more pressing. The VMS Postman was re-written from an individual's memory of the code but an unfortunate consequence of this rewrite was that a buffer-size incompatibility was introduced. The message counters could not wrap, so when the system approached the maximum messageID number, it was a serious business to reset the counters.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.courier.discussion.3": [
+    "site.popen", 
+      "Courier was the way of the future! It was an API that was built upon a commercial Message Oriented Middleware (MOM) product. There were two problems: (1) The API was written by the MOM vendor so 'Vendor Lock-in' was inevitable and (2) the Commercial MOM did not run on PDP-11s, MVS, nor various of the UNIX systems.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.courier.discussion.4": [
+    "site.popen", 
+      "Mainframe had always talked to midrange systems that were distributed around the works via a VMS box called FORCOMMS &mdash; Foreign Communications. FORCOMMS was now required not only to act as a gateway between MVS, VMS, and PDP-11 systems, but also to interface with the new Courier infrastructure. A program was written, in C, to handle the routing. This was known as the VRP - Vax Routing Program. Postman had started out small but over time, it was being required to carry more traffic. The addition of the Courier complicated what was already a complex network that had grown, since the 70s, in an organic fashion.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.courier.discussion.5": [
+    "site.popen", 
+      "FORCOMMS also handled communications that were destined for the Hot Strip Mill (Port Kembla) and the Plate Mill. Both of these control systems were ancient (1970s era) GEC systems that talked X-25 via a PAD (Packet Assembler/Disassembler). By necessity, there was also an X-25 gateway that connected the GEC systems into FORCOMMS via a FORTRAN-77 program called the 'GEC XLAT' program. I later completed the Y2K code review for it but at the time I was starting there, Plate Mill cost on the order of $6000 a minute whilst it was down.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.platemill.title": [
+    "site.hopen", "Platemill is Down", "site.hclose"
+  ],
+  "projects.platemill.discussion.1": [
+    "site.popen", 
+      "On the 23rd of September, 1996, I received the dread call. \"The Plate Mill has stopped talking to Mainframe and it's already down!\" I drove into work and started looking at the problem but I had no idea where to start. At that stage, I did not know that it was an X-25 network on the GEC end much less that there was an X-25 gateway &mdash; which also turned out to be the point of failure. It was already late. I had five managers standing behind me waiting for their mill to roll again but, unfortunately, I did not realise they were there to get me whatever help I needed. Once I’d exhausted my knowledge, checked the logs, and proven the system to the extent I could, I requested help from a bloke who was belligerently reluctant to involve himself.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.platemill.discussion.2": [
+    "site.popen", 
+      "My reluctant recruit took one look at the system, determined the X-25 gateway had hung, and brought the mill back online after 243 minutes of downtime. It was not a pleasant night. When the dust settled, I asked about documentation. He said that it existed, that he had in fact written it, but it was somehow lost to posterity as a consequence of a desktop migration from one vendor's product to another. People who know me know that I have a fondness for LaTeX. This experience was one of those points in time that cements that line of thought &mdash; Platform independence, archival integrity &mdash; and besides, it's just really cool! My recruited help described it in less complementary terms but I beg to differ.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.platemill.discussion.3": [
+    "site.popen", 
+      "No documentation! :-|  Well, at least my heart and mind were in the right place.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.platemill.discussion.4": [
+    "site.popen", 
+      "On another occasion, I drove to work. I was parked at the Warrawong offices because we'd been relocated from the Steelworks property. As I got out of the car, at some unreasonable hour, I inadvertently locked my keys in the car. I thought to myself, \"No time to worry about it now, the Platemill will shutdown soon.\". I entered the building, headed to my desk, and dealt with the problem. I logged out, and as I was heading out of the building, I grabbed a coat-hanger. I had the repurposed coat-hanger jammed down into my door when a light played across me and a voice rang out in the dark. \"Can I help you?\". It was a security guard. He stood there holding a light whilst I broke into my car, all dressed in black tracksuit and beanie.:-D Had anyone else seen it, the visual irony must have been hilarious.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.bf6.title": [
+    "site.hopen", "Blast Furnace #6 Upgrade", "site.hclose"
+  ],
+  "projects.bf6.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.tinmill.title": [
+    "site.hopen", "Tinmill Upgrade", "site.hclose"
+  ],
+  "projects.tinmill.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.capi.title": [
+    "site.hopen", "A Compatibility API Rewrite", "site.hclose"
+  ],
+  "projects.capi.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.etg.title": [
+    "site.hopen", "Trading Gateway", "site.hclose"
+  ],
+  "projects.etg.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.wphsm.title": [
+    "site.hopen", "Westernport Hot Strip Mill &mdash; A New Hope", "site.hclose"
+  ],
+  "projects.wphsm.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.y2k.title": [
+    "site.hopen", "2000 - A Remediation Odyssey", "site.hclose"
+  ],
+  "projects.y2k.discussion.1": [
+    "site.popen", 
+      "",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "site.pages.bhp": [
+    "projects.bhp.title",
+    "projects.courier.title",
+    "projects.courier.discussion.1",
+    "projects.courier.discussion.2",
+    "projects.courier.discussion.3",
+    "projects.courier.discussion.4",
+    "projects.courier.discussion.5",
+    "projects.platemill.title",
+    "projects.platemill.discussion.1",
+    "projects.platemill.discussion.2",
+    "projects.platemill.discussion.3",
+    "projects.platemill.discussion.4",
+    "projects.bf6.title",
+    "projects.tinmill.title",
+    "projects.capi.title",
+    "projects.etg.title",
+    "projects.wphsm.title",
+    "projects.y2k.title",
+
+    "site.return"
+  ]
+}
+

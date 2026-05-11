@@ -1,0 +1,22 @@
+{
+    "projects.clamp.title":[
+        "site.hopen",
+        "projects.clamp.title.text",
+        "site.hclose",
+        "site.popen",
+        "Driving Sim Brake Controller Desk Clamp",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.clamp.title.text":[
+        "Driving Sim Brake Controller Desk Clamp"
+    ],
+    "projects.clamp.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "site.pages.clamp": [
+        "projects.clamp.title",
+        "site.return"
+  ]
+}
+

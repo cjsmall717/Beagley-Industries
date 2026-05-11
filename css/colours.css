@@ -13,7 +13,9 @@
     --li-link:#ccc5c5;
 
     /* urls*/
-    --a-normal:#8fa9ba;
+    /*--a-normal:#8fa9ba;*/
+    /*--a-normal:#f0f8ff;*/
+    --a-normal:#f0f8ff;
     --a-visited:#8fa9ba;
     --a-hover:#c7dbe6;
     --a-active:#ffffff;

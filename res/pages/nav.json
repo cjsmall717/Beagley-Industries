@@ -6,6 +6,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.clamp": [
+    "<li class=\"li-link\" onclick=\"loadPage('clamp');\">",
+    "site.lopen",
+    "Bespoke Controller Clamp for Rallycar Sim",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.luggagebox": [
     "<li class=\"li-link\" onclick=\"loadPage('luggagebox');\">",
     "site.lopen",
@@ -55,10 +62,31 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.reveries": [
-    "<li class=\"li-link\" onclick=\"loadPage('reveries');\">",
+  "navigate.early": [
+    "<li class=\"li-link\" onclick=\"loadPage('early');\">",
     "site.lopen",
-    "Reveries... and a Beer",
+    "Early Years",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.uni": [
+    "<li class=\"li-link\" onclick=\"loadPage('uni');\">",
+    "site.lopen",
+    "University",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.bhp": [
+    "<li class=\"li-link\" onclick=\"loadPage('bhp');\">",
+    "site.lopen",
+    "BHP-IT",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.Cray": [
+    "<li class=\"li-link\" onclick=\"loadPage('cray');\">",
+    "site.lopen",
+    "Cray",
     "site.lclose",
     "site.liclose"
   ],

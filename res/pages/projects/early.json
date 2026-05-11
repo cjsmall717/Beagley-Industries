@@ -1,0 +1,111 @@
+{ "projects.early.title":[
+    "site.hopen",
+    "projects.early.title.text",
+    "site.hclose",
+    "projects.intro.discussion.1",
+    "projects.intro.discussion.2",
+    "projects.intro.discussion.3",
+    "projects.intro.discussion.4",
+    "site.br"
+  ],
+  "projects.early.title.text":[
+    "Contemplations, Beers, Poetry ... and the Occasional Fire"
+  ],
+  "projects.intro.discussion.1": [
+  "site.popen", 
+    "My parents taught me a great many things. I've become fairly self-reliant and don't shy away from difficulty. They taught me to use what I have available to me; to be satisfied with what I do have; to be thankful in good times, and to weather the bad with dignity. Pa taught me to solder, rivet, to work with sheet metal, to garden. He introduced me to Omar Khayyam, Ohenry, and Henry W. Longfellow. Ma taught me to sew, cook, and how to do long division when no one else seemed capable of doing so. I have much to be grateful for.",
+  "site.pclose", 
+  "site.br"
+  ],
+    "projects.intro.discussion.2": [
+    "site.popen", 
+      "1974 was a difficult year — the first time I experienced tyranny directly, and the first time I confronted it head-on, though not for entirely altruistic reasons. I recently asked my father, a couple of times, if he had intervened and resolved the difficulties that I, and my classmates were enduring. He told me that he had not. I have no idea if it was my action, or that of another child's parent that resulted in a positive outcome, but either way, it was a welcome change.",
+    "site.pclose", 
+    "site.br"
+    ],
+    "projects.intro.discussion.3": [
+    "site.popen", 
+      "In addition to the other difficulties, at school, I'd been placed in the 'dumb class'. I'm not the sharpest tool in the drawer but I was also fairly certain that I was not a spoon and consequently, in the wrong drawer. I resolved to fix it because it greatly disturbed me. The teacher had us all read, one day. She listened as I read and mumbled that, perhaps, I should be given the same reader that the `A-class' were using. She had forgotten, apparently, because it did not happen. I confronted her one day and asked when I was getting the book. Looking down at me, she asked if I thought I could read it. I responded, \"Yes, Sister, I think so!\". I'd already read it, cover to cover, a dozen times in the two years previous.",
+    "site.pclose", 
+    "site.br"
+    ],
+    "projects.intro.discussion.4": [
+    "site.popen", 
+      "Thus the tone was set for the rest of my life.",
+    "site.pclose", 
+    "site.br"
+    ],
+
+    "projects.toobig.title": [
+        "site.hopen", "Too Big Matt! Too Big!", "site.hclose"
+    ],
+    "projects.toobig.discussion.1": [
+    "site.popen", 
+    "My old Pa was out, working, in the other yard one day, though he was young back then. We had two yards separated by a 6' paling fence. A week or two, earlier, he had mowed the long grass and left it where it fell (we were semi-rural, and more rural than semi). My father was burning some rubbish, I think, in the other yard. I decided that I needed my own fire &mdash; out behind the dunny &mdash; but, as these things occasionally do when one overestimates one's abilities to control a situation, the fire had gotten away from me.",
+    "site.pclose"
+    ],
+    "projects.toobig.discussion.2": [
+    "site.popen", 
+    "My father came around in time to hear me saying, \"Too big, Matt! Too big!\". That might have been my way of trying to soften the magnitude of my faux pas. Although my brother was younger, he had taught me to light matches without burning myself. Ma soon learnt to hide matches but, alas, by the time I was twelve, I had a dozen different ways to start a fire:-D Now, in later life, I've learnt to control it &mdash; mostly &mdash; and to great effect.", 
+    "site.pclose"
+    ],
+    "projects.toobig.discussion.3": [
+    "site.popen", 
+    "This was not the final assault on the old dunny but it was certainly the most spectacular, and the one that came closest to its wooden elements being reduced to ashes.",
+    "site.pclose"
+    ],
+
+    "projects.thefuse.title": [
+      "site.br",
+      "site.hopen", "A bang and spark &mdash; and a blown fuse!", "site.hclose"
+    ],
+    "projects.thefuse.discussion.1": [
+    "site.popen", 
+    "I was still in primary school &mdash; Year 6. I had asked Pa if he could purchase a Photovoltaic cell for me. He came home with a light-controlled switch module and mounting for it. It was not what I wanted for the project in question but I set about wiring it up using a 100W incandescent light as a load.",
+    "site.pclose"
+    ],
+    "projects.thefuse.discussion.2": [
+    "site.popen", 
+    "The latency of the opto-electromechanical switch provided a useful tool for demonstrating feedback loops. :-D I took my assembly out to Pa, when he arrived home from work, so he could see it. He looked at it &mdash; an odd blend of dubious horror and curiosity. He placed it on the floor, switched it on, and was immediately greeted by the same feedback that I had discovered a little earlier.",
+    "site.pclose"
+    ],
+    "projects.thefuse.discussion.3": [
+    "site.popen", 
+    "He was not long home from Work. Ma had been out to pick him up from the railway station. Whilst she was out, and before I had wired the light, I decided it would be a good idea to short the active and neutral to a 2 cent piece, no doubt, to see what would happen. I was greeted with a flash, ozone, the smell of burning insulation, and a blown fuse.",
+    "site.pclose"
+    ],
+    "projects.thefuse.discussion.4": [
+    "site.popen", 
+    "In panic, I thought, \"Awww shit!!!\". I ran out to the meter box to inspect the fuse that I expected that I had blown. When I pulled the ceramic block my suspicions were confirmed and impressively so &mdash; copper was splattered all over the casing! I found the fuse wire, selected the correct rating and set about repairing the damage. Ma and Pa never knew.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.shockingblue.title": [
+      "site.br",
+      "site.hopen", "A Shocking Education!", "site.hclose"
+    ],
+    "projects.shockingblue.discussion.1": [
+    "site.popen", 
+    "Primary school was a busy time. I possessed something of a cruel streak, though I had never perceived it thus &mdash; I liked giving other kids electric shocks. I justified it by not doing unto them what I had not done to myself, a thousand times before. Of course, I did not take into account the element of surprise and betrayal that the poor unfortunates also had to accommodate. It just added to my mirth, I'm almost ashamed to say... The funny thing was that every kid I shocked followed along so that they could watch the next victim. Also surprising was the fact that I could convince one kid after another to hold the two wires. The shock was delivered by the ignition coil from a lawn mower with a couple of D-cell batteries in series.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "site.pages.early": [
+        "projects.early.title",
+        "projects.toobig.title",
+        "projects.toobig.discussion.1",
+        "projects.toobig.discussion.2",
+        "projects.toobig.discussion.3",
+        "projects.thefuse.title",
+        "projects.thefuse.discussion.1",
+        "projects.thefuse.discussion.2",
+        "projects.thefuse.discussion.3",
+        "projects.thefuse.discussion.4",
+        "projects.shockingblue.title",
+        "projects.shockingblue.discussion.1",
+
+        "site.return"
+  ]
+}
+

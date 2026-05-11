@@ -9,6 +9,7 @@
     "./res/pages/inspirations.json",
 
     "./res/pages/projects/luggagebox.json",
+    "./res/pages/projects/clamp.json",
     "./res/pages/projects/hydrogel.json",
     "./res/pages/projects/sickles.json",
     "./res/pages/projects/hadoopcluster.json",
@@ -17,6 +18,9 @@
     "./res/pages/projects/tooling.json",
     "./res/pages/projects/greenhouse.json",
 
-    "./res/pages/projects/reveries.json"
+    "./res/pages/projects/early.json",
+    "./res/pages/projects/uni.json",
+    "./res/pages/projects/bhp.json",
+    "./res/pages/projects/cray.json"
   ]
 }

@@ -1,13 +1,13 @@
-{ "projects.reveries.title":[
+{ "projects.reverie.title":[
         "site.hopen",
-        "projects.reveries.title.text",
+        "projects.reverie.title.text",
         "site.hclose",
         "site.popen",
         "Reveries!",
         "site.pclose",
         "site.br"
     ],
-    "projects.reveries.title.text":[
+    "projects.reverie.title.text":[
         "Contemplations, Beers, Poetry ... and the Occasional Fire"
     ],
     "projects.earlyyears.title": [
@@ -109,7 +109,7 @@
     ],
     "projects.honours.discussion.3": [
     "site.popen", 
-    "My supervisor heard the noise and turned to see what had happened. In a mildly annoyed but quiet voice, she ordered, \"Put that fire out!\". I picked the bottle up to swing it to the bench behind me. It was then that she became a little agitated and squawked, \"Don't pick it up!\". I thought to myself, \"If she only knew what I had on my bench, she'd understand!\". I ignored her moved the bottle, then covered it with a piece of paper and my hand. She again squawked, \"Don't put your hand over it!! Put the stopper in it!!\". I thought, \"No, there's probably an excess of oxidising agent. If there is any more unreacted reducing agent, the bottle will explode. If, on hte other hand, there's an excess of reducing agent, then covering the bottle with my hand is the safest option to avoid an explosion, or a sustained fire that risks shattering the bottle.\"",
+    "My supervisor heard the noise and turned to see what had happened. In a mildly annoyed but quiet voice, she ordered, \"Put that fire out!\". I picked the bottle up to swing it to the bench behind me. It was then that she became a little agitated and squawked, \"Don't pick it up!\". I thought to myself, \"If she only knew what I had on my bench, she'd understand!\". I ignored her moved the bottle, then covered it with a piece of paper and my hand. She again squawked, \"Don't put your hand over it!! Put the stopper in it!!\". I thought, \"No, there's probably an excess of oxidising agent. If there is any more unreacted reducing agent, the bottle will explode. If, on the other hand, there's an excess of reducing agent, then covering the bottle with my hand is the safest option to avoid an explosion, or a sustained fire that risks shattering the bottle.\"",
     "site.pclose",
     "site.br"
     ],
@@ -120,8 +120,116 @@
     "site.br"
     ],
 
-    "site.pages.reveries": [
-        "projects.reveries.title",
+    "projects.recentyears.title": [
+        "site.hopen", "Recent Years", "site.hclose", "site.br"
+    ],
+    "projects.x2rebuild.title": [
+        "site.hopen", "An Unexpected Journey: Here there be Dragons", "site.hclose"
+    ],
+    "projects.x2rebuild.discussion.1": [
+    "site.popen", 
+      "One evening, at ASD, I set about completing pre-work in preparation for an upgrade of their Cray XT5h supercomputing system &mdash; essentially a full backup of the system disks which, together, comprise a Sysset. The computer was a complex beast consisting, in effect, of two machines (an XT5 and an X2 Vector processor) coupled together. As 23:00 approached and my outage window drew to a close, I expected to be bringing the system back online but, instead, found myself having to complete a full system, bare-metal build. What should have been a routine sysset backup went wrong and I ended up with two empty syssets which was inexplicable in itself. (If the old Sysset copy had been inadvertently copied over the working copy, I should have ended up with two out of date copies - I've only just realised that, seventeen years after the fact.)",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.x2rebuild.discussion.2": [
+    "site.popen", 
+      "I hadn’t worked on that platform before, and the original engineer who had travelled to Chippewa Falls, WI, USA., had left. I later learned that the Cray engineers had built the system over a couple of weeks with our local engineer being trained up at the same time.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.x2rebuild.discussion.3": [
+    "site.popen", 
+      "I called the customer &mdash; he told me to restore from backup. :-| I explained the circumstances and then started rebuilding from scratch that night. By the next morning I had the XT5 side up. I went home in the morning and left my team completing the localisation of the XT5 half of the system. I returned in the evening and then began rebuilding the vector side &mdash; sorting out the broken (it was broken in order to interface the X2; not in the sense of it malfunctioning) folded 3D torus to fat-tree routing, getting a working toolchain together, and rebuilding the runtime environment.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.x2rebuild.discussion.4": [
+    "site.popen", 
+      "Within a couple of days the system was stable again, and I went on to complete the upgrade I’d originally planned. A few months later the Cray Engineers contacted me to ask how I’d done it, because they’d had to roll their own upgrade back. At that time, aside from the training machine at Chippewa Falls, I believe there was only one other XT5h in the world. I'd completed the first successful field upgrade of an XT5h system, and not without some difficulty.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.x2rebuild.discussion.5": [
+    "site.popen", 
+      "The main takeaway for me was being comfortable working from first principles when there’s no safety net &mdash; just breaking the system down until it becomes tractable.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.FPGAarray.title": [
+        "site.hopen", "A Systolic Array by Any Other Name...", "site.hclose"
+    ],
+    "projects.FPGAarray.discussion.1": [
+    "site.popen", 
+      "Whilst at ASD I was privileged to have worked on a custom high-density FPGA-based compute platform &mdash; a refrigerant-cooled, multi-chassis FPGA compute platform designed as a high-density programmable hardware array. The designers intended it to run a NIOS-2 soft-core processor in an otherwise conventional configuration. One colleague wanted to repurpose the platform as a form of systolic ", "site.links.systolic", " for a specialised problem set so this required some rework on our side. It wasn’t a standard environment; everything from hardware layout to programming model was specialised. Even as far as hardware programming is concerned, this beast was unique.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.FPGAarray.discussion.2": [
+    "site.popen", 
+      "My role involved working with the system at a fairly low level, including learning enough Verilog to interact meaningfully with the hardware side. I wasn’t a hardware engineer by background, but I got to the point where I could develop and test logic, and more importantly, bridge the gap between software and hardware perspectives.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.FPGAarray.discussion.3": [
+    "site.popen", 
+      "That included helping bring other engineers up to speed quickly &mdash; translating system behaviour, tooling, and constraints into something usable so work could move forward.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.FPGAarray.discussion.4": [
+    "site.popen", 
+      "The main takeaway for me was being able to operate effectively in a hardware/software co-design environment, even without deep prior experience, and making complex systems more accessible to others. At risk of bringing the lapsus linguae by a former Prime Minister to mind, I became the repository of domain knowledge concerning that system. Although Cray designed and built the cabinet, power distribution and cooling, they did not, generally, have any involvement with the Motherboards or Daughtercards. The Demarcation line was the backplane. It was, indeed, a privileged role.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.diplomat.title": [
+        "site.hopen", "Oh-oh, The Power and the Passion", "site.hclose"
+    ],
+    "projects.diplomat.discussion.1": [
+    "site.popen", 
+      "We had an earlier generation of a custom FPGA-based system that had partially failed and fallen out of regular use. A chassis had been taken offline due to a suspected power supply issue, and previous repair attempts hadn’t resolved it.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.diplomat.discussion.2": [
+    "site.popen", 
+      "When the system was needed again, I took ownership of diagnosing it. The challenge was that error reporting was minimal, so I had to work empirically—redistributing daughter cards across the system and tracking faults to isolate failing components. The failed power supply &mdash; very much not a simple FRU replacement &mdash; had already been changed. The fault, however, was in the chassis itself.",
+    "site.pclose",
+    "site.br"
+    ],
+    "projects.diplomat.discussion.3": [
+    "site.popen", 
+      "I re-installed the power-supply into the spare chassis from whence it came, then pulled the failed chassis from the cabinet. I dropped the spare in place and re-wired the physical cabling &mdash; high-current 50V DC connections. I was sufficiently aware of my lack of electrical qualifications &mdash; and sufficiently frightened of receiving a thoroughly satisfactory whallop from the supply rails &mdash; that I spent much of the work with one hand in my pocket. I then worked through replacing the faulty motherboard and multiple daughter cards. This involved redistributing the daughter cards and following the fault to isolate it.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.diplomat.discussion.4": [
+    "site.popen", 
+      "By the end of that process, I had the system back to full operational status.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "projects.diplomat.discussion.5": [
+    "site.popen", 
+      "The key takeaway for me was structured fault isolation in systems with poor observability &mdash; breaking the problem down physically and logically until the failure modes become clear.",
+    "site.pclose",
+    "site.br"
+    ],
+
+    "site.pages.reverie": [
+        "projects.reverie.title",
         "projects.earlyyears.title",
         "projects.toobig.title",
         "projects.toobig.discussion.1",
@@ -145,6 +253,23 @@
         "projects.honours.discussion.2",
         "projects.honours.discussion.3",
         "projects.honours.discussion.4",
+        "projects.x2rebuild.title",
+        "projects.x2rebuild.discussion.1",
+        "projects.x2rebuild.discussion.2",
+        "projects.x2rebuild.discussion.3",
+        "projects.x2rebuild.discussion.4",
+        "projects.x2rebuild.discussion.5",
+        "projects.FPGAarray.title",
+        "projects.FPGAarray.discussion.1",
+        "projects.FPGAarray.discussion.2",
+        "projects.FPGAarray.discussion.3",
+        "projects.FPGAarray.discussion.4",
+        "projects.diplomat.title",
+        "projects.diplomat.discussion.1",
+        "projects.diplomat.discussion.2",
+        "projects.diplomat.discussion.3",
+        "projects.diplomat.discussion.4",
+        "projects.diplomat.discussion.5",
 
         "site.return"
   ]
