@@ -79,7 +79,7 @@
   ],
 
   "projects.platemill.title": [
-    "site.hopen", "Platemill is Down", "site.hclose"
+    "site.hopen", "Plate Mill is Down", "site.hclose"
   ],
   "projects.platemill.discussion.1": [
     "site.popen", 
@@ -101,7 +101,7 @@
   ],
   "projects.platemill.discussion.4": [
     "site.popen", 
-      "On another occasion, I drove to work. I was parked at the Warrawong offices because we'd been relocated from the Steelworks property. As I got out of the car, at some unreasonable hour, I inadvertently locked my keys in the car. I thought to myself, \"No time to worry about it now, the Platemill will shutdown soon.\". I entered the building, headed to my desk, and dealt with the problem. I logged out, and as I was heading out of the building, I grabbed a coat-hanger. I had the repurposed coat-hanger jammed down into my door when a light played across me and a voice rang out in the dark. \"Can I help you?\". It was a security guard. He stood there holding a light whilst I broke into my car, all dressed in black tracksuit and beanie.:-D Had anyone else seen it, the visual irony must have been hilarious.",
+      "On another occasion, I drove to work. I was parked at the Warrawong offices because we'd been relocated from the Steelworks property. As I got out of the car, at some unreasonable hour, I inadvertently locked my keys in the car. I thought to myself, \"No time to worry about it now, the Plate Mill will shutdown soon.\". I entered the building, headed to my desk, and dealt with the problem. I logged out, and as I was heading out of the building, I grabbed a coat-hanger. I had the repurposed coat-hanger jammed down into my door when a light played across me and a voice rang out in the dark. \"Can I help you?\". It was a security guard. He stood there holding a light whilst I broke into my car, all dressed in black tracksuit and beanie.:-D Had anyone else seen it, the visual irony must have been hilarious.",
     "site.pclose",
     "site.br"
   ],
@@ -111,7 +111,19 @@
   ],
   "projects.bf6.discussion.1": [
     "site.popen", 
-      "",
+      "An upgrade of the commercial file transfer software was required for Number 6 Blast Furnace. Re-badged Cygnus machines running HP/UX were used to control the blast furnace operations.  It was successfully completed. The Operations Manager wanted me, onsite, in the BF6 control room. I never liked going down to the plant because there are a million ways to die, and none seem nice. I drove to site and headed to the building. I'd never been there before and I had not been inducted to the site. My passport reflected my lack of induction.", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bf6.discussion.2": [
+    "site.popen", 
+      "On arriving I saw a few blokes leaving the building. I called out to let them know I was there for the upgrade, but that I was not inducted. One of them said, just go up the stairs then go through the first open door and you'll be right. Up, up, up the stair I went! The control room sat level with the tuyeres on the furnace, so the climb was unsurprising. I entered the first open door...and found myself in a substation with cabling exposed and distribution boards open. 11kV and 33kV, from memory. I thought, there’s no way the computer gear is in here. I put my hands in my pockets and left &mdash; QUICKLY!",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.bf6.discussion.3": [
+    "site.popen", 
+      "One more flight of stairs, a closed door, and I'd arrived at my destination. :-|",
     "site.pclose",
     "site.br"
   ],
@@ -121,7 +133,37 @@
   ],
   "projects.tinmill.discussion.1": [
     "site.popen", 
-      "",
+      "Tinmill ran on a pair of clustered VMS VAXes. An upgrade to VMS AXP (Alpha processors) had been planned. This entailed a swag of software upgrades as well &mdash; and much of this activity was driven by the business imperative to be Y2K certified.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.tinmill.discussion.1": [
+    "site.popen", 
+      "I'd provided the install kit, along with our locally developed API for the Commercial File Transfer software to the third-party engineering company who was managing the system build. They claimed that the software did not work with the config I had provided them. I travelled to Sydney after arranging the visit, but was told on my arrival, that my contact was not there &mdash; he was in Wollongong. :-/ ",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.tinmill.discussion.2": [
+    "site.popen", 
+      "I politely explained that I'd be leaving, and not returning, if I could not complete my task per our agreed appointment. I was escorted into their premises and shown to a terminal. My escort abruptly left — some competing priority demanded his attention. He was clearly uncomfortable with the sudden contending priorities. After he walked out, I called a colleague in Wollongong, and said, \"Quick! Walk me through DECnet PhaseV configuration!\". He did.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.tinmill.discussion.3": [
+    "site.popen", 
+      "The File Transfer client was configured by default to use DECnet but the Server component was required to communicate over TCP/IP (that system used UCX. Others used TWG TCP/IP - ie. The Wollongong Group). The server to server comms were working but the client to server comms were not. I suspected the DECnet configuration was wrong but I did not have the knowledge to walk the third party through the config. Circumstances conspired to put me in a position to have a VMS expert walk me through the config and we were able to resolve the problem.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.tinmill.discussion.4": [
+    "site.popen", 
+      "The next day, I had an unhappy business unit owner wanting to know what I had done because the problem had dragged on for some time. I explained that our local team had been able to resolve the issue once we had access to the system to troubleshoot it.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.tinmill.discussion.5": [
+    "site.popen", 
+      "Twice in my life I've endured otitis media (Middle ear infection). The first was when I was in year 5, in 1977. The second time, I was in Sydney on behalf of Tinmill in 1997, and I barfed my heart up whilst on a third party site. On that occasion, I was travelling with the Tinmill Support Team's Leader though, I cannot recall the purpose for that visit. I rarely get sick but that infection knocked the hell out of me.",
     "site.pclose",
     "site.br"
   ],
@@ -131,7 +173,19 @@
   ],
   "projects.capi.discussion.1": [
     "site.popen", 
-      "",
+      "Tinmill underwent an upgrade from VMS/VAX to VMS/AXP. The earlier machine had a different compiler, and it also featured a data dictionary product. It was either unavilable for VMS/AXP, or was deemed unnecessarily expensive. Earlier in its history, a compatibility API had been written for the Tinmill system, with a view to being able to use it elsewhere and facilitate the removal of the Postman. It replicated the Postman API while translating function calls into Courier API calls. Unfortunately, it was dependant on the data dictionary product.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.capi.discussion.2": [
+    "site.popen", 
+      "I found myself having to build the Postman Compatibility API on VMS/AXP. In addition to the compiler being grossly dissatisfied with perfectly legitimate, but complex declarations, the lack of a data dictionary precluded a simple build. The declaration parsing issues were solved by introducing typedefs that reduced the constructs into forms the compiler could parse more reliably.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.capi.discussion.3": [
+    "site.popen", 
+      "In order to build or fix the code I needed to understand it in fine detail. The effort expended yielded a number of bug fixes in both the compatibility API, and the Courier API. In all of my time working with computers, I've only ever resorted to C++ on one occasion - this was it. Using a combination of anonymous structs, and an unwieldly \"#define table\", I replicated the behaviour of the data dictionary. The imperative was to keep legacy applications working on the upgraded system, and to have them interface with Courier via the Postman API. It did not need to be portable (though I re-developed it on linux), nor long-term maintainable. It was supposed to be a short-term stop-gap. These requirements were met.",
     "site.pclose",
     "site.br"
   ],
@@ -141,17 +195,84 @@
   ],
   "projects.etg.discussion.1": [
     "site.popen", 
-      "",
+      "If Ironmaking and BOS (Basic Oxygen Steelmaking) systems were critical for driving production, and Plate, Hot Strip and Tin Mills were critical for finished products, then it's all for nought if the product cannot be sold. Two things were required for the sale of Iron and Steel products: 1) The Electronic Trading gateway, and 2) Historical data and test certificates.",
     "site.pclose",
     "site.br"
   ],
+  "projects.etg.discussion.2": [
+    "site.popen", 
+      "Our Electronic Trading Gateway (ETG) ran on an asymmetric VMS/VAX cluster. One node ran the ETG, built around an EDI 'Message Router' product amongst other components. It talked X-400 out to financial institutions and managed translations between X-12 and EDIFACT documents. I didn't know much about the system - I was only responsible for the file transfer software. I signed off on the initial purchase for the first-ever VMS installation of the File Transfer software and signed over $28000 on behalf of the company. The other half of the system ran the Test Certificates Database (TCD).",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.etg.discussion.3": [
+    "site.popen", 
+      "ETG was required to be 99.999% available. TCD could be unavailable for periods but integrity of the data was paramount. Without Test Certificates, the product cannot be legally sold &mdash; except, apparently, as mild steel. There was a story concerning a load of submarine grade steel for which the test certs were lost. Rather than reprocess, it was cheaper to sell the steel off, apparently, as mild steel &mdash; and at a significant loss. (Pity the poor bugger trying to drill that stuff:-D). ETG ran in an active-passive failover mode. TCD would not run co-resident on the same node as ETG - so it was sacrificial in the event of one node in the cluster being unavailable.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.etg.discussion.4": [
+    "site.popen", 
+      "ETG/TCD were both critical but with different operational sensitivities. It came as a shock, as I was heading out the door, one evening, when I discovered that a system upgrade of the ETG cluster was scheduled...for that evening. The change window was active &mdash; and I was off for the day. I was apparently the expert in relation to the File Transfer software and one of my midrange colleagues thought it might be a good idea if I was on hand:-| I bailed the project manager up and asked him why I was hearing about it at 17:00, on the evening of the change, as I was heading out for the day.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.etg.discussion.5": [
+    "site.popen", 
+       "After a brief discussion with the project manager I returned to my desk and assisted with the upgrade.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.etg.discussion.6": [
+    "site.popen", 
+      "I rarely claim expertise &mdash; I leave it for others to make that assertion. At one point, the vendor for the File Transfer product wanted to send me overseas to assist a customer with an HACMP-based AIX cluster. Presumably this was because they knew we ran HACMP on our BF6 Ironmaking cluster. It was reminiscent of ETG in that the BF6 Ironmaking supervisory system had a high uptime requirement whereas the Ironmaking History and Analysis machine was sacrificial. I'd previously helped resolve a problem affecting our ability to execute Panvalet dataset members from AIX as part of a post-processing stage in a file transfer job. The vendor's local support had not been able to resolve the issue. I'd earnt a reputation for being accomplished with respect to the particular product.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.etg.discussion.7": [
+    "site.popen", 
+      "CSC had a request come in from the Federal Reserve Bank. They wanted a technician to offer consulting services in relation to the File Transfer product but CSC had made all of their US team redundant days prior. (Ironically, one of their team had the same name as me.). I agreed to consult but my experience with the product on midrange was at some variance with my mainframe colleague's experience. My condition was that we both provide input in order to give a fair appraisal.",
+    "site.pclose",
+    "site.br"
+  ],
+
 
   "projects.wphsm.title": [
     "site.hopen", "Westernport Hot Strip Mill &mdash; A New Hope", "site.hclose"
   ],
   "projects.wphsm.discussion.1": [
     "site.popen", 
-      "",
+      "Westernport Hot Strip Mill was undergoing an upgrade. They needed to be able to use messaging infrastructure to communicate with the Westernport Mainframe LPARs which were run out of Clayton, I think. Those LPARs were running CICS, not IMS, so Postman was not an option. A mainframe native, CICS-compliant, commercial messaging product was chosen. A new mainframe courier API was written &mdash in COBOL-2 and 9000 series Assembler! :-O The fella who wrote it left BHP-IT and handed the code, test programs, and config over to me. His final day was supposed to be spent handing over the code, test programs, configuration, and the ENDEAVOR code-management repository, but the reality was that the demands on his time left about two or three hours.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.wphsm.discussion.2": [
+    "site.popen", 
+    "He left!",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.wphsm.discussion.3": [
+    "site.popen", 
+    "I went back and looked at the config. I didn't understand how it worked. I looked at the COBOL-2. It didn't help. I sat down, one night, with coloured markers and a 'great big whiteboard' [:-D] and drew up the config in a symbolic representation, then re-read the code. I understood it. The Assembler was also easier to understand than the equivalent Cobol-2 (there was a policy prohibiting new code to be written in Assembler but in this case, it just made sense.)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.wphsm.discussion.4": [
+    "site.popen", 
+      "The Westernport HSM supervisory system, and its development equivalent, were both running the messaging program for which courier provided the API. The API had been updated to a V2.0 enhancement that provided a header that interacted with the mainframe courier. A new gateway system was built to bridge the two disparate, commercial messaging systems.", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.wphsm.discussion.5": [
+    "site.popen", 
+      "The bridged system ran reliably for some time. We added the Road and Rail Inventory Management System to the new system in 1998, and then, as these things often do, it bogged down in corporate inertia. I left Wollongong, in 2005 and no additional systems had been added to the 'new' infrastructure. In 2008, I returned for a brief period (The last PDP-11 over at the Caster was about to be decommissioned). The messaging team were embarking on deploying their first new system config in a decade but they'd not been successful. I offered to help but also failed to achieve a successful message transfer. After so many years, I'd forgotten a minor configuration detail that was pertinent to the Courier V2.0 API. I requested another attempt but the whole customer dynamic had changed and SLAs were more rigorously enforced. Pity! The fix was trivial.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.wphsm.discussion.5": [
+    "site.popen", 
+      "I left!",
     "site.pclose",
     "site.br"
   ],
@@ -161,7 +282,7 @@
   ],
   "projects.y2k.discussion.1": [
     "site.popen", 
-      "",
+      "BHP-IT implemented a remediation program to address Y2K-related deficiencies in commercial and locally developed software. PDP-11s were physically limited. They all ran RSX-11M+. The solution to the date problem was to run the clocks at an earlier overlapping date and to massage the figures after the fact.",
     "site.pclose",
     "site.br"
   ],
@@ -180,10 +301,34 @@
     "projects.platemill.discussion.3",
     "projects.platemill.discussion.4",
     "projects.bf6.title",
+    "projects.bf6.discussion.1",
+    "projects.bf6.discussion.2",
+    "projects.bf6.discussion.3",
     "projects.tinmill.title",
+    "projects.tinmill.discussion.1",
+    "projects.tinmill.discussion.2",
+    "projects.tinmill.discussion.3",
+    "projects.tinmill.discussion.4",
+    "projects.tinmill.discussion.5",
     "projects.capi.title",
+    "projects.capi.discussion.1",
+    "projects.capi.discussion.2",
+    "projects.capi.discussion.3",
     "projects.etg.title",
+    "projects.etg.discussion.1",
+    "projects.etg.discussion.2",
+    "projects.etg.discussion.3",
+    "projects.etg.discussion.4",
+    "projects.etg.discussion.5",
+    "projects.etg.discussion.6",
+    "projects.etg.discussion.7",
     "projects.wphsm.title",
+    "projects.wphsm.discussion.1",
+    "projects.wphsm.discussion.2",
+    "projects.wphsm.discussion.3",
+    "projects.wphsm.discussion.4",
+    "projects.wphsm.discussion.5",
+    "projects.wphsm.discussion.6",
     "projects.y2k.title",
 
     "site.return"
