@@ -5,261 +5,34 @@
         "site.br"
     ],
     "projects.cray.title.text":[
-        "More Beers. Some Poetry ... and Controlled Fire"
+      "More Beers. Some Poetry ... and Controlled Fire"
     ],
     "projects.bullshit.title": [
-        "site.hopen", "Bullshit!!", "site.hclose", "site.br"
+      "site.hopen", "Bullshit!!", "site.hclose", "site.br"
     ],
-    "projects.bullshit.discussion.1": [
-    "site.popen", 
-      "Back in the CSC days, which at that point were not so far removed, my team leader called a meeting and asked how we'd feel about his brother coming to work in the team",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.2": [
-    "site.popen", 
-      "I told him that \"I don't have a problem with it, however, you need to think very carefully about it because you're potentially putting yourself in a very difficult situation if, for example, conflict resolution is required.\" Some weeks later the brother joined our team. He's a good bloke, as it turned out, and quite capable. I asked him where he'd come from, but he was vague. I broached the subject on at least one other occasion, and received the same vague response. Thenceforth, I left it alone.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.3": [
-    "site.popen", 
-      "After a few months, he left! Suddenly, and surprisingly.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.4": [
-    "site.popen", 
-      "I also left, some 12 months after that. I was about to sign up with another global outsourcing outfit. Around the same time I received a call from a head-hunter. The young lady asked if I was still available. I replied, \"No, I'm about to accept a position but just out of curiosity, who is the position with?\". She responded, her voice rising in pitch a little and implying unfamiliarity, \"It's with a company called Cray\". I immediately replied, \"OK, You have my full attention!\", and thus it was that I embarked on the best job of my life. What followed was surreal in several entirely unrelated ways.", 
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.5": [
-    "site.popen", 
-      "Certain formalities had to be undertaken before I could start onsite. I spent some six months working out of an office in Manuka and had to find things to keep myself busy, which I did. During this period, I received an email from a former colleague from CSC requesting assistance with building the courier API for a windows box in Whyalla &mdash; Long Products Division Ladle Metallurgical Furnace supervisory system. I told my former colleague, \"Go talk to the original developer. If he is as helpful to you as he was me, he'll tell you to 'just use the GUI.':-| If you get that response then come back and I'll help pending approval from my manager.\". I talked to my manager to see if we could bill my time. We could not &mdash; they told me to assist if I could. (That's why I liked Cray &mdash; they went over and above.). I helped get them running.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.6": [
-    "site.popen", 
-      "I was sent to the US for training. Chippewa Falls, Wisconsin &mdash; it was an awesome trip! On the way over, I had to catch a connecting flight to St. Paul from San Francisco. I looked around and saw security personnel with long arms as I approached the customs dude. I had my passport out and I have a vague memory of being fingerprinted, quite unexpectedly. I had been following along behind others who disembarked from the flight, and they all left via some 'main concourse'. I was told to head down the corridor and wait to be tended to. \"Awwwww shit!!!\", I thought, \"This cannot be good!!!\"",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.7": [
-    "site.popen", 
-      "I was required to place my passport and papers in a rack at the front of the room. It reminded my of a cramped, Hospital waiting room. I stood where I could keep an eye on my papers. Eventually an officious looking individual took my papers and I thought, \"well, what now?\".",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.8": [
-    "site.popen", 
-      "A short time later, a voice called out, \"Mr Small!\". Again, \"Mr Small!\". I strode over to the individual who had called me and was confronted by a 4-foot nuthin' leprechaun. I thought to myself, \"Oi!!! Who's calling who Mr Small?\" &mdash; but I kept my trap shut. The guy asked why I was there, who our competitors were, and twice referred to Cray inc. as Cray Research. I realised that this was an intentional effort to substantiate my claim. I gave a short history lesson on Cray Research, Tera corp, and Cray inc. Apparently, the leprechaun was satisfied and, almost grudgingly, confided that they were looking for a criminal with the same name. :-| I know of four Chris Smalls in Canberra, alone, and three of us do business at the same Harley dealership. Then there was my counterpart who worked for CSC, in the US, in an almost identical role.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.bullshit.discussion.9": [
-    "site.popen", 
-      "I returned from training and was inducted to the customer site shortly after. One morning, I was sitting with the team, being shown the ropes in a semi-social kind of setting. I voice behind me, laughing, bellowed out, \"Haaahaha, BULLSHIT!!\". It was my former team mate.",
-    "site.pclose",
-    "site.br"
-    ],
-
     "projects.x2rebuild.title": [
-        "site.hopen", "An Unexpected Journey: Here there be Dragons", "site.hclose"
-    ],
-    "projects.x2rebuild.discussion.1": [
-    "site.popen", 
-      "One evening, at whilst on my customer's premises, I set about completing pre-work in preparation for an upgrade of their Cray XT5h supercomputing system &mdash; essentially a full backup of the system disks which, together, comprise a Sysset. The computer was a complex beast consisting, in effect, of two machines (an XT5 and an X2 Vector processor) coupled together. As 23:00 approached and my outage window drew to a close, I expected to be bringing the system back online but, instead, found myself having to complete a full system, bare-metal build. What should have been a routine sysset backup went wrong and I ended up with two empty syssets which was inexplicable in itself. (If the old Sysset copy had been inadvertently copied over the working copy, I should have ended up with two out of date copies - I've only just realised that, seventeen years after the fact.)",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.x2rebuild.discussion.2": [
-    "site.popen", 
-      "I hadn’t worked on that platform before, and the original engineer who had travelled to Chippewa Falls, WI, USA., had left. I later learned that the Cray engineers had built the system over a couple of weeks with our local engineer being trained up at the same time.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.x2rebuild.discussion.3": [
-    "site.popen", 
-      "I called the customer &mdash; he told me to restore from backup. :-| I explained the circumstances and then started rebuilding from scratch that night. By the next morning I had the XT5 side up. I went home in the morning and left my team completing the localisation of the XT5 half of the system. I returned in the evening and then began rebuilding the vector side &mdash; sorting out the broken (it was broken in order to interface the X2; not in the sense of it malfunctioning) folded 3D torus to fat-tree routing, getting a working toolchain together, and rebuilding the runtime environment.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.x2rebuild.discussion.4": [
-    "site.popen", 
-      "Within a couple of days the system was stable again, and I went on to complete the upgrade I’d originally planned. A few months later the Cray Engineers contacted me to ask how I’d done it, because they’d had to roll their own upgrade back. At that time, aside from the training machine at Chippewa Falls, I believe there was only one other XT5h in the world. I'd completed the first successful field upgrade of an XT5h system, and not without some difficulty.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.x2rebuild.discussion.5": [
-    "site.popen", 
-      "The main takeaway for me was being comfortable working from first principles when there’s no safety net &mdash; just breaking the system down until it becomes tractable.",
-    "site.pclose",
-    "site.br"
+      "site.hopen", "An Unexpected Journey: Here there be Dragons", "site.hclose". "site.br"
     ],
 
     "projects.FPGAarray.title": [
-        "site.hopen", "A Systolic Array by Any Other Name...", "site.hclose"
-    ],
-    "projects.FPGAarray.discussion.1": [
-    "site.popen", 
-      "I had a sole customer during my tenure with Cray, (and later, with HPE) and whilst I was engaged there I was privileged to have worked on a custom high-density, FPGA-based, compute platform &mdash; a refrigerant-cooled system designed as a high-density programmable hardware array. The designers intended it to run a NIOS-2 soft-core processor in an otherwise conventional configuration. One colleague wanted to repurpose the platform as a form of systolic ", "site.links.systolic", " for a specialised problem set so this required some rework on our side. It wasn’t a standard environment; everything from hardware layout to programming model was specialised. Even as far as hardware programming is concerned, this beast was unique.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.FPGAarray.discussion.2": [
-    "site.popen", 
-      "My role involved working with the system at a fairly low level, including learning enough Verilog to interact meaningfully with the hardware side. I wasn’t a hardware engineer by background, but I got to the point where I could develop and test logic, and more importantly, bridge the gap between software and hardware perspectives.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.FPGAarray.discussion.3": [
-    "site.popen", 
-      "That included helping bring other engineers up to speed quickly &mdash; translating system behaviour, tooling, and constraints into something usable so work could move forward.",
-    "site.pclose",
-    "site.br"
-    ],
-
-    "projects.FPGAarray.discussion.4": [
-    "site.popen", 
-      "The main takeaway for me was being able to operate effectively in a hardware/software co-design environment, even without deep prior experience, and making complex systems more accessible to others. At risk of bringing the lapsus linguae by a former Prime Minister to mind, I became the repository of domain knowledge concerning that system. Although Cray designed and built the cabinet, power distribution and cooling, they did not, generally, have any involvement with the Motherboards or Daughtercards. The Demarcation line was the backplane. It was, indeed, a privileged role.",
-    "site.pclose",
-    "site.br"
+      "site.hopen", "A Systolic Array by Any Other Name...", "site.hclose". "site.br"
     ],
 
     "projects.diplomat.title": [
-        "site.hopen", "Oh-oh, The Power and the Passion", "site.hclose"
-    ],
-    "projects.diplomat.discussion.1": [
-    "site.popen", 
-      "We had an earlier generation of a custom FPGA-based system that had partially failed and fallen out of regular use. A chassis had been taken offline due to a suspected power supply issue, and previous repair attempts hadn’t resolved it.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.diplomat.discussion.2": [
-    "site.popen", 
-      "When the system was needed again, I took ownership of diagnosing it. The challenge was that error reporting was minimal, so I had to work empirically—redistributing daughter cards across the system and tracking faults to isolate failing components. The failed power supply &mdash; very much not a simple FRU replacement &mdash; had already been changed. The fault, however, was in the chassis itself.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.diplomat.discussion.3": [
-    "site.popen", 
-      "I re-installed the power-supply into the spare chassis from whence it came, then pulled the failed chassis from the cabinet. I dropped the spare in place and re-wired the physical cabling &mdash; high-current 50V DC connections. I was sufficiently aware of my lack of electrical qualifications &mdash; and sufficiently frightened of receiving a thoroughly satisfactory whallop from the supply rails &mdash; that I spent much of the work with one hand in my pocket. I then worked through replacing the faulty motherboard and multiple daughter cards. This involved redistributing the daughter cards and following the fault to isolate it.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.diplomat.discussion.4": [
-    "site.popen", 
-      "By the end of that process, I had the system back to full operational status.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.diplomat.discussion.5": [
-    "site.popen", 
-      "The key takeaway for me was structured fault isolation in systems with poor observability &mdash; breaking the problem down physically and logically until the failure modes become clear.",
-    "site.pclose",
-    "site.br"
+      "site.hopen", "Oh-oh, The Power and the Passion", "site.hclose". "site.br"
     ],
 
     "projects.urikagx.title": [
-        "site.hopen", "Eureka!", "site.hclose"
-    ],
-    "projects.urikagx.discussion.1": [
-    "site.popen", 
-      "Ah Love! could thou and I with Fate conspire",
-    "site.br",
-       "To grasp this sorry Scheme of Things entire,",
-    "site.br",
-       "Would not we shatter it to bits &mdash; and then",
-    "site.br",
-       "Re-mould it nearer to the Heart's Desire!",
-    "site.pclose",
-    "site.popen",
-    "        &mdash; Omar Khayyam (trans. Edward Fitzgerald).",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.2": [
-    "site.popen", 
-      "When the Urika-GX hit the floor, it was an exciting development &mdash; a machine optimised around data analytics and with an assortment of options for users to use. The system was managed with Openstack, and was built as a Hadoop cluster. In addition, it ran Cray Graph Engine (CGE) which was optimised around an in-memory Resource Description Framework database. It was fast, and if you're looking for needles in haystacks, or fraud in the interstices between organisation and allied businesses, this is an exceptional tool for such work. System resource management was handled by Mesos.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.3": [
-    "site.popen", 
-      "Unfortunately, our customer could not use it because the system, as delivered, was not secure. I was the technical lead for these systems ... and I had a problem to solve.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.4": [
-    "site.popen", 
-      "The system was mostly homogeneous in terms of hardware, although three nodes out of the forty-eight were designated as service nodes. Two ran a primary and secondary Namenode for HAdoop. One was a login node &mdash; the node by which users accessed the system to submit jobs. Openstack was originally used to manage storage, push images and kernels out, and provision the system. It imposed needless complexity.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.5": [
-    "site.popen", 
-      "I talked to the Developers/Engineers after we'd had the system for awhile. I brooched the topic of redesigning the deployment mechanism and simplifying the system &mdash; for some reason, they listened to me and we ended up with a system that ran Cobbler, for imaging the nodes, and the scope of ansible was increased to perform more ofthe post imaging configuration. It was small, simple and elegant, as solutions go.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.6": [
-    "site.popen", 
-      "I set about configuring OpenLDAP and MIT Kerberos 5 to manage authentication, but importantly, to integrate it with our upstream User Identity systems. We were able to run some jobs on the system but there were some serious impediments to running a broader range of jobs. One approach to ameliorating the problem was to limit access to the system to a subset of users who had a specific use case. The cost-benefit justified the decision. A second machine was optimised around CGE. Hadoop was not required. Mesos was in the way, and it certainly could not be made secure at the time. The solution was to customise the system to run CGE under the control of the SLURM scheduler.",
-    "site.pclose",
-    "site.br"
-    ],
-    "projects.urikagx.discussion.7": [
-    "site.popen", 
-      "The third system was stripped bare. I did not have source for the interconnect drivers so I was restricted to using the Linux version that was delivered with the system, along with tis drivers. These systems were intended to be 'appliances' rather than a highly configurable, bespoke system. I've never let that dissuade me when a solution is required. I rebuilt the system, updated all of the Hadoop, Spark, Scala, and Anaconda components. I wrote new module files where appropriate, and ansible playbooks. I'd also redesigned the security layer from the bottom up. The new system boasted a proper cluster of Namenodes, and Resource Managers. Mesos was no longer in the picture, nor was CGE. The system was fully optimised around Hadoop &mdash; and the customer was able to make use of it.",
-    "site.pclose",
-    "site.br"
+      "site.hopen", "Eureka!", "site.hclose". "site.br"
     ],
 
     "site.pages.cray": [
         "projects.cray.title",
         "projects.bullshit.title",
-        "projects.bullshit.discussion.1",
-        "projects.bullshit.discussion.2",
-        "projects.bullshit.discussion.3",
-        "projects.bullshit.discussion.4",
-        "projects.bullshit.discussion.5",
-        "projects.bullshit.discussion.6",
-        "projects.bullshit.discussion.7",
-        "projects.bullshit.discussion.8",
-        "projects.bullshit.discussion.9",
         "projects.x2rebuild.title",
-        "projects.x2rebuild.discussion.1",
-        "projects.x2rebuild.discussion.2",
-        "projects.x2rebuild.discussion.3",
-        "projects.x2rebuild.discussion.4",
-        "projects.x2rebuild.discussion.5",
         "projects.FPGAarray.title",
-        "projects.FPGAarray.discussion.1",
-        "projects.FPGAarray.discussion.2",
-        "projects.FPGAarray.discussion.3",
-        "projects.FPGAarray.discussion.4",
         "projects.diplomat.title",
-        "projects.diplomat.discussion.1",
-        "projects.diplomat.discussion.2",
-        "projects.diplomat.discussion.3",
-        "projects.diplomat.discussion.4",
-        "projects.diplomat.discussion.5",
         "projects.urikagx.title",
-        "projects.urikagx.discussion.1",
-        "projects.urikagx.discussion.2",
-        "projects.urikagx.discussion.3",
-        "projects.urikagx.discussion.4",
-        "projects.urikagx.discussion.5",
-        "projects.urikagx.discussion.6",
-        "projects.urikagx.discussion.7",
 
         "site.return"
   ]
