@@ -1,22 +1,40 @@
 {
-    "projects.clamp.title":[
-        "site.hopen",
-        "projects.clamp.title.text",
-        "site.hclose",
-        "site.popen",
-        "Driving Sim Brake Controller Desk Clamp",
-        "site.pclose",
-        "site.br"
-    ],
-    "projects.clamp.title.text":[
-        "Driving Sim Brake Controller Desk Clamp"
-    ],
-    "projects.clamp.overview.title":[
-        "site.hopen", "Overview", "site.hclose"
-    ],
-    "site.pages.clamp": [
-        "projects.clamp.title",
-        "site.return"
+  "projects.clamp.title":[
+    "site.hopen",
+    "projects.clamp.title.text",
+    "site.hclose",
+    "site.popen",
+    "Driving Sim Brake Controller Desk Clamp",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.clamp.title.text":[
+    "Driving Sim Brake Controller Desk Clamp"
+  ],
+
+  "projects.clamp.overview.title":[
+    "site.hopen", "Overview", "site.hclose"
+  ],
+
+  "projects.clamp.gallery.title": [
+    "site.hopen", "Gaming Controller Desk Clamp", "site.hclose"
+  ],
+  "projects.clamp.gallery.embed": [
+    "site.iopen",
+    "clamp",
+    "site.iclose",
+    "site.br"
+  ],
+
+  "projects.clamp.gallery": [
+    "projects.clamp.gallery.title",
+    "projects.clamp.gallery.embed"
+  ],
+
+  "site.pages.clamp": [
+    "projects.clamp.title",
+    "projects.clamp.gallery",
+    "site.return"
   ]
 }
 
