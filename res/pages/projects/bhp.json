@@ -304,6 +304,12 @@
     "site.pclose",
     "site.br"
   ],
+  "projects.y2k.discussion.5": [
+    "site.popen", 
+      "I planned the upgrade sequences, delegated units of work to team members, talked to business unit owners to negotiate outages where they were required, coordinated with Y2K project managers and ensured that the whole operation was upgraded over time. Around Y2K, just before CSC took ownership of BHP-IT, I was given two sigificant pay incrememnts. That was unusual but I considered it testament to the fact that I had taken on work and respnsibility that far exceeded my role as a junior support technician.",
+    "site.pclose",
+    "site.br"
+  ],
 
   "site.pages.bhp": [
     "projects.bhp.title",
@@ -352,6 +358,7 @@
     "projects.y2k.discussion.2",
     "projects.y2k.discussion.3",
     "projects.y2k.discussion.4",
+    "projects.y2k.discussion.5",
 
     "site.return"
   ]
