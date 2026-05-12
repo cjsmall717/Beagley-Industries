@@ -19,16 +19,15 @@
   "projects.clamp.gallery.title": [
     "site.hopen", "Gaming Controller Desk Clamp", "site.hclose"
   ],
-  "projects.clamp.gallery.embed": [
+  "projects.clamp.gallery.embed.1": [
     "site.iopen",
     "clamp",
     "site.iclose",
     "site.br"
   ],
-
   "projects.clamp.gallery": [
     "projects.clamp.gallery.title",
-    "projects.clamp.gallery.embed"
+    "projects.clamp.gallery.embed.1"
   ],
 
   "site.pages.clamp": [
