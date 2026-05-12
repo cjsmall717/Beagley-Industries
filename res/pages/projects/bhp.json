@@ -225,7 +225,7 @@
   ],
   "projects.etg.discussion.6": [
     "site.popen", 
-      "I rarely claim expertise &mdash; I leave it for others to make that assertion. At one point, the vendor for the File Transfer product wanted to send me overseas to assist a customer with an HACMP-based AIX cluster. Presumably this was because they knew we ran HACMP on our BF6 Ironmaking cluster. It was reminiscent of ETG in that the BF6 Ironmaking supervisory system had a high uptime requirement whereas the Ironmaking History and Analysis machine was sacrificial. I'd previously helped resolve a problem affecting our ability to execute Panvalet dataset members from AIX as part of a post-processing stage in a file transfer job. The vendor's local support had not been able to resolve the issue. I'd earnt a reputation for being accomplished with respect to the particular product.",
+      "I rarely claim expertise &mdash; I leave it for others to make that determination. At one point, the vendor for the File Transfer product wanted to send me overseas to assist a customer with an HACMP-based AIX cluster. Presumably this was because they knew we ran HACMP on our BF6 Ironmaking cluster. It was reminiscent of ETG in that the BF6 Ironmaking supervisory system had a high uptime requirement whereas the Ironmaking History and Analysis machine was sacrificial. I'd previously helped resolve a problem affecting our ability to execute Panvalet dataset members from AIX as part of a post-processing stage in a file transfer job. The vendor's local support had not been able to resolve the issue. I'd earnt a reputation for being accomplished with respect to the particular product.",
     "site.pclose",
     "site.br"
   ],
@@ -242,7 +242,7 @@
   ],
   "projects.wphsm.discussion.1": [
     "site.popen", 
-      "Westernport Hot Strip Mill was undergoing an upgrade. They needed to be able to use messaging infrastructure to communicate with the Westernport Mainframe LPARs which were run out of Clayton, I think. Those LPARs were running CICS, not IMS, so Postman was not an option. A mainframe native, CICS-compliant, commercial messaging product was chosen. A new mainframe courier API was written &mdash in COBOL-2 and 9000 series Assembler! :-O The fella who wrote it left BHP-IT and handed the code, test programs, and config over to me. His final day was supposed to be spent handing over the code, test programs, configuration, and the ENDEAVOR code-management repository, but the reality was that the demands on his time left about two or three hours.",
+      "Westernport Hot Strip Mill was undergoing an upgrade. They needed to be able to use messaging infrastructure to communicate with the Westernport Mainframe LPARs which were run out of Clayton, I think. Those LPARs were running CICS, not IMS, so Postman was not an option. A mainframe native, CICS-compliant, commercial messaging product was chosen. A new mainframe courier API was written &mdash; in COBOL-2 and 9000 series Assembler! :-O The fella who wrote it left BHP-IT and handed the code, test programs, and config over to me. His final day was supposed to be spent handing over the code, test programs, configuration, and the ENDEAVOR code-management repository, but the reality was that the demands on his time left about two or three hours.",
     "site.pclose",
     "site.br"
   ],
