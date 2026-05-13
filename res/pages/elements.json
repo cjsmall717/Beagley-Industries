@@ -26,6 +26,12 @@
   "site.br": [
     "<br />"
   ],
+  "site.bqopen": [
+    "<blockquote>"
+  ],
+  "site.bqclose": [
+    "</blockquote>"
+  ],
   "site.lopen": [
     "<a href=\"#\">"
   ],

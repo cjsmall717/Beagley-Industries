@@ -8,12 +8,74 @@
     "site.pclose",
     "site.br"
   ],
+
   "projects.clamp.title.text":[
     "Driving Sim Brake Controller Desk Clamp"
   ],
 
   "projects.clamp.overview.title":[
     "site.hopen", "Overview", "site.hclose"
+  ],
+  "projects.clamp.overview.1":[
+    "site.popen",
+      "A customer required a low-cost, small-footprint desk clamp on which to mount a peripheral device for a rally-car simulation ",
+      "game. The clamp needed to withstand repeated application of force at a nominal 20Nm, whilst remaining easily removable and ",
+      "relocatable. It was also required to avoid damage to the desk surface, with some consideration given to aesthetics.",
+    "site.pclose"
+  ],
+  "projects.clamp.overview.2":[
+    "site.popen",
+      "Customer feedback:",
+    "site.pclose"
+  ],
+  "projects.clamp.overview.3":[
+    "site.bqopen",
+    "site.popen",
+      "\"It has exceeded my expectations. I've moved from top 20% to top 9%\".",
+    "site.pclose",
+    "site.bqclose"
+  ],
+  "projects.clamp.overview":[
+    "projects.clamp.overview.title",
+    "projects.clamp.overview.1",
+    "projects.clamp.overview.2",
+    "projects.clamp.overview.3",
+    "site.br"
+  ],
+
+  "projects.clamp.keydesign.title":[
+    "site.hopen", "Key Design Elements", "site.hclose"
+  ],
+  "projects.clamp.keydesign.1":[
+    "site.liopen",
+      "Narrow, low-profile mounting plate for the peripheral device with a rubberised underside.",
+    "site.liclose"
+  ],
+  "projects.clamp.keydesign.2":[
+    "site.liopen",
+      "Large captive domed washers with rubber pads to distribute clamping force over a broad surface area.",
+    "site.liclose"
+  ],
+  "projects.clamp.keydesign.3":[
+    "site.liopen",
+      "Welded corners introduced to overcome mechanical failure observed during fabrication.",
+    "site.liclose"
+  ],
+  "projects.clamp.keydesign.4":[
+    "site.liopen",
+      "A makeshift forming jig was fashioned from scrap materials to permit accurate, repeatable formation of ",
+      "domed clamp washers without deformation of the mating surface.",
+    "site.liclose"
+  ],
+  "projects.clamp.keydesign":[
+    "site.ulopen",
+    "projects.clamp.keydesign.title",
+    "projects.clamp.keydesign.1",
+    "projects.clamp.keydesign.2",
+    "projects.clamp.keydesign.3",
+    "projects.clamp.keydesign.4",
+    "site.ulclose",
+    "site.br"
   ],
 
   "projects.clamp.gallery.title": [
@@ -30,9 +92,99 @@
     "projects.clamp.gallery.embed.1"
   ],
 
+  "projects.clamp.demonstrates.title": [
+        "site.hopen", "What this demonstrates", "site.hclose"
+  ],
+  "projects.clamp.demonstrates.1": [
+    "site.liopen", 
+      "Application of the same design and fabrication principles employed in the Luggage Box project.",
+    "site.liclose"
+  ],
+  "projects.clamp.demonstrates.2": [
+    "site.liopen",
+      "Use of new and/or repurposed materials where warranted.",
+    "site.liclose"
+  ],
+  "projects.clamp.demonstrates.3": [
+    "site.liopen",
+      "Effective use of epoxy-based putty and repurposed bottle caps to maintain both functionality and aesthetics.",
+    "site.liclose"
+  ],
+  "projects.clamp.demonstrates.4": [
+    "site.liopen", 
+      "Recognition of material limitations during fabrication: cold forging proved unsuitable, and mechanical stress induced ",
+      "failure during formation of the second bend. In the end, welding provided the correct engineering solution.",
+    "site.liclose"
+  ],
+  "projects.clamp.demonstrates": [
+    "projects.clamp.demonstrates.title",
+    "site.ulopen",
+    "projects.clamp.demonstrates.1",
+    "projects.clamp.demonstrates.2",
+    "projects.clamp.demonstrates.3",
+    "projects.clamp.demonstrates.4",
+    "site.ulclose",
+    "site.br"
+  ],
+  "projects.clamp.discussion.title": [
+        "site.hopen", "Discussion", "site.hclose"
+  ],
+  "projects.clamp.discussion.1": [
+    "site.popen", 
+      "It was expected that scoring and cold forging of the steel strip would yield a work-hardened result that would not require welding. ", 
+      "This proved not to be an effective approach because the deformation of the initial bend resulted in mechanical fatigue and failure ", 
+      "of the metal. It was welded and the weld proved effective.",
+    "site.pclose"
+  ],
+  "projects.clamp.discussion.2": [
+    "site.popen", 
+      "This work was an exercise in prototyping as new approaches were taken to form the domed washers and clamp handles.",
+    "site.pclose"
+  ],
+  "projects.clamp.discussion.3": [
+    "site.popen", 
+      "Given materials and time constraints, commercial mudflap washers were chosen as suitable starting blanks from which to form the ",
+      "clamping pads. In practice, the internal diameter was a little large, especially after the doming operation. It was envisaged that ",
+      "the dome could be formed by tightening a 1/4\" countersunk screw onto the washer, and mating it with a countersunk rebate in the die ",
+      "surface of the jig. It was not possible to exert enough force so a piece of 1/2\" steel rod with a 45 degree taper was used as a punch.", 
+    "site.pclose"
+  ],
+  "projects.clamp.discussion.4": [
+    "site.popen", 
+      "Various options were considered for the handles for the clamp screws. A simple cross-bar was considered, as was cast aluminium. ",
+      "A three or five lobed star knob seemed a nice option but forming that accurately, without a CNC cutter to either form it, or to ",
+      "form a pattern for casting, quickly precluded that option. Kirk's drink bottles feature a nice, black lid design &mdash; and they ",
+      "are readily available. The screw shanks were trimmed, and deeply keyed with a grinder. The lids were packed with ‘Kneadit’ epoxy ",
+      "putty and pressed onto the keyed spindles whilst ensuring displaced material was worked back into the lids.",
+    "site.pclose"
+  ],
+  "projects.clamp.discussion.5": [
+    "site.popen", 
+      "A revision is being considered. If it is actualised, it will feature custom clamp-washers, more accurate seating of the washers on ",
+      "the clamp screws, a narrower clamp section with an articulated platform for the peripheral device. A rivet will secure the front of ",
+      "the platform to the clamp-body, and a curved slot will allow the back end to be adjusted so that it can be angled relative to the ",
+      "clamp. A set-screw arrangement will secure the back end. Another option under consideration, albeit at the cost of additional ",
+      "complexity, is a sliding mounting platform providing two degrees of freedom."
+    "site.pclose"
+  ],
+  "projects.clamp.discussion": [
+    "projects.clamp.discussion.title",
+    "projects.clamp.discussion.1",
+    "projects.clamp.discussion.2",
+    "projects.clamp.discussion.3",
+    "projects.clamp.discussion.4",
+    "projects.clamp.discussion.5",
+    "site.br"
+  ],
+
+
   "site.pages.clamp": [
     "projects.clamp.title",
+    "projects.clamp.overview",
+    "projects.clamp.keydesign",
     "projects.clamp.gallery",
+    "projects.clamp.discussion",
+    "projects.clamp.demonstrates",
     "site.return"
   ]
 }
