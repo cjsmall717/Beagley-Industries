@@ -20,21 +20,32 @@
     "About",
     "site.hclose",
     "site.popen",
-    "Systems and platform engineer experienced in high-performance, large-scale environments, with a foundation in biology and chemistry including biosynthetic pathway elucidation and conducting polymer—hydrogel systems.",
+      "Systems and platform engineer experienced in high-performance, large-scale environments, with a foundation in biology and chemistry ",
+      "including biosynthetic pathway elucidation and conducting polymer—hydrogel systems.",
     "site.pclose"
   ],
 
   "site.who.2": [
-    "site.popen", "Experience includes 15 years in high-impact operational environments (BHP, ASD), working with large-scale systems under real constraints.", "site.pclose"
+    "site.popen",
+      "Experience includes 15 years in high-impact operational environments (BHP, ASD), working with large-scale systems under real constraints.",
+    "site.pclose"
   ],
 
   "site.who.3": [
     "site.popen", "I design, build, and troubleshoot complex systems across software, hardware, and experimental domains.", "site.pclose"
   ],
+  "site.who.3": [
+    "site.popen",
+      "Much of my work has involved operating at the interfaces between systems &mdash; hardware and software, legacy and modern infrastructure, ",
+      "engineering and business systems, or incompatible protocols and architectures. In my experience, complexity, fragility, and opportunity ",
+      "tend to accumulate at boundaries. Understanding and simplifying those interstitial regions has been a recurring theme throughout my career.",
+    "site.pclose"
+  ],
   "site.who": [
     "site.who.1",
     "site.who.2",
     "site.who.3",
+    "site.who.4",
     "site.br"
   ]
 }
