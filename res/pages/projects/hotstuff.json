@@ -206,18 +206,31 @@
     "projects.furnace.gallery.title",
     "projects.furnace.gallery.embed.1"
   ],
-  "projects.forges.gallery.title": [
-    "site.hopen", "Forge Gallery", "site.hclose"
+  "projects.forge1.gallery.title": [
+    "site.hopen", "Forge 1 Gallery", "site.hclose"
   ],
-  "projects.forges.gallery.embed.1": [
+  "projects.forge1.gallery.embed.1": [
     "site.iopen",
-      "forges",
+      "forge1",
       "site.iclose",
     "site.br"
   ],
-  "projects.forges.gallery": [
-    "projects.forges.gallery.title",
-    "projects.forges.gallery.embed.1"
+  "projects.forge1.gallery": [
+    "projects.forge1.gallery.title",
+    "projects.forge1.gallery.embed.1"
+  ],
+  "projects.forge2.gallery.title": [
+    "site.hopen", "Forge 2 Gallery", "site.hclose"
+  ],
+  "projects.forge2.gallery.embed.1": [
+    "site.iopen",
+      "forge2",
+      "site.iclose",
+    "site.br"
+  ],
+  "projects.forge2.gallery": [
+    "projects.forge2.gallery.title",
+    "projects.forge2.gallery.embed.1"
   ],
   "projects.hotstuff.discussion.1": [
     "site.popen", 
@@ -240,7 +253,8 @@
     "projects.hotstuff.keypoints",
     "projects.burners.gallery",
     "projects.furnace.gallery",
-    "projects.forges.gallery",
+    "projects.forge1.gallery",
+    "projects.forge2.gallery",
     "site.return"
   ]
 }
