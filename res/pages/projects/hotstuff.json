@@ -1,64 +1,247 @@
 {
-    "projects.hotstuff.title":[
-        "site.hopen",
-        "projects.hotstuff.title.text",
-        "site.hclose",
-        "site.popen",
-        "Hotstuff, Baby!",
-        "site.pclose",
-        "site.br"
-    ],
-    "projects.hotstuff.title.text":[
-        "Hot Stuff"
-    ],
-    "projects.hotstuff.overview.title":[
-        "site.hopen", "Overview", "site.hclose"
-    ],
-   "projects.burners.gallery.title": [
-        "site.hopen", "Burner Box Gallery", "site.hclose"
-    ],
-    "projects.burners.gallery.embed.1": [
-        "site.iopen",
-        "burners",
-        "site.iclose",
-        "site.br"
-    ],
-    "projects.burners.gallery": [
-        "projects.burners.gallery.title",
-        "projects.burners.gallery.embed.1"
-    ],
-   "projects.furnace.gallery.title": [
-        "site.hopen", "Furnace Gallery", "site.hclose"
-    ],
-    "projects.furnace.gallery.embed.1": [
-        "site.iopen",
-        "furnace",
-        "site.iclose",
-        "site.br"
-    ],
-    "projects.furnace.gallery": [
-        "projects.furnace.gallery.title",
-        "projects.furnace.gallery.embed.1"
-    ],
-   "projects.forges.gallery.title": [
-        "site.hopen", "Forge Gallery", "site.hclose"
-    ],
-    "projects.forges.gallery.embed.1": [
-        "site.iopen",
-        "forges",
-        "site.iclose",
-        "site.br"
-    ],
-    "projects.forges.gallery": [
-        "projects.forges.gallery.title",
-        "projects.forges.gallery.embed.1"
-    ],
-    "site.pages.hotstuff": [
-        "projects.hotstuff.title",
-        "projects.burners.gallery",
-        "projects.furnace.gallery",
-        "projects.forges.gallery",
-        "site.return"
+  "projects.hotstuff.title":[
+    "site.hopen",
+    "projects.hotstuff.title.text",
+    "site.hclose",
+    "site.bqopen",
+      "site.popen",
+        "Apologies to Donna Summer, Giorgio Morodor, Pete Belotte, Harold Faltemeyer and Keith Forsey &mdash; it ",
+        "just seemed right.",
+      "site.pclose",
+    "site.bqclose",
+    "site.br"
+  ],
+  "projects.hotstuff.title.text":[
+    "site.links.hotstuff"
+  ],
+  "projects.hotstuff.overview.title":[
+    "site.hopen", "Overview", "site.hclose"
+  ],
+  "projects.hotstuff.overview.1": [
+    "site.popen", 
+      "An interest in tooling, casting, and experimental metalwork drove a requirement for a furnace and, potentially, ",
+      "a forge.",
+    "site.pclose"
+  ],
+  "projects.hotstuff.overview.2": [
+    "site.popen", 
+      "A prototype burner was constructed using available materials, existing tooling, and publicly available designs ",
+      "developed by various makers &mdash; predominantly in the United States &mdash; including Ron Reil, Larry Zoeller, ",
+      "and Richard Mize. Refractory materials were also required. Commercial refractory products can be expensive, so ",
+      "a home-made refractory cement was formulated using readily available materials.",
+    "site.pclose"
+  ],
+  "projects.hotstuff.overview.3": [
+    "site.popen", 
+      "The burner was developed first. It was reasoned that if an efficient and reliable burner could not be produced, ",
+      "the remainder of the project would be moot. The prototype burner was considered inherently resistant to flashback ",
+      "because the positive propane pressure prevented air from bleeding back into the gas line. Early testing demonstrated ",
+      "that the prototype required a significantly larger air intake than originally anticipated, and the design was ",
+      "modified accordingly. Later burners adopted a revised geometry.",
+    "site.pclose" 
+  ],
+  "projects.hotstuff.overview.4": [
+    "site.popen", 
+      "The home-made refractory proved surprisingly effective although, as expected, commercial refractory materials ",
+      "performed better in terms of durability and thermal resilience.",
+    "site.pclose" 
+  ],
+  "projects.hotstuff.overview.4": [
+    "site.popen", 
+      "The furnace has been used to melt lead, ZAMAK, aluminium, and copper. Subsequent forge designs were used to produce ",
+      "small decorative pieces, tools, and experimental workpieces. Only a single prototype furnace was constructed, but ",
+      "two prototype forges were built before a satisfactory design was settled upon.",
+    "site.pclose" 
+  ],
+
+  "projects.hotstuff.overview": [
+    "projects.hotstuff.overview.title",
+    "projects.hotstuff.overview.1",
+    "projects.hotstuff.overview.2",
+    "projects.hotstuff.overview.3",
+    "projects.hotstuff.overview.4",
+    "projects.hotstuff.overview.5",
+    "site.br"
+  ],
+
+  "projects.burners.keypoints.title": [
+    "site.hopen", "Key Points - Burners", "site.hclose"
+  ],
+  "projects.burners.keypoints.1": [
+    "site.liopen",
+      "Burner jets were fabricated from inexpensive, repurposed commercial MIG tips.",
+    "site.liclose"
+  ],
+  "projects.burners.keypoints.2": [
+    "site.liopen",
+      "Tubing, in later designs, was silver-soldered using a high-melting-point brazing alloy.",
+    "site.liclose"
+  ],
+  "projects.burners.keypoints.3": [
+    "site.liopen",
+      "Construction relied predominantly on common commercial plumbing fittings and readily available materials.",
+    "site.liclose"
+  ],
+  "projects.burners.keypoints.4": [
+    "site.liopen",
+      "Limited tooling availability was treated as a hard design constraint throughout development.",
+    "site.liclose"
+  ],
+  "projects.burners.keypoints.5": [
+    "site.liopen",
+      "In the absence of a 7/8\" drill bit, a bank-of-holes arrangement was adopted for the burner intake. ",
+      "The rationale was analogous to multi-valve intake arrangements used in high-performance engines and ",
+      "the distributed inlet geometry used in pulse-jet leaf-valve systems.",
+    "site.liclose"
+  ],
+
+  "projects.furnace.keypoints.title": [
+    "site.hopen", "Key Points - Furnace", "site.hclose"
+  ],
+  "projects.furnace.keypoints.1": [
+    "site.liopen",
+      "Prototype refractory formulations were developed from inexpensive, locally available materials before commercial refractory products were introduced.",
+    "site.liclose"
+  ],
+  "projects.furnace.keypoints.2": [
+    "site.liopen",
+      "Furnace shell construction prioritised simplicity, serviceability, and thermal isolation.",
+    "site.liclose"
+  ],
+  "projects.furnace.keypoints.3": [
+    "site.liopen",
+      "Formwork for the home-made castable refractory was fabricated from salvaged Zincalume sheet.",
+    "site.liclose"
+  ],
+  "projects.furnace.keypoints.4": [
+    "site.liopen",
+      "The furnace design proved adequate for melting low- and medium-temperature metals including lead, ZAMAK, aluminium, and copper.",
+    "site.liclose"
+  ],
+  "projects.furnace.keypoints.5": [
+    "site.liopen",
+      "Thermal performance, refractory durability, and burner stability were evaluated empirically during operation.",
+    "site.liclose"
+  ],
+
+  "projects.forges.keypoints.title": [
+    "site.hopen", "Key Points - Forges", "site.hclose"
+  ],
+  "projects.forges.keypoints.1": [
+    "site.liopen",
+      "Multiple forge geometries were prototyped before a satisfactory design was selected.",
+    "site.liclose"
+  ],
+  "projects.forges.keypoints.2": [
+    "site.liopen",
+      "Forge development emphasised ease of construction, thermal efficiency, and burner stability.",
+    "site.liclose"
+  ],
+  "projects.forges.keypoints.3": [
+    "site.liopen",
+      "Refractory selection and burner positioning significantly affected heating uniformity and ",
+      "scaling behaviour.",
+    "site.liclose"
+  ],
+  "projects.forges.keypoints.4": [
+    "site.liopen",
+      "Earlier forges used twin burners derived from the furnace burner design. The final forge ",
+      "employed an entirely new approach; however, cast-iron flares proved unsuitable &mdash; they melted.",
+    "site.liclose"
+  ],
+  "projects.forges.keypoints.5": [
+    "site.liopen",
+      "The completed forge designs were suitable for small tooling, decorative metalwork, and experimental ",
+      "fabrication work.",
+    "site.liclose"
+  ],
+
+  "projects.hotstuff.keypoints": [
+    "projects.burners.keypoints.title",
+    "projects.burners.keypoints.1",
+    "projects.burners.keypoints.2",
+    "projects.burners.keypoints.3",
+    "projects.burners.keypoints.4",
+    "projects.burners.keypoints.5",
+    "site.br",
+    "projects.furnace.keypoints.title",
+    "projects.furnace.keypoints.1",
+    "projects.furnace.keypoints.2",
+    "projects.furnace.keypoints.3",
+    "projects.furnace.keypoints.4",
+    "projects.furnace.keypoints.5",
+    "site.br",
+    "projects.forges.keypoints.title",
+    "projects.forges.keypoints.1",
+    "projects.forges.keypoints.2",
+    "projects.forges.keypoints.3",
+    "projects.forges.keypoints.4",
+    "projects.forges.keypoints.5",
+    "site.br"
+  ],
+
+  "projects.burners.gallery.title": [
+    "site.hopen", "Burner Gallery", "site.hclose"
+  ],
+  "projects.burners.gallery.embed.1": [
+    "site.iopen",
+      "burners",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.burners.gallery": [
+    "projects.burners.gallery.title",
+    "projects.burners.gallery.embed.1"
+  ],
+  "projects.furnace.gallery.title": [
+    "site.hopen", "Furnace Gallery", "site.hclose"
+  ],
+  "projects.furnace.gallery.embed.1": [
+    "site.iopen",
+      "furnace",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.furnace.gallery": [
+    "projects.furnace.gallery.title",
+    "projects.furnace.gallery.embed.1"
+  ],
+  "projects.forges.gallery.title": [
+    "site.hopen", "Forge Gallery", "site.hclose"
+  ],
+  "projects.forges.gallery.embed.1": [
+    "site.iopen",
+      "forges",
+      "site.iclose",
+    "site.br"
+  ],
+  "projects.forges.gallery": [
+    "projects.forges.gallery.title",
+    "projects.forges.gallery.embed.1"
+  ],
+  "projects.hotstuff.discussion.1": [
+    "site.popen", 
+      "An interest in tooling and experimental work drove a requirement for a furnace and, possibly, a forge.",
+      "In the early 90s I had acquired two workshop manuals from 'The Workshop Series'. One was focused on ",
+      "building a charcoal burner from a 40Gal drum and scrap sheet metal &mdash; the other was a solid-fuel ",
+      "furnace that was built in a 12Gal oil drum. Time was, however, a premium and the furnace made use of ",
+      "expensive commercial refractories.",
+    "site.pclose"
+  ],
+  "projects.hotstuff.discussion.2": [
+    "site.popen", 
+      "A decade later,",
+    "site.pclose"
+  ],
+
+  "site.pages.hotstuff": [
+    "projects.hotstuff.title",
+    "projects.hotstuff.overview",
+    "projects.hotstuff.keypoints",
+    "projects.burners.gallery",
+    "projects.furnace.gallery",
+    "projects.forges.gallery",
+    "site.return"
   ]
 }
 

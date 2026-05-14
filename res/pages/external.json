@@ -1,4 +1,10 @@
 {
+  "site.url.hotstuff": [
+    "https://www.youtube.com/watch?v=KhcaPNuaJNU"
+  ],
+  "site.links.hotstuff": [
+    "site.urlopen", "site.url.hotstuff", "site.urlclose", "Hot Stuff Baby!", "site.lclose"
+  ],
   "site.url.systolic": [
     "https://hackmd.io/@ampheo/how-to-do-systolic-architecture-on-fpga-with-verilog"
   ],
