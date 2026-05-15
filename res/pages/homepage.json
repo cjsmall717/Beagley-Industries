@@ -76,11 +76,11 @@
   "site.pages.homepage": [
     "site.who",
     "home.projects.title",
+    "home.hadoopcluster",
     "home.hydrogel",
     "home.luggagebox",
     "home.clamp",
     "home.sickles",
-    "home.hadoopcluster",
     "home.foundation.title",
     "home.hotstuff",
     "home.tooling",
