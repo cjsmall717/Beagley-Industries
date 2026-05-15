@@ -232,6 +232,10 @@
     "projects.forge2.gallery.title",
     "projects.forge2.gallery.embed.1"
   ],
+
+  "projects.hotstuff.videos.title": [
+    "site.hopen", "New Dual Burner Videos", "site.hclose"
+  ],
   "projects.hotstuff.videos": [
     "site.popen", 
       "site.vid.running.1",
@@ -243,6 +247,7 @@
       "site.vid.running.3",
     "site.pclose" 
   ],
+
   "projects.hotstuff.discussion.1": [
     "site.popen", 
       "An interest in tooling and experimental work drove a requirement for a furnace and, possibly, a forge.",
@@ -266,6 +271,7 @@
     "projects.furnace.gallery",
     "projects.forge1.gallery",
     "projects.forge2.gallery",
+    "projects.hotstuff.videos.title",
     "projects.hotstuff.videos",
     "site.return"
   ]
