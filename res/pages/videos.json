@@ -1,0 +1,20 @@
+{
+  "site.src.running.1": [
+    "./res/vid/running_1.mp4"
+  ],
+  "site.vid.running.1": [
+    "site.vopen", "<source src=\"", "site.src.running.1", "\" type=\"video/mp4\">", "site.vclose"
+  ],
+  "site.src.running.2": [
+    "./res/vid/running_2.mp4"
+  ],
+  "site.vid.running.2": [
+    "site.vopen", "<source src=\"", "site.src.running.2", "\" type=\"video/mp4\">", "site.vclose"
+  ],
+  "site.src.running.3": [
+    "./res/vid/running_3.mp4"
+  ],
+  "site.vid.running.3": [
+    "site.vopen", "<source src=\"", "site.src.running.3", "\" type=\"video/mp4\">", "site.vclose"
+  ]
+}

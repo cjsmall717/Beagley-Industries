@@ -6,6 +6,7 @@
     "./res/pages/nav.json",
     "./res/pages/elements.json",
     "./res/pages/external.json",
+    "./res/pages/videos.json",
     "./res/pages/inspirations.json",
 
     "./res/pages/projects/luggagebox.json",

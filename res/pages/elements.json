@@ -62,6 +62,12 @@
   "site.iclose": [
     "]]"
   ],
+  "site.vopen": [
+    "<video id=\"myVideo\" width=\"640\" height=\"360\" controls>"
+  ],
+  "site.vclose": [
+    "</video>"
+  ],
   "site.return": [
     "site.return.open", "site.return.text", "site.return.close"
   ],
