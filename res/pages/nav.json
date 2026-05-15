@@ -83,13 +83,6 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.cray": [
-    "<li class=\"li-link\" onclick=\"loadPage('cray');\">",
-    "site.lopen",
-    "Cray",
-    "site.lclose",
-    "site.liclose"
-  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",
