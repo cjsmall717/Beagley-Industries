@@ -62,6 +62,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.latheacq": [
+    "<li class=\"li-link\" onclick=\"loadPage('latheacq');\">",
+    "site.lopen",
+    "I found a Lathe!",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.early": [
     "<li class=\"li-link\" onclick=\"loadPage('early');\">",
     "site.lopen",

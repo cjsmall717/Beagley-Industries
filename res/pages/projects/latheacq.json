@@ -1,0 +1,22 @@
+{
+  "projects.latheacq.title":[
+    "site.hopen",
+    "projects.latheacq.title.text",
+    "site.hclose",
+    "site.popen",
+    "I Found a Lathe!",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.latheacq.title.text":[
+    "I Found a Lathe!"
+  ],
+  "projects.latheacq.overview.title":[
+    "site.hopen", "Overview", "site.hclose"
+  ],
+  "site.pages.latheacq": [
+    "projects.latheacq.title",
+    "site.return"
+  ]
+}
+

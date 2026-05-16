@@ -45,9 +45,13 @@
     "navigate.greenhouse",
     "site.ulclose"
   ],
-  "home.inspirations": [
-    "navigate.inspirations",
-    "site.br"
+  "home.latherestoration.title": [
+    "site.hopen", "Restoration of Ancient, Cast Iron Wood Lathe", "site.hclose"
+  ],
+  "home.latheacq": [
+    "site.ulopen",
+    "navigate.latheacq",
+    "site.ulclose"
   ],
   "home.reverie.title": [
     "site.hopen", "Reverie", "site.hclose"
@@ -72,7 +76,10 @@
     "navigate.cray",
     "site.ulclose"
   ],
-
+  "home.inspirations": [
+    "navigate.inspirations",
+    "site.br"
+  ],
   "site.pages.homepage": [
     "site.who",
     "home.projects.title",
@@ -85,6 +92,9 @@
     "home.hotstuff",
     "home.tooling",
     "home.greenhouse",
+    "site.br",
+    "home.latherestoration.title",
+    "home.latheacq",
     "site.br",
     "home.reverie.title",
     "home.early",
