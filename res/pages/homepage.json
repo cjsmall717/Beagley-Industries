@@ -71,11 +71,6 @@
     "navigate.bhp",
     "site.ulclose"
   ],
-  "home.cray": [
-    "site.ulopen",
-    "navigate.cray",
-    "site.ulclose"
-  ],
   "home.inspirations": [
     "navigate.inspirations",
     "site.br"
@@ -100,7 +95,6 @@
     "home.early",
     "home.uni",
     "home.bhp",
-    "home.cray",
     "site.br",
     "home.inspirations",
     "site.br",

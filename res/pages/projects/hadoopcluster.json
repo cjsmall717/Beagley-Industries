@@ -16,7 +16,10 @@
     ],
     "projects.hadoopcluster.overview.1":[
         "site.popen",
-        "This system is a self-contained, virtualised reference architecture integrating distributed compute, identity management, messaging, and monitoring into a coherent cluster design.",
+        "Drawing on experience with large-scale analytics infrastructure, I designed and implemented a simplified, security",
+        "centric cluster architecture emphasising maintainability, reproducible deployment, centralised authentication, and", 
+        "reduction of unnecessary orchestration complexity. it is a self-contained, virtualised reference architecture",
+         integrating distributed compute, identity management, messaging, and monitoring into a coherent cluster design.",
         "site.pclose"
     ],
     "projects.hadoopcluster.overview.2":[
