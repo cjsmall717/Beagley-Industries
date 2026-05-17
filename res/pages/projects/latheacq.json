@@ -3,9 +3,6 @@
     "site.hopen",
     "projects.latheacq.title.text",
     "site.hclose",
-    "site.popen",
-    "I Found a Lathe!",
-    "site.pclose",
     "site.br"
   ],
   "projects.latheacq.title.text":[
@@ -19,18 +16,15 @@
     "I Found a Lathe!"
   ],
   "projects.latheacq.gallery.embed": [
-        "projects.latheacq.gallery.embed.1",
-        "projects.latheacq.gallery.embed.2",
-        "projects.latheacq.gallery.embed.3",
-        "projects.latheacq.gallery.embed.4",
-        "projects.latheacq.gallery.embed.5",
-        "projects.latheacq.gallery.embed.6",
-        "projects.latheacq.gallery.embed.7"
-    ],
-    "projects.latheacq.gallery": [
-        "projects.latheacq.gallery.title",
-        "projects.latheacq.gallery.embed"
-    ],
+    "site.iopen",
+    "latheacq",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.latheacq.gallery": [
+    "projects.latheacq.gallery.title",
+    "projects.latheacq.gallery.embed"
+  ],
 
   "site.pages.latheacq": [
     "projects.latheacq.title",
