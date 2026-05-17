@@ -69,6 +69,20 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.rebuild": [
+    "<li class=\"li-link\" onclick=\"loadPage('rebuild');\">",
+    "site.lopen",
+    "The Rebuild Begins!",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.toolrest": [
+    "<li class=\"li-link\" onclick=\"loadPage('toolrest');\">",
+    "site.lopen",
+    "I need a toolrest!",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.early": [
     "<li class=\"li-link\" onclick=\"loadPage('early');\">",
     "site.lopen",

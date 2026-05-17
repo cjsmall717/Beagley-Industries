@@ -1,0 +1,69 @@
+{
+  "projects.toolrest.title":[
+    "site.hopen",
+    "projects.toolrest.title.text",
+    "site.hclose",
+    "site.popen",
+    "Cool Tools, Baby!",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.toolrest.title.text":[
+    "A Place to Rest My Tool!"
+  ],
+
+  "projects.toolrest.overview.title":[
+    "site.hopen", "Overview", "site.hclose"
+  ],
+  "projects.toolrest.overview.1":[
+    "site.popen",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.toolrest.overview.2":[
+    "site.popen",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.toolrest.overview.3":[
+    "site.popen",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.toolrest.overview.4":[
+    "site.popen",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.toolrest.overview":[
+    "projects.toolrest.overview.title",
+    "projects.toolrest.overview.1",
+    "projects.toolrest.overview.2",
+    "projects.toolrest.overview.3",
+    "projects.toolrest.overview.4",
+    "site.br"
+  ],
+
+  "projects.toolrest.gallery.title":[
+    "I Need a Toolrest!"
+  ],
+  "projects.toolrest.gallery.embed": [
+    "site.iopen",
+    "toolrest",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.toolrest.gallery": [
+    "projects.toolrest.gallery.title",
+    "projects.toolrest.gallery.embed"
+  ],
+
+  "site.pages.toolrest": [
+    "projects.toolrest.title",
+    "projects.toolrest.overview",
+    "projects.toolrest.gallery",
+    "site.return"
+  ]
+}
+

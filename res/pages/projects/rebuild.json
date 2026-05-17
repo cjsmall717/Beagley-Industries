@@ -1,0 +1,99 @@
+{
+  "projects.rebuild.title":[
+    "site.hopen",
+    "projects.rebuild.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.rebuild.title.text":[
+    "The Rebuild Begins!"
+  ],
+
+  "projects.rebuild.overview.title":[
+    "site.hopen", "Overview", "site.hclose"
+  ],
+  "projects.rebuild.overview.1":[
+    "site.popen",
+      "Once the decision had been made to restore the old machine, it was completely stripped down and the old paint removed.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.rebuild.overview.2":[
+    "site.popen",
+      "The casting itself was crude and little effort had been expended in finishing it properly. Rather than grinding and ",
+      "dressing the surfaces, some kind of body filler had simply been plastered over the casting to create the illusion ",
+      "of a smooth finish beneath the paint.".
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.rebuild.overview.3":[
+    "site.popen",
+      "All components were cleaned and repainted, and new bearings installed. As fortune would have it, my Harley bearing-puller ",
+      "turned out to be exactly the right size for the job.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.rebuild.overview.4":[
+    "site.popen",
+      "My presumption is that the machine was originally intended to be driven from an overhead line shaft, possibly with a ",
+      "countershaft arrangement mounted on the sliding platform behind the headstock. Surprisingly, the original drive pulley ",
+      "was found amongst the assorted parts acquired with the machine.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.rebuild.overview.5":[
+    "site.popen",
+      "The pulley contained a home-made aluminium bush. A single-phase 2 h.p. motor was purchased, however the motor shaft ",
+      "utilised a 1/4\" key. A matching keyway was cut by hand using a sharpened and honed piece of 1/4\" square tool steel.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.rebuild.overview.6":[
+    "site.popen",
+      "The motor was ultimately mounted onto the sliding platform. Holes were drilled and tapped to accommodate the motor's ",
+      "NEMA-standard mounting arrangement.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.rebuild.overview":[
+    "projects.rebuild.overview.title",
+    "projects.rebuild.overview.1",
+    "projects.rebuild.overview.2",
+    "projects.rebuild.overview.3",
+    "projects.rebuild.overview.4",
+    "projects.rebuild.overview.5",
+    "projects.rebuild.overview.6",
+    "site.br"
+  ],
+
+  "projects.rebuild.gallery.title":[
+    "The Rebuild Begins!"
+  ],
+  "projects.rebuild.gallery.embed.1": [
+    "site.iopen",
+    "rebuild/1",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.rebuild.gallery.embed.2": [
+    "site.iopen",
+    "rebuild/2",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.rebuild.gallery": [
+    "projects.rebuild.gallery.title",
+    "projects.rebuild.gallery.embed.1",
+    "projects.rebuild.gallery.embed.2"
+  ],
+
+  "site.pages.rebuild": [
+    "projects.rebuild.title",
+    "projects.rebuild.overview",
+    "projects.rebuild.gallery",
+    "projects.motor.gallery",
+    "site.return"
+  ]
+}
+

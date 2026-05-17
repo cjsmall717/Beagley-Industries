@@ -20,6 +20,8 @@
     "./res/pages/projects/greenhouse.json",
 
     "./res/pages/projects/latheacq.json",
+    "./res/pages/projects/rebuild.json",
+    "./res/pages/projects/toolrest.json",
 
     "./res/pages/projects/early.json",
     "./res/pages/projects/uni.json",

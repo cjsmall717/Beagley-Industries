@@ -53,6 +53,16 @@
     "navigate.latheacq",
     "site.ulclose"
   ],
+  "home.rebuild": [
+    "site.ulopen",
+    "navigate.rebuild",
+    "site.ulclose"
+  ],
+  "home.toolrest": [
+    "site.ulopen",
+    "navigate.toolrest",
+    "site.ulclose"
+  ],
   "home.reverie.title": [
     "site.hopen", "Reverie", "site.hclose"
   ],
@@ -95,6 +105,8 @@
     "site.br",
     "home.latherestoration.title",
     "home.latheacq",
+    "home.rebuild",
+    "home.toolrest",
     "site.br",
     "home.reverie.title",
     "home.early",
