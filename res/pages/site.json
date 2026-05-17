@@ -41,11 +41,22 @@
       "tend to accumulate at boundaries. Understanding and simplifying those interstitial regions has been a recurring theme throughout my career.",
     "site.pclose"
   ],
+  "site.who.5": [
+    "site.popen",
+      "Technical writing and structured documentation have become important complementary skills throughout my career. Documenting systems was ",
+      "considered to be less than glamorous in some of my prior roles. I'd volunteer to do it because I was pleased to have the opportunity to ",
+      "write in LaTeX, and to (partially) automate the querying whilst reducing complex tables of data down to comprehensible representations ",
+      "without loss of integrity. I routinely used both BibTeX and BiBLaTeX for processing bibliographies, xfig for drawing technical diagrams, ",
+      "and gnuplot for plotting data.",
+    "site.pclose"
+  ],
   "site.who": [
     "site.who.1",
     "site.who.2",
     "site.who.3",
     "site.who.4",
+    "site.who.5",
     "site.br"
   ]
 }
+

@@ -9,7 +9,7 @@
   "navigate.clamp": [
     "<li class=\"li-link\" onclick=\"loadPage('clamp');\">",
     "site.lopen",
-    "Bespoke Controller Clamp for Rallycar Sim",
+    "Bespoke Controller Clamp for Rallycar Simulator",
     "site.lclose",
     "site.liclose"
   ],
@@ -65,7 +65,7 @@
   "navigate.latheacq": [
     "<li class=\"li-link\" onclick=\"loadPage('latheacq');\">",
     "site.lopen",
-    "I found a Lathe!",
+    "I Found a Lathe!",
     "site.lclose",
     "site.liclose"
   ],
@@ -79,7 +79,7 @@
   "navigate.toolrest": [
     "<li class=\"li-link\" onclick=\"loadPage('toolrest');\">",
     "site.lopen",
-    "I need a toolrest!",
+    "I Need a Toolrest!",
     "site.lclose",
     "site.liclose"
   ],
