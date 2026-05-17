@@ -1,7 +1,7 @@
 {
- "projects.thermite.title":[
+  "projects.thermite.title":[
     "site.hopen",
-    "projects.thermite.title.text",
+      "projects.thermite.title.text",
     "site.hclose",
     "site.br"
   ],
@@ -9,15 +9,15 @@
     "Another Fire &mdash; A Cautionary Tale"
   ],
 
-  "projects.thermite.cautionary.title":[
-    "site.hopen", "Cautionary Tales", "site.hclose"
+  "projects.thermite.cautionary.title.1":[
+    "site.hopen", "Hot <i>versus</i> Cold Metal", "site.hclose"
   ],
   "projects.thermite.cautionary.1": [
     "site.popen", 
       "Hot metal looks almost the same as cold metal, below a certain temperature. In daylight, metal that glows",
       "incandescent red in the dark can look unremarkable, but looks can be deceiving and sometimes the 'feel' of",
       "a thing can convey information about item's average kinetic energy far better than it appearance can. To be",
-      "sure, due care is a far better substitute than the surprising realisation that, \"YOW!!! THAT'S HOT!!!\"",
+      "sure, due care is a far better substitute than the surprising realisation that, <b>\"YOW!!! THAT'S HOT!!!\"</b>",
     "site.pclose",
     "site.br"
   ],
@@ -28,9 +28,12 @@
       "aloft, \"Hey, Sir, how hot would I have to heat this before it melts?\" The unsuspecting teacher reached towards",
       "the ruler. It was a slow-motion train-wreck. It was inconceivable that the kid would not pull the ruler back.",
       "With a yelp of pain, anger, surprise and ignominy, the teacher turned a funny shade of purple and started yelling.",
-      "Hot metal looks *exactly like cold metal*.",
+      "Hot metal looks <i>exactly like cold metal</i>.",
     "site.pclose",
     "site.br"
+  ],
+  "projects.thermite.cautionary.title.2":[
+    "site.hopen", "Dangers Posed By Unknown Metals", "site.hclose"
   ],
   "projects.thermite.cautionary.3": [
     "site.popen", 
@@ -52,8 +55,8 @@
   "projects.thermite.cautionary.5": [
     "site.popen",
       "I broked the caddies up into pieces, loaded the crucible and waited for it to melt. Soon I realised that ",
-      "there was more energy coming *out* of the crucible than I was putting in. \"Ohhh, SHIT!!!\" (Enlightenment ",
-      "is not always well received but, sometimes, it can be life-changing.).",
+      "there was more energy coming <i>out</i> of the crucible than I was putting in. <b>\"Ohhh, SHIT!!!\"</b> ",
+      "(Enlightenment is not always well received but, sometimes, it can be life-changing.).",
     "site.pclose",
     "site.br"
   ],
@@ -61,30 +64,40 @@
     "site.popen",
     "This was another of those times when I caused the problem, belatedly understood the danger, and took immediate,",
     "though not risk free (my own life and limb) steps to ameliorate the problem. In this instance, the rusty steel ",
-    "crucible coupled with the high magnesium aluminium alloy was a potential disaster. I pulled it out of the furnace, ",
-    "dropped it onto a refractory block, then poured dry greensand over it. Smoke was coming out of my 500mm high mountain. ",
-    "I suddenly had my very own backyard volcano &mdash; I was shitting cinder-blocks! For the next two hours, I *carefully* ",
-    "misted my fiery mountain to facilitate evaporative cooling, (being painfully aware of the danger of too much water). ",
-    "I regained control.",
+    "crucible coupled with the high magnesium aluminium alloy was a potential disaster. Magnesium-bearing alloys can ",
+    "burn intensely once ignited and may react dangerously with water or oxidised contaminants.",
     "site.pclose",
     "site.br"
   ],
+
   "projects.thermite.cautionary.7": [
     "site.popen",
-      "I just don't find fire as exciting as when I was young,",
+    "I pulled the glowing crucible out of the furnace, dropped it onto a refractory block, then poured dry greensand ",
+    "over it. Smoke was coming out of my 500mm high mountain of casting sand. I suddenly had my very own backyard ",
+    "volcano &mdash; I was shitting cinder-blocks! For the next two hours, I <i>carefully</i> monitored and misted ",
+    "my fiery backyard Vesivius to facilitate evaporative cooling, (being painfully aware of the danger and consequences ",
+    "of too much water). I regained control.",
     "site.pclose",
     "site.br"
   ],
-  "projects.pages.thermite": [
+  "projects.thermite.cautionary.8": [
+    "site.popen",
+      "I just don't find fire as exciting as when I was young.",
+    "site.pclose",
+    "site.br"
+  ],
+  "site.pages.thermite": [
     "projects.thermite.title",
-    "projects.thermite.cautionary.title",
+    "projects.thermite.cautionary.title.1",
     "projects.thermite.cautionary.1",
     "projects.thermite.cautionary.2",
+    "projects.thermite.cautionary.title.2",
     "projects.thermite.cautionary.3",
     "projects.thermite.cautionary.4",
     "projects.thermite.cautionary.5",
     "projects.thermite.cautionary.6",
     "projects.thermite.cautionary.7",
+    "projects.thermite.cautionary.8",
     "site.return"
   ]
 }
