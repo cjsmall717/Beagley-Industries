@@ -71,6 +71,11 @@
     "navigate.bhp",
     "site.ulclose"
   ],
+  "home.thermite": [
+    "site.ulopen",
+    "navigate.thermite",
+    "site.ulclose"
+  ],
   "home.inspirations": [
     "navigate.inspirations",
     "site.br"
@@ -95,6 +100,7 @@
     "home.early",
     "home.uni",
     "home.bhp",
+    "home.thermite",
     "site.br",
     "home.inspirations",
     "site.br",

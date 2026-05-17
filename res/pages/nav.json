@@ -90,6 +90,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.thermite": [
+    "<li class=\"li-link\" onclick=\"loadPage('thermite');\">",
+    "site.lopen",
+    "Another Fire &mdash; A Cautionary Tale",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",

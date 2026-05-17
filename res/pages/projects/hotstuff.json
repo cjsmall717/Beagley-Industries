@@ -46,14 +46,13 @@
       "performed better in terms of durability and thermal resilience.",
     "site.pclose" 
   ],
-  "projects.hotstuff.overview.4": [
+  "projects.hotstuff.overview.5": [
     "site.popen", 
       "The furnace has been used to melt lead, ZAMAK, aluminium, and copper. Subsequent forge designs were used to produce ",
       "small decorative pieces, tools, and experimental workpieces. Only a single prototype furnace was constructed, but ",
       "two prototype forges were built before a satisfactory design was settled upon.",
     "site.pclose" 
   ],
-
   "projects.hotstuff.overview": [
     "projects.hotstuff.overview.title",
     "projects.hotstuff.overview.1",
