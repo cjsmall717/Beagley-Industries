@@ -1,4 +1,10 @@
 {
+  "site.url.slackware": [
+    "http://www.slackware.com/"
+  ],
+  "site.links.slackware": [
+    "site.urlopen", "site.url.slackware", "site.urlclose", "Thirty-three years a Slacker!", "site.lclose"
+  ],
   "site.url.hotstuff": [
     "https://www.youtube.com/watch?v=KhcaPNuaJNU"
   ],

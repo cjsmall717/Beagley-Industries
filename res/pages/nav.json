@@ -83,6 +83,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.competencies": [
+    "<li class=\"li-link\" onclick=\"loadPage('competencies');\">",
+    "site.lopen",
+    "Software!",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.early": [
     "<li class=\"li-link\" onclick=\"loadPage('early');\">",
     "site.lopen",

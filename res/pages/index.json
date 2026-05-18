@@ -23,6 +23,8 @@
     "./res/pages/projects/rebuild.json",
     "./res/pages/projects/toolrest.json",
 
+    "./res/pages/projects/competencies.json",
+
     "./res/pages/projects/early.json",
     "./res/pages/projects/uni.json",
     "./res/pages/projects/bhp.json",

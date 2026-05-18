@@ -63,6 +63,14 @@
     "navigate.toolrest",
     "site.ulclose"
   ],
+  "home.competencies.title": [
+    "site.hopen", "Technical Competencies", "site.hclose"
+  ],
+  "home.competencies": [
+    "site.ulopen",
+    "navigate.competencies",
+    "site.ulclose"
+  ],
   "home.reverie.title": [
     "site.hopen", "Reverie", "site.hclose"
   ],
@@ -107,6 +115,9 @@
     "home.latheacq",
     "home.rebuild",
     "home.toolrest",
+    "site.br",
+    "home.competencies.title",
+    "home.competencies",
     "site.br",
     "home.reverie.title",
     "home.early",

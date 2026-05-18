@@ -23,37 +23,49 @@
     "site.popen",
       "Systems and platform engineer experienced in high-performance, large-scale environments, with a foundation in biology and chemistry, ",
       "including work relating to biosynthetic pathway elucidation and conducting polymer &mdash; hydrogel systems.",
-    "site.pclose"
+    "site.pclose",
+    "site.br"
   ],
 
   "site.who.2": [
     "site.popen",
-      "Experience includes 27 years in high-impact operational environments (BHP, Cray Inc.), working with large-scale systems under real constraints, ",
-      "in addition to five years in research.",
-    "site.pclose"
+      "Experience includes 27 years in high-impact operational environments (BHP, OneSteel, Billiton, DIMIA/DIAC, Cray Inc.), working with ",
+      "large-scale systems under real constraints in addition to five years in research.",
+    "site.pclose",
+    "site.br"
   ],
 
   "site.who.3": [
-    "site.popen", "I design, build, and troubleshoot complex systems across software, hardware, and experimental domains.", "site.pclose"
+    "site.popen", "I design, build, and troubleshoot complex systems across software, hardware, and experimental domains.", "site.pclose",
+    "site.br"
   ],
   "site.who.4": [
     "site.popen",
       "Much of my work has involved operating at the interfaces between systems &mdash; hardware and software, legacy and modern infrastructure, ",
       "engineering and business systems, or incompatible protocols and architectures. In my experience, complexity, fragility, and opportunity ",
       "tend to accumulate at boundaries. Understanding and simplifying those interstitial regions has been a recurring theme throughout my career.",
-    "site.pclose"
+    "site.pclose",
+    "site.br"
   ],
   "site.who.5": [
     "site.popen",
       "Technical writing and structured documentation have become important complementary skills throughout my career. Documenting systems was ",
       "considered to be less than glamorous in some of my prior roles. I often volunteered to do it because it provided an opportunity to write ",
       "in LaTeX and to partially automate the querying and reduction of complex datasets into comprehensible representations without loss of integrity.",
-    "site.pclose"
+    "site.pclose",
+    "site.br"
   ],
   "site.who.6": [
     "site.popen",
-      "I routinely used both BibTeX and BibLaTeX for bibliography management, xfig for technical diagrams, and gnuplot for data visualisation.",
-    "site.pclose"
+      "I routinely used both BibTeX and BibLaTeX for bibliography management, xfig for technical diagrams, and gnuplot for data visualisation. ",
+    "site.pclose",
+    "site.br"
+  ],
+  "site.who.7": [
+    "site.popen",
+      "site.links.slackware",
+    "site.pclose",
+    "site.br"
   ],
   "site.who": [
     "site.who.1",
@@ -62,6 +74,7 @@
     "site.who.4",
     "site.who.5",
     "site.who.6",
+    "site.who.7",
     "site.br"
   ]
 }
