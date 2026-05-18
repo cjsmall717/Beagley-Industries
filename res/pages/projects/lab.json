@@ -1,0 +1,59 @@
+{
+  "projects.lab.title":[
+    "site.hopen",
+      "projects.lab.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.lab.title.text":[
+    "Research and Laboratory Experience"
+  ],
+
+  "projects.lab.demo.1": [
+    "site.liopen", 
+      "Organic and Inorganic synthesis",
+    "site.liclose"
+  ],
+  "projects.lab.demo.2": [
+    "site.liopen", 
+      "Conducting Polymer and hydrogel systems",
+    "site.liclose"
+  ],
+  "projects.lab.demo.3": [
+    "site.liopen", 
+      "Biosynthetic pathway elucidation",
+    "site.liclose"
+  ],
+  "projects.lab.demo.4": [
+    "site.liopen", 
+      "Instrumental Analysis (Electrochemical, Spectrometric, Scintillation Counting, ELISA Assay)",
+    "site.liclose"
+  ],
+  "projects.lab.demo.5": [
+    "site.liopen", 
+      "Experimental laboratory practice",
+    "site.liclose"
+  ],
+  "projects.lab.demo.6": [
+    "site.liopen", 
+      "Scientific documentation and analysis",
+    "site.liclose"
+  ],
+  "projects.lab.demo": [
+    "site.ulopen",
+    "projects.lab.demo.1",
+    "projects.lab.demo.2",
+    "projects.lab.demo.3",
+    "projects.lab.demo.4",
+    "projects.lab.demo.5",
+    "projects.lab.demo.6",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.lab": [
+    "projects.lab.title",
+    "projects.lab.demo",
+    "site.return"
+  ]
+}

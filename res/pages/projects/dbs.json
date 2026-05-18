@@ -1,0 +1,53 @@
+{
+  "projects.dbs.title":[
+    "site.hopen",
+      "projects.dbs.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.dbs.title.text":[
+    "Database and Data Systems"
+  ],
+
+  "projects.dbs.demo.1": [
+    "site.liopen", 
+      "PostgreSQL",
+    "site.liclose"
+  ],
+  "projects.dbs.demo.2": [
+    "site.liopen", 
+      "Cassandra",
+    "site.liclose"
+  ],
+  "projects.dbs.demo.3": [
+    "site.liopen", 
+      "MariaDB",
+    "site.liclose"
+  ],
+  "projects.dbs.demo.4": [
+    "site.liopen", 
+      "Apache Drill",
+    "site.liclose"
+  ],
+  "projects.dbs.demo.5": [
+    "site.liopen", 
+      "Cray Graph Engine",
+    "site.liclose"
+  ],
+  "projects.dbs.demo": [
+    "site.ulopen",
+    "projects.dbs.demo.1",
+    "projects.dbs.demo.2",
+    "projects.dbs.demo.3",
+    "projects.dbs.demo.4",
+    "projects.dbs.demo.5",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.dbs": [
+    "projects.dbs.title",
+    "projects.dbs.demo",
+    "site.return"
+  ]
+}

@@ -23,7 +23,13 @@
     "./res/pages/projects/rebuild.json",
     "./res/pages/projects/toolrest.json",
 
-    "./res/pages/projects/competencies.json",
+    "./res/pages/projects/osi.json",
+    "./res/pages/projects/aim.json",
+    "./res/pages/projects/dbs.json",
+    "./res/pages/projects/mon.json",
+    "./res/pages/projects/prg.json",
+    "./res/pages/projects/doc.json",
+    "./res/pages/projects/lab.json",
 
     "./res/pages/projects/early.json",
     "./res/pages/projects/uni.json",

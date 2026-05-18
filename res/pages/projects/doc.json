@@ -1,0 +1,53 @@
+{
+  "projects.doc.title":[
+    "site.hopen",
+      "projects.doc.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.doc.title.text":[
+    "Documentation and Technical Publishing"
+  ],
+
+  "projects.doc.demo.1": [
+    "site.liopen", 
+      "LaTeX",
+    "site.liclose"
+  ],
+  "projects.doc.demo.2": [
+    "site.liopen", 
+      "BibTeX",
+    "site.liclose"
+  ],
+  "projects.doc.demo.3": [
+    "site.liopen", 
+      "BibLaTeX",
+    "site.liclose"
+  ],
+  "projects.doc.demo.4": [
+    "site.liopen", 
+      "Technical diagramming using xfig",
+    "site.liclose"
+  ],
+  "projects.doc.demo.5": [
+    "site.liopen", 
+      "Data visualisation using gnuplot",
+    "site.liclose"
+  ],
+  "projects.doc.demo": [
+    "site.ulopen",
+    "projects.doc.demo.1",
+    "projects.doc.demo.2",
+    "projects.doc.demo.3",
+    "projects.doc.demo.4",
+    "projects.doc.demo.5",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.doc": [
+    "projects.doc.title",
+    "projects.doc.demo",
+    "site.return"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "projects.aim.title":[
+    "site.hopen",
+      "projects.aim.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.aim.title.text":[
+    "Identity and Authentication"
+  ],
+
+  "projects.aim.demo.1": [
+    "site.liopen", 
+      "OpenLDAP",
+    "site.liclose"
+  ],
+  "projects.aim.demo.2": [
+    "site.liopen", 
+      "MIT Kerberos 5",
+    "site.liclose"
+  ],
+  "projects.aim.demo.3": [
+    "site.liopen", 
+      "FreeIPA",
+    "site.liclose"
+  ],
+  "projects.aim.demo.4": [
+    "site.liopen", 
+      "Enterprise identity and authentication infrastructure - Integration",
+    "site.liclose"
+  ],
+  "projects.aim.demo": [
+    "site.ulopen",
+    "projects.aim.demo.1",
+    "projects.aim.demo.2",
+    "projects.aim.demo.3",
+    "projects.aim.demo.4",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.aim": [
+    "projects.aim.title",
+    "projects.aim.demo",
+    "site.return"
+  ]
+}

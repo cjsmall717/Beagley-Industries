@@ -1,0 +1,66 @@
+{
+  "projects.mon.title":[
+    "site.hopen",
+      "projects.mon.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.mon.title.text":[
+    "Monitoring and Operations"
+  ],
+
+  "projects.mon.demo.1": [
+    "site.liopen", 
+      "Nagios",
+    "site.liclose"
+  ],
+  "projects.mon.demo.2": [
+    "site.liopen", 
+      "Icinga2",
+    "site.liclose"
+  ],
+  "projects.mon.demo.3": [
+    "site.liopen", 
+      "Graphana",
+    "site.liclose"
+  ],
+  "projects.mon.demo.4": [
+    "site.liopen", 
+      "Ganglia",
+    "site.liclose"
+  ],
+  "projects.mon.demo.5": [
+    "site.liopen", 
+      "Tivoli",
+    "site.liclose"
+  ],
+  "projects.mon.demo.6": [
+    "site.liopen", 
+      "Polycenter",
+    "site.liclose"
+  ],
+  "projects.mon.demo.7": [
+    "site.liopen", 
+      "Operational Monitoring and Systems Observability",
+    "site.liclose"
+  ],
+
+  "projects.mon.demo": [
+    "site.ulopen",
+    "projects.mon.demo.1",
+    "projects.mon.demo.2",
+    "projects.mon.demo.3",
+    "projects.mon.demo.4",
+    "projects.mon.demo.5",
+    "projects.mon.demo.6",
+    "projects.mon.demo.7",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.mon": [
+    "projects.mon.title",
+    "projects.mon.demo",
+    "site.return"
+  ]
+}

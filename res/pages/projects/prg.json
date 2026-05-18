@@ -1,0 +1,59 @@
+{
+  "projects.prg.title":[
+    "site.hopen",
+      "projects.prg.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.prg.title.text":[
+    "Programming and Scripting"
+  ],
+
+  "projects.prg.demo.1": [
+    "site.liopen", 
+      "C",
+    "site.liclose"
+  ],
+  "projects.prg.demo.2": [
+    "site.liopen", 
+      "Awk",
+    "site.liclose"
+  ],
+  "projects.prg.demo.3": [
+    "site.liopen", 
+      "Python",
+    "site.liclose"
+  ],
+  "projects.prg.demo.4": [
+    "site.liopen", 
+      "Java",
+    "site.liclose"
+  ],
+  "projects.prg.demo.5": [
+    "site.liopen", 
+      "R",
+    "site.liclose"
+  ],
+  "projects.prg.demo.6": [
+    "site.liopen", 
+      "Verilog",
+    "site.liclose"
+  ],
+  "projects.prg.demo": [
+    "site.ulopen",
+    "projects.prg.demo.1",
+    "projects.prg.demo.2",
+    "projects.prg.demo.3",
+    "projects.prg.demo.4",
+    "projects.prg.demo.5",
+    "projects.prg.demo.6",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.prg": [
+    "projects.prg.title",
+    "projects.prg.demo",
+    "site.return"
+  ]
+}

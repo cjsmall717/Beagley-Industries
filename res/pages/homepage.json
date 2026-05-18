@@ -66,11 +66,43 @@
   "home.competencies.title": [
     "site.hopen", "Technical Competencies", "site.hclose"
   ],
-  "home.competencies": [
+ 
+  "home.osi": [
     "site.ulopen",
-    "navigate.competencies",
+    "navigate.osi",
     "site.ulclose"
   ],
+  "home.aim": [
+    "site.ulopen",
+    "navigate.aim",
+    "site.ulclose"
+  ],
+  "home.dbs": [
+    "site.ulopen",
+    "navigate.dbs",
+    "site.ulclose"
+  ],
+  "home.mon": [
+    "site.ulopen",
+    "navigate.mon",
+    "site.ulclose"
+  ],
+  "home.prg": [
+    "site.ulopen",
+    "navigate.prg",
+    "site.ulclose"
+  ],
+  "home.doc": [
+    "site.ulopen",
+    "navigate.doc",
+    "site.ulclose"
+  ],
+  "home.lab": [
+    "site.ulopen",
+    "navigate.lab",
+    "site.ulclose"
+  ],
+
   "home.reverie.title": [
     "site.hopen", "Reverie", "site.hclose"
   ],
@@ -117,7 +149,13 @@
     "home.toolrest",
     "site.br",
     "home.competencies.title",
-    "home.competencies",
+    "home.osi",
+    "home.aim",
+    "home.dbs",
+    "home.mon",
+    "home.prg",
+    "home.doc",
+    "home.lab",
     "site.br",
     "home.reverie.title",
     "home.early",
@@ -130,6 +168,3 @@
     "site.beagle"
   ]
 }
-
-
-

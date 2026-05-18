@@ -83,10 +83,52 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.competencies": [
-    "<li class=\"li-link\" onclick=\"loadPage('competencies');\">",
+  "navigate.osi": [
+    "<li class=\"li-link\" onclick=\"loadPage('osi');\">",
     "site.lopen",
-    "Software!",
+    "Operating Systems and Infrastructure",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.aim": [
+    "<li class=\"li-link\" onclick=\"loadPage('aim');\">",
+    "site.lopen",
+    "Identity and Authentication",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.dbs": [
+    "<li class=\"li-link\" onclick=\"loadPage('dbs');\">",
+    "site.lopen",
+    "Databases and Data Systems",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.mon": [
+    "<li class=\"li-link\" onclick=\"loadPage('mon');\">",
+    "site.lopen",
+    "Monitoring and Operations",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.prg": [
+    "<li class=\"li-link\" onclick=\"loadPage('prg');\">",
+    "site.lopen",
+    "Programming and Scripting",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.doc": [
+    "<li class=\"li-link\" onclick=\"loadPage('doc');\">",
+    "site.lopen",
+    "Documentation and Technical Publishing",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.lab": [
+    "<li class=\"li-link\" onclick=\"loadPage('lab');\">",
+    "site.lopen",
+    "Research and Laboratory Experience",
     "site.lclose",
     "site.liclose"
   ],

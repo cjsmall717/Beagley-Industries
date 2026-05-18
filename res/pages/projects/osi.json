@@ -1,0 +1,97 @@
+{
+  "projects.osi.title":[
+    "site.hopen",
+      "projects.osi.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.osi.title.text":[
+    "Operating Systems and Infrastructure"
+  ],
+
+  "projects.osi.demo.1": [
+    "site.liopen", 
+      "Linux",
+    "site.liclose"
+  ],
+  "projects.osi.demo.2": [
+    "site.liopen", 
+      "BSD Variants",
+    "site.liclose"
+  ],
+  "projects.osi.demo.3": [
+    "site.liopen", 
+      "AIX",
+    "site.liclose"
+  ],
+  "projects.osi.demo.4": [
+    "site.liopen", 
+      "HP/UX",
+    "site.liclose"
+  ],
+  "projects.osi.demo.5": [
+    "site.liopen", 
+      "Digital Unix, Tru64, OSF/1",
+    "site.liclose"
+  ],
+  "projects.osi.demo.6": [
+    "site.liopen", 
+      "DG/UX",
+    "site.liclose"
+  ],
+  "projects.osi.demo.7": [
+    "site.liopen", 
+      "Solaris/SunOS",
+    "site.liclose"
+  ],
+  "projects.osi.demo.8": [
+    "site.liopen", 
+      "IRIX",
+    "site.liclose"
+  ],
+  "projects.osi.demo.9": [
+    "site.liopen", 
+      "SCO",
+    "site.liclose"
+  ],
+  "projects.osi.demo.10": [
+    "site.liopen", 
+      "VMS/VAX, VMS/AXP",
+    "site.liclose"
+  ],
+  "projects.osi.demo.11": [
+    "site.liopen", 
+      "MVS",
+    "site.liclose"
+  ],
+  "projects.osi.demo.12": [
+    "site.liopen", 
+      "AmigaDOS",
+    "site.liclose"
+  ],
+
+  "projects.osi.demo": [
+    "site.ulopen",
+    "projects.osi.demo.1",
+    "projects.osi.demo.2",
+    "projects.osi.demo.3",
+    "projects.osi.demo.4",
+    "projects.osi.demo.5",
+    "projects.osi.demo.6",
+    "projects.osi.demo.7",
+    "projects.osi.demo.8",
+    "projects.osi.demo.9",
+    "projects.osi.demo.10",
+    "projects.osi.demo.11",
+    "projects.osi.demo.12",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.osi": [
+    "projects.osi.title",
+    "projects.osi.demo",
+    "site.return"
+  ]
+}
+
