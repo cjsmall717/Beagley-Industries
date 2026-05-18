@@ -1,0 +1,66 @@
+{
+  "projects.sci.title":[
+    "site.hopen",
+      "projects.sci.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.sci.title.text":[
+    "Molecular Modelling and Scientific Computing"
+  ],
+
+  "projects.sci.demo.1": [
+    "site.liopen", 
+      "Amber3a",
+    "site.liclose"
+  ],
+  "projects.sci.demo.2": [
+    "site.liopen", 
+      "Biosym Insight II ",
+    "site.liclose"
+  ],
+  "projects.sci.demo.3": [
+    "site.liopen", 
+      "Mopac",
+    "site.liclose"
+  ],
+  "projects.sci.demo.4": [
+    "site.liopen", 
+      "NAMD",
+    "site.liclose"
+  ],
+  "projects.sci.demo.5": [
+    "site.liopen", 
+      "GAMESS",
+    "site.liclose"
+  ],
+  "projects.sci.demo.6": [
+    "site.liopen", 
+      "Z-matrix molecular descriptions",
+    "site.liclose"
+  ],
+  "projects.sci.demo.7": [
+    "site.liopen", 
+      "Computational Chemistry Workflows",
+    "site.liclose"
+  ],
+
+  "projects.sci.demo": [
+    "site.ulopen",
+    "projects.sci.demo.1",
+    "projects.sci.demo.2",
+    "projects.sci.demo.3",
+    "projects.sci.demo.4",
+    "projects.sci.demo.5",
+    "projects.sci.demo.6",
+    "projects.sci.demo.7",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.sci": [
+    "projects.sci.title",
+    "projects.sci.demo",
+    "site.return"
+  ]
+}

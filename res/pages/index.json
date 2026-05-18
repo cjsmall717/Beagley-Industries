@@ -29,6 +29,7 @@
     "./res/pages/projects/mon.json",
     "./res/pages/projects/prg.json",
     "./res/pages/projects/doc.json",
+    "./res/pages/projects/sci.json",
     "./res/pages/projects/lab.json",
 
     "./res/pages/projects/early.json",

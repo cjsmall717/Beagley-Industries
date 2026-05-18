@@ -97,6 +97,11 @@
     "navigate.doc",
     "site.ulclose"
   ],
+  "home.sci": [
+    "site.ulopen",
+    "navigate.sci",
+    "site.ulclose"
+  ],
   "home.lab": [
     "site.ulopen",
     "navigate.lab",
@@ -155,6 +160,7 @@
     "home.mon",
     "home.prg",
     "home.doc",
+    "home.sci",
     "home.lab",
     "site.br",
     "home.reverie.title",

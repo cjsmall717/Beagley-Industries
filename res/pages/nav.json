@@ -125,6 +125,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.sci": [
+    "<li class=\"li-link\" onclick=\"loadPage('sci');\">",
+    "site.lopen",
+    "Molecular Modelling and Scientific Computing",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.lab": [
     "<li class=\"li-link\" onclick=\"loadPage('lab');\">",
     "site.lopen",
