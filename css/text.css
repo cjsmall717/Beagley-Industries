@@ -28,11 +28,13 @@
     text-shadow: 1px 1px 2px black;
 }
 
+
 .footer-text {
     /* color: #958f90; */
     color: var(--text-colour);
     position: static;
 }
+
 
 .subtle-text {
     /* color: #958f90; */
@@ -52,6 +54,22 @@
     font-size: 10pt;
     margin: 0;
 }
+
+.motto-text {
+    color: var(--perm-colour);
+    opacity: 0.75;
+    font-size: 0.9rem;
+}
+
+
+/*
+.motto-text {
+    color: var(--perm-colour);
+    margin-top: 0.6rem;
+    opacity: 0.75;
+    font-size: 0.9rem;
+}
+*/
 
 .ul-normal {
     color: var(--ul-colour);

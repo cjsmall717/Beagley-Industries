@@ -8,7 +8,13 @@ export function headerContent(){
 
 export function footerContent(){
     return `
-    <p class="copy-text">&copy; 2026 C. Small. All rights reserved.</p>
-    <p class="perm-text">Site technical design used with permission.</p>
+    <div class="footer-top">
+        <p class="copy-text">&copy; 2026 C. Small. All rights reserved.</p>
+        <p class="perm-text">Site technical design used with permission.</p>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="motto-text"><i>Ad Majorem Dei Gloriam</i></p>
+    </div>
     `;
 }
