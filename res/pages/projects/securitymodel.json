@@ -133,7 +133,7 @@
   ],
   "projects.security.components.9": [
     "site.liopen", 
-      "CyrusSASL — Library to facilitate authentication mechanisms.",
+      "CyrusSASL — Library to facilitate authentication mechanisms, particularly GSSAPI.",
     "site.liclose"
   ],
   "projects.security.components": [
@@ -147,6 +147,7 @@
       "projects.security.components.6",
       "projects.security.components.7",
       "projects.security.components.8",
+      "projects.security.components.9",
     "site.ulclose",
     "site.br"
   ],
