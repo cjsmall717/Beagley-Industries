@@ -11,13 +11,13 @@
   "projects.security.overview.title": [
     "site.br", 
     "site.hopen", 
-      "Overview of Components and Architecture", 
+      "Overview of Requirements, Components and Architecture", 
     "site.hclose",
     "site.br"
   ],
   "projects.security.overview.1": [
     "site.popen", 
-      "OpenLDAP", 
+      "Security has become a buzzword soup, driven by recipes, used by wannabe chefs who produce a soup but cannot understand why it would be best fed to the dogs.", 
     "site.pclose",
     "site.br"
   ],
