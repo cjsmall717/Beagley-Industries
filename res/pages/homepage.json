@@ -1,6 +1,6 @@
 {
   "home.projects.title": [
-    "site.hopen", "Selected Work", "site.hclose"
+    "site.hopen", "Selected Work", "site.hclose", "site.br"
   ],
   "home.clamp": [
     "site.ulopen",
@@ -25,6 +25,11 @@
   "home.hadoopcluster": [
     "site.ulopen",
     "navigate.hadoopcluster",
+    "site.ulclose"
+  ],
+  "home.securitymodel": [
+    "site.ulopen",
+    "navigate.securitymodel",
     "site.ulclose"
   ],
   "home.foundation.title": [
@@ -137,12 +142,15 @@
   ],
   "site.pages.homepage": [
     "site.who",
+    "site.br",
     "home.projects.title",
     "home.hadoopcluster",
+    "home.securitymodel",
     "home.hydrogel",
     "home.luggagebox",
     "home.clamp",
     "home.sickles",
+    "site.br",
     "home.foundation.title",
     "home.hotstuff",
     "home.tooling",

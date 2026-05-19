@@ -28,5 +28,11 @@
   ],
   "site.links.beagle": [
     "site.urlopen", "site.url.beagle", "site.urlclose", "O' Beaglaoich", "site.lclose"
+  ],
+  "site.url.travellingon": [
+    "https://www.chr.org.au/books/Travelling-On.pdf"
+  ],
+  "site.links.travellingon": [
+    "site.urlopen", "site.url.travellingon", "site.urlclose", "Travelling On", "site.lclose"
   ]
 }

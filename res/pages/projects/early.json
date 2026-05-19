@@ -1,111 +1,262 @@
-{ "projects.early.title":[
+{ 
+  "reverie.early.title":[
     "site.hopen",
-    "projects.early.title.text",
-    "site.hclose",
-    "projects.intro.discussion.1",
-    "projects.intro.discussion.2",
-    "projects.intro.discussion.3",
-    "projects.intro.discussion.4",
-    "site.br"
+      "reverie.early.title.text",
+    "site.hclose"
   ],
-  "projects.early.title.text":[
+  "reverie.early.title.text":[
     "Contemplations, Beers, Poetry ... and the Occasional Fire"
   ],
-  "projects.intro.discussion.1": [
+
+  "reverie.intro.title": [
+    "site.hopen",
+      "The Early Years",
+    "site.hclose"
+  ],
+  "reverie.intro.discussion.1": [
+    "site.popen", 
+      "My parents taught me a great many things. I've become fairly self-reliant and don't shy away from difficulty. They taught me to use ",
+      "what I have available to me; to be satisfied with what I do have; to be thankful in good times, and to weather the bad with dignity. ",
+      "Pa taught me to solder, rivet, to work with sheet metal, to garden. He introduced me to Omar Khayyam, Ohenry, and Henry W. Longfellow. ",
+      "Ma taught me to sew, cook, and how to do long division when no one else seemed capable of doing so. I have much to be grateful for.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.intro.discussion.2": [
   "site.popen", 
-    "My parents taught me a great many things. I've become fairly self-reliant and don't shy away from difficulty. They taught me to use what I have available to me; to be satisfied with what I do have; to be thankful in good times, and to weather the bad with dignity. Pa taught me to solder, rivet, to work with sheet metal, to garden. He introduced me to Omar Khayyam, Ohenry, and Henry W. Longfellow. Ma taught me to sew, cook, and how to do long division when no one else seemed capable of doing so. I have much to be grateful for.",
+    "I was turning three. My father and I were sharing a birthday celebration &mdash; he was turning 35. We had two modest cakes and mine was ",
+    "adorned with four candles. I asked my father how many candles we'd need to put on his cake. Family legend holds that, on being informed ",
+    "of the number, I grimly asserted that we'd need to light a fire on his cake.",
   "site.pclose", 
   "site.br"
   ],
-    "projects.intro.discussion.2": [
-    "site.popen", 
-      "1974 was a difficult year — the first time I experienced tyranny directly, and the first time I confronted it head-on, though not for entirely altruistic reasons. I recently asked my father, a couple of times, if he had intervened and resolved the difficulties that I, and my classmates were enduring. He told me that he had not. I have no idea if it was my action, or that of another child's parent that resulted in a positive outcome, but either way, it was a welcome change.",
-    "site.pclose", 
-    "site.br"
-    ],
-    "projects.intro.discussion.3": [
-    "site.popen", 
-      "In addition to the other difficulties, at school, I'd been placed in the 'dumb class'. I'm not the sharpest tool in the drawer but I was also fairly certain that I was not a spoon and consequently, in the wrong drawer. I resolved to fix it because it greatly disturbed me. The teacher had us all read, one day. She listened as I read and mumbled that, perhaps, I should be given the same reader that the `A-class' were using. She had forgotten, apparently, because it did not happen. I confronted her one day and asked when I was getting the book. Looking down at me, she asked if I thought I could read it. I responded, \"Yes, Sister, I think so!\". I'd already read it, cover to cover, a dozen times in the two years previous.",
-    "site.pclose", 
-    "site.br"
-    ],
-    "projects.intro.discussion.4": [
+  "reverie.intro.discussion.3": [
     "site.popen", 
       "Thus the tone was set for the rest of my life.",
     "site.pclose", 
     "site.br"
-    ],
+  ],
+  "reverie.intro": [
+    "reverie.intro.title",
+    "reverie.intro.discussion.1",
+    "reverie.intro.discussion.2",
+    "reverie.intro.discussion.3",
+    "site.br"
+  ],
 
-    "projects.toobig.title": [
-        "site.hopen", "Too Big Matt! Too Big!", "site.hclose"
-    ],
-    "projects.toobig.discussion.1": [
+  "reverie.tyranny.title": [
+    "site.hopen",
+      "Here There Be Dragons...",
+    "site.hclose"
+  ],
+  "reverie.tyranny.discussion.1": [
     "site.popen", 
-    "My old Pa was out, working, in the other yard one day, though he was young back then. We had two yards separated by a 6' paling fence. A week or two, earlier, he had mowed the long grass and left it where it fell (we were semi-rural, and more rural than semi). My father was burning some rubbish, I think, in the other yard. I decided that I needed my own fire &mdash; out behind the dunny &mdash; but, as these things occasionally do when one overestimates one's abilities to control a situation, the fire had gotten away from me.",
-    "site.pclose"
-    ],
-    "projects.toobig.discussion.2": [
+      "1974 was a difficult year &mdash; the first time I experienced tyranny directly, and the first time I confronted it head-on. Recently, ",
+      "I asked my father a couple of times, if he had intervened and resolved the difficulties that I, and my classmates had been subjected to. ",
+      "He told me that he had not. I have no idea if it was my action, or that of another child's parent that resulted in a positive outcome, ",
+      "but either way, it was a welcome change.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.tyranny.discussion.2": [
     "site.popen", 
-    "My father came around in time to hear me saying, \"Too big, Matt! Too big!\". That might have been my way of trying to soften the magnitude of my faux pas. Although my brother was younger, he had taught me to light matches without burning myself. Ma soon learnt to hide matches but, alas, by the time I was twelve, I had a dozen different ways to start a fire:-D Now, in later life, I've learnt to control it &mdash; mostly &mdash; and to great effect.", 
-    "site.pclose"
-    ],
-    "projects.toobig.discussion.3": [
+      "I recall the old dragon, lurking on the verandah, like some neurotic Scylla waiting to swoop on some kid that had wandered 'out of bounds'. ",
+      "In my case &mdash; Terrified as I was, I was there to confront her. I walked out onto the verandah, which had an ancient, greyed timber ",
+      "floor and partially enclosed front wall of red brick. That section of the school was built in 1882. As I wandered out the nun, still in ",
+      "Summer habit, loomed from between pigeon holes, seemingly straight out of the brickwork in a manner that modern children might associate ",
+      "with the T-1000. I was fully expecting the usual hiding but, for some reason, she listened to what I had to say and then told me to go ",
+      "back to the playground. I'd failed, but at least I'd tried.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.tyranny.discussion.3": [
     "site.popen", 
-    "This was not the final assault on the old dunny but it was certainly the most spectacular, and the one that came closest to its wooden elements being reduced to ashes.",
-    "site.pclose"
-    ],
+      "The hidings stopped around that time.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.tyranny": [
+    "reverie.tyranny.title",
+    "reverie.tyranny.discussion.1",
+    "reverie.tyranny.discussion.2",
+    "reverie.tyranny.discussion.3",
+    "site.br"
+  ],
 
-    "projects.thefuse.title": [
-      "site.br",
-      "site.hopen", "A bang and spark &mdash; and a blown fuse!", "site.hclose"
-    ],
-    "projects.thefuse.discussion.1": [
+  "reverie.cutlery.title": [
+    "site.hopen",
+      "That's Not a Spoon!",
+    "site.hclose"
+  ],
+  "reverie.cutlery.discussion.1": [
     "site.popen", 
-    "I was still in primary school &mdash; Year 6. I had asked Pa if he could purchase a Photovoltaic cell for me. He came home with a light-controlled switch module and mounting for it. It was not what I wanted for the project in question but I set about wiring it up using a 100W incandescent light as a load.",
+      "In addition to the other difficulties, at school, I'd been placed in the 'dumb class'. I'm not the sharpest tool in the drawer but I ",
+      "was also fairly certain that I was not a spoon and consequently, was very aware of my placement in the wrong drawer. I resolved to fix ",
+      "this impertinence because it greatly disturbed me. The teacher had us all read, one day. She listened as I read and mumbled that, perhaps, ",
+      "I should be given the same reader, \"site.links.travellingon\", that the 'A-class' were using. \"Cool!!\", thought I.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.cutlery.discussion.2": [
+    "site.popen", 
+       "She had forgotten, apparently, because it did not happen. I confronted her one day and asked when I was getting the book. Looking down ",
+       "at me, she told me that she did not remember having said that I was to have the upgraded book. She asked if I thought I could read it. ",
+       "I responded, \"Yes, Sister, I think so!\" &mdash; I'd already read it cover to cover, and my favourite bits, dozens of times over, in ",
+       "the two years previous.",
+    "site.pclose", 
+    "site.br"
+  ],
+  "reverie.cutlery": [
+    "reverie.cutlery.title",
+    "reverie.cutlery.discussion.1",
+    "reverie.cutlery.discussion.2",
+    "site.br"
+  ],
+
+  "reverie.toobig.title": [
+    "site.hopen", 
+      "Too Big Matt! Too Big!",
+    "site.hclose"
+  ],
+  "reverie.toobig.discussion.1": [
+    "site.popen", 
+      "My old Pa was out, working, in the other yard one day, though he was young back then. We had two yards separated by a 6' paling fence. ",
+      "A week or two, earlier, he had mowed the long grass and left it where it fell (we were semi-rural, and more rural than semi). My father ",
+      "was burning some rubbish, I think, in the other yard. I decided that I needed my own fire &mdash; out behind the dunny &mdash; but, as ",
+      "these things occasionally do when one overestimates one's abilities to control a situation, the fire had gotten away from me.",
     "site.pclose"
-    ],
-    "projects.thefuse.discussion.2": [
+  ],
+  "reverie.toobig.discussion.2": [
     "site.popen", 
-    "The latency of the opto-electromechanical switch provided a useful tool for demonstrating feedback loops. :-D I took my assembly out to Pa, when he arrived home from work, so he could see it. He looked at it &mdash; an odd blend of dubious horror and curiosity. He placed it on the floor, switched it on, and was immediately greeted by the same feedback that I had discovered a little earlier.",
+      "My father came around in time to hear me saying, \"Too big, Matt! Too big!\". That might have been my way of trying to soften the magnitude ",
+      "of my faux pas. Although my brother was younger, he had taught me to light matches without burning myself. Ma soon learnt to hide matches ",
+      "but, alas, by the time I was twelve, I had a dozen different ways to start a fire:-D Now, in later life, I've learnt to control it &mdash; ",
+      "mostly &mdash; and to great effect.", 
     "site.pclose"
-    ],
-    "projects.thefuse.discussion.3": [
+  ],
+  "reverie.toobig.discussion.3": [
     "site.popen", 
-    "He was not long home from Work. Ma had been out to pick him up from the railway station. Whilst she was out, and before I had wired the light, I decided it would be a good idea to short the active and neutral to a 2 cent piece, no doubt, to see what would happen. I was greeted with a flash, ozone, the smell of burning insulation, and a blown fuse.",
+      "This was not the final assault on the old dunny but it was certainly the most spectacular, and the one that came closest to its wooden elements ",
+      "being reduced to ashes.",
     "site.pclose"
-    ],
-    "projects.thefuse.discussion.4": [
+  ],
+  "reverie.toobig": [
+    "reverie.toobig.title",
+    "reverie.toobig.discussion.1",
+    "reverie.toobig.discussion.2",
+    "reverie.toobig.discussion.3",
+    "reverie.toobig.discussion.4",
+    "site.br"
+  ],
+
+  "reverie.thefuse.title": [
+    "site.hopen", 
+      "A bang and spark &mdash; and a blown fuse!", 
+    "site.hclose"
+  ],
+  "reverie.thefuse.discussion.1": [
     "site.popen", 
-    "In panic, I thought, \"Awww shit!!!\". I ran out to the meter box to inspect the fuse that I expected that I had blown. When I pulled the ceramic block my suspicions were confirmed and impressively so &mdash; copper was splattered all over the casing! I found the fuse wire, selected the correct rating and set about repairing the damage. Ma and Pa never knew.",
+      "I was still in primary school &mdash; Year 6. I had asked Pa if he could purchase a Photovoltaic cell for me. He came home with a ",
+      "light-controlled switch module and mounting for it. It was not what I wanted for the project in question but I set about wiring it ",
+      "up using a 100W incandescent light as a load.",
+    "site.pclose"
+  ],
+  "reverie.thefuse.discussion.2": [
+    "site.popen", 
+      "The latency of the opto-electromechanical switch provided a useful tool for demonstrating feedback loops. :-D I took my assembly ",
+      "out to Pa, when he arrived home from work, so he could see it. He looked at it &mdash; an odd blend of dubious horror and curiosity. ",
+      "He placed it on the floor, switched it on, and was immediately greeted by the same feedback that I had discovered a little earlier.",
+    "site.pclose"
+  ],
+  "reverie.thefuse.discussion.3": [
+    "site.popen", 
+      "He was not long home from Work. Ma had been out to pick him up from the railway station. Whilst she was out, and before I had wired ",
+      "the light, I decided it would be a good idea to short the active and neutral to a 2 cent piece, no doubt, to see what would happen. ",
+      "I was greeted with a flash, ozone, the smell of burning insulation, and a blown fuse.",
+    "site.pclose"
+  ],
+  "reverie.thefuse.discussion.4": [
+    "site.popen", 
+      "In panic, I thought, \"Awww shit!!!\". I ran out to the meter box to inspect the fuse that I expected that I had blown. When I pulled ",
+      "the ceramic block my suspicions were confirmed and impressively so &mdash; copper was splattered all over the casing! I found the fuse ",
+      "wire, selected the correct rating and set about repairing the damage. Ma and Pa never knew.",
     "site.pclose",
     "site.br"
-    ],
-    "projects.shockingblue.title": [
-      "site.br",
-      "site.hopen", "A Shocking Education!", "site.hclose"
-    ],
-    "projects.shockingblue.discussion.1": [
+  ],
+  "reverie.thefuse": [
+    "reverie.thefuse.title",
+    "reverie.thefuse.discussion.1",
+    "reverie.thefuse.discussion.2",
+    "reverie.thefuse.discussion.3",
+    "reverie.thefuse.discussion.4",
+    "site.br"
+  ],
+
+  "reverie.shocking.title": [
+    "site.hopen", 
+      "A Shocking Education!", 
+    "site.hclose"
+  ],
+  "reverie.shocking.discussion.1": [
     "site.popen", 
-    "Primary school was a busy time. I possessed something of a cruel streak, though I had never perceived it thus &mdash; I liked giving other kids electric shocks. I justified it by not doing unto them what I had not done to myself, a thousand times before. Of course, I did not take into account the element of surprise and betrayal that the poor unfortunates also had to accommodate. It just added to my mirth, I'm almost ashamed to say... The funny thing was that every kid I shocked followed along so that they could watch the next victim. Also surprising was the fact that I could convince one kid after another to hold the two wires. The shock was delivered by the ignition coil from a lawn mower with a couple of D-cell batteries in series.",
+      "Primary school was a busy time. I possessed something of a quasi-cruel streak, though I had never perceived it thus &mdash; I liked ",
+      "practical jokes and giving other kids electric shocks was one of the best. I justified it by not doing unto them what I had not done ",
+      "to myself, a thousand times before. Of course, I did not take into account the element of surprise and betrayal that the poor ",
+      "unfortunates also had to accommodate. It just added to my mirth, I'm almost ashamed to say... Almost. :-D",
     "site.pclose",
     "site.br"
-    ],
+  ],
+  "reverie.shocking.discussion.2": [
+    "site.popen", 
+      "The funny thing was that every kid I shocked followed along so that they could watch the next victim &mdash; also surprising was the ",
+      "fact that I could convince one kid after another to hold the two wires. Suspicion was evident but fulfillment of anticipated perfidy ",
+      "was  a thing to behold. Shock followed by something else &mdash; the fact that they were not the first, nor would they be the last. ",
+    "site.pclose",
+    "site.br"
+  ],
+  "reverie.shocking.discussion.3": [
+    "site.popen", 
+      "The shock was delivered by the ignition coil from a lawn mower with a couple of D-cell batteries in series. In a later improvement, in ",
+      "my early high school years, the ignition coil was substituted for an impedance-matching transformer from an old valve radio. That thing ",
+      "packed a helluva whallop!",
+    "site.pclose",
+    "site.br"
+  ],
+  "reverie.shocking.discussion.4": [
+    "site.popen", 
+      "Eventually, one of the more butt-hurt kids, the son of a teacher, ran to the teacher on playground duty with his tale of woe. She demanded ",
+      "to know what I had, so I told her. As her eyes glazed over, I dared hope that I might have avoided atonement. \"Oh, put it away!\", she ",
+      "commanded. Thus ended a useful lesson for my school mates...and certain lessons pertaining to human behaviour were not lost on me, either.",
+    "site.pclose",
+    "site.br"
+  ],
 
-    "site.pages.early": [
-        "projects.early.title",
-        "projects.toobig.title",
-        "projects.toobig.discussion.1",
-        "projects.toobig.discussion.2",
-        "projects.toobig.discussion.3",
-        "projects.thefuse.title",
-        "projects.thefuse.discussion.1",
-        "projects.thefuse.discussion.2",
-        "projects.thefuse.discussion.3",
-        "projects.thefuse.discussion.4",
-        "projects.shockingblue.title",
-        "projects.shockingblue.discussion.1",
+  "reverie.shocking": [
+    "reverie.shocking.title",
+    "reverie.shocking.discussion.1",
+    "reverie.shocking.discussion.2",
+    "reverie.shocking.discussion.3",
+    "reverie.shocking.discussion.4",
+    "site.br"
+  ],
 
-        "site.return"
+  "site.pages.early": [
+    "reverie.early.title",
+    "site.br",
+    "reverie.intro",
+    "site.br",
+    "reverie.tyranny",
+    "site.br",
+    "reverie.cutlery",
+    "site.br",
+    "reverie.toobig",
+    "site.br",
+    "reverie.thefuse",
+    "site.br",
+    "reverie.shocking",
+    "site.br",
+
+    "site.return"
   ]
 }
 

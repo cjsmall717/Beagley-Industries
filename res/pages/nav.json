@@ -41,6 +41,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.securitymodel": [
+    "<li class=\"li-link\" onclick=\"loadPage('securitymodel');\">",
+    "site.lopen",
+    "Distributed Systems Reference Architecture: Security Model",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.hotstuff": [
     "<li class=\"li-link\" onclick=\"loadPage('hotstuff');\">",
     "site.lopen",
