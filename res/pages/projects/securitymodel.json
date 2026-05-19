@@ -17,10 +17,12 @@
   ],
   "projects.security.overview.1": [
     "site.popen", 
-      "Security has become a buzzword soup, driven by recipes, used by wannabe chefs who produce a soup but cannot understand why it would be best fed to the dogs.", 
-    "site.pclose",
+    "Security needs to be built into a system from the ground up.",
     "site.br"
+    "Herein will be documented one man's solution to a complex problem",
+    "site.pclose"
   ],
+
   "projects.security.overview": [
     "projects.security.overview.title",
     "projects.security.overview.1",
