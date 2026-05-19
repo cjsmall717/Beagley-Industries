@@ -3,6 +3,19 @@
     "site.hopen",
       "projects.security.title.text",
     "site.hclose",
+    "site.popen",
+      "The use of Slackware Linux as the underlying platform imposed additional integration complexity. Many components, supporting libraries, ",
+      "and authentication dependencies required custom compilation, patching, or manual integration in order to achieve a stable and interoperable ",
+      "security architecture. Although non-trivial, this process provided fine-grained control over system behaviour, dependency management, and ",
+      "system integration. It also facilitated a minimalist operating system footprint, permitting more aggressive oversubscription of available ",
+      "hardware resources.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "Building critical components from source also permitted optimisation for target hardware and workload characteristics. Numerical and ",
+      "scientific libraries such as BLAS and LAPACK are frequently distributed in broadly compatible but conservatively optimised forms. Tailored ",
+      "builds allowed exploitation of architecture-specific capabilities while retaining tighter control over dependency management and interoperability.",
+    "site.pclose",
     "site.br"
   ],
   "projects.security.title.text": [
@@ -11,29 +24,140 @@
   "projects.security.overview.title": [
     "site.br", 
     "site.hopen", 
-      "Overview of Requirements, Components and Architecture", 
+      "Overview of Security Architecture", 
     "site.hclose",
     "site.br"
   ],
   "projects.security.overview.1": [
     "site.popen", 
-    "Security needs to be built into a system from the ground up.",
-    "site.br",
-    "Herein will be documented one man's solution to a complex problem",
+      "Security is Fundamental, never an afterthought, never a 'nice to have'. An admin who is the custodian of others' data must be responsible for ",
+      "protecting it in the same way that they would protect their own valuable assets. ",
     "site.pclose"
   ],
-
+  "projects.security.overview.2": [
+    "site.popen", 
+      "One would not install cheap locks on one's dwelling &mdash; the same diligence in the selection of software ought to be observed.",
+    "site.pclose"
+  ],
+  "projects.security.overview.3": [
+    "site.popen", 
+      "Security checklists are great in terms of reducing the potential for an oversight but it is important to grasp the fundamentals in security ",
+      "design. If one sets a tenon type lock in a softwood frame, rather than steel, then one ought not, perhaps, to be surprised if an intruder breaks ",
+      "the frame to gain entry. The metaphor applies equally to computing infrastructure. ",
+    "site.pclose"
+  ],
+  "projects.security.overview.4": [
+    "site.popen", 
+      "Security must be complementary, and largely invisible; not an unwieldy imposition.",
+    "site.pclose"
+  ],
+  "projects.security.overview.5": [
+    "site.popen", 
+      "Corporate buzzwords alone do not make systems secure. Although ideas such as \"Essential Eight\", \"Zero Trust\", and similar frameworks are ",
+      "gaining momentum throughout the Noosphere, they are not substitutes for disciplined system design, sound operational practice, and rigorous ",
+      "implementation. The danger posed by 'buzzword governance' is that genuine rigour may be displaced by a kind of security theatre built around ",
+      "procedural tokenism.",
+    "site.pclose"
+  ],
+  "projects.security.overview.6": [
+    "site.popen", 
+      "System Security and Operational Security are separate things. Data Integrity and System Availability are as important as other aspects of Operating ",
+      "System and Physical security.",
+    "site.pclose"
+  ],
+  "projects.security.overview.7": [
+    "site.popen", 
+      "The constraints that needed to be met for my reference architecture were that the system needed to be robust, deployable at scale, built upon mature, ",
+      "well-understood technologies broadly compatible with target software (Hadoop, Zookeeper, Apache-drill), accessible to both interactive user logins ",
+      "and non-interactive service accounts. Authentication and Authorisation were critical requirements. These concerns now commonly fall under the broader ",
+      "Identity Management umbrella.",
+    "site.pclose"
+  ],
   "projects.security.overview": [
     "projects.security.overview.title",
     "projects.security.overview.1",
+    "projects.security.overview.2",
+    "projects.security.overview.3",
+    "projects.security.overview.4",
+    "projects.security.overview.5",
+    "projects.security.overview.6",
+    "projects.security.overview.7",
     "site.br" 
   ],
+
+  "projects.security.components.title": [
+    "site.hopen", 
+      "Key Components", 
+    "site.hclose"
+  ],
+  "projects.security.components.1": [
+    "site.liopen", 
+      "OpenLDAP &mdash; User Database and backing store for Kerberos.", 
+    "site.liclose"
+  ],
+  "projects.security.components.2": [
+    "site.liopen", 
+      "MIT Kerberos 5 &mdash; Principal and Ticket Management.", 
+    "site.liclose"
+  ],
+  "projects.security.components.3": [
+    "site.liopen", 
+      "Time Synchronisation Services &mdash; Critical for Kerberos authentication and ticket validity.", 
+    "site.liclose"
+  ],
+  "projects.security.components.4": [
+    "site.liopen", 
+      "DHCP and BIND9 Name Services &mdash; Simplifies network management and provides reliable forward and reverse name resolution ",
+      "required for stable LDAP and Kerberos operation.", 
+    "site.liclose"
+  ],
+  "projects.security.components.5": [
+    "site.liopen", 
+      "NFSv4 &mdash; Shared, ACL-enabled, read-only network filesystem used for distribution of keytabs and SSL certificates.",
+    "site.liclose"
+  ],
+  "projects.security.components.6": [
+    "site.liopen", 
+      "Internal Certificate Authority and Intermediate CA infrastructure supporting SSL/TLS-secured client-server communications.",
+    "site.liclose"
+  ],
+  "projects.security.components.7": [
+    "site.liopen", 
+      "Minimal PAM configuration supporting LDAP and Kerberos authentication integration.",
+    "site.liclose"
+  ],
+  "projects.security.components.8": [
+    "site.liopen", 
+      "NSLCD and NSCD — Credential and directory caching daemons used to reduce authentication and lookup overhead.",
+    "site.liclose"
+  ],
+  "projects.security.components.9": [
+    "site.liopen", 
+      "CyrusSASL — Library to facilitate authentication mechanisms.",
+    "site.liclose"
+  ],
+  "projects.security.components": [
+    "projects.security.components.title",
+    "site.ulopen",
+      "projects.security.components.1",
+      "projects.security.components.2",
+      "projects.security.components.3",
+      "projects.security.components.4",
+      "projects.security.components.5",
+      "projects.security.components.6",
+      "projects.security.components.7",
+      "projects.security.components.8",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  
 
   "site.pages.securitymodel": [
     "projects.security.title",
     "projects.security.overview",
+    "projects.security.components",
 
     "site.return"
   ]
 }
-

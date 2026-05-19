@@ -10,7 +10,7 @@
     "site.br"
   ],
   "projects.hpc.title.text":[
-    "High Performance Computing and Storage"
+    "High-Performance Computing and Storage"
   ],
 
   "projects.cluster.title": [
@@ -105,7 +105,7 @@
 
   "projects.filesystems.title": [
     "site.hopen",
-      "Scalable, High Performance Filesystems and Object Stores",
+      "Scalable, High-Performance Filesystems and Object Stores",
     "site.hclose"
   ],
   "projects.filesystems.4": [
@@ -125,7 +125,7 @@
   ],
   "projects.filesystems.7": [
     "site.liopen", 
-      "Minio object store",
+      "MinIO object store",
     "site.liclose"
   ],
   "projects.filesystems.8": [
