@@ -3,10 +3,14 @@
     "site.hopen",
       "projects.hpc.title.text",
     "site.hclose",
+    "site.popen",
+      "Demonstrated competency in large-scale distributed systems, high-performance computing infrastructure, authentication and identity ",
+      "management, orchestration, storage systems, and technical documentation.",
+    "site.pclose",
     "site.br"
   ],
   "projects.hpc.title.text":[
-    "Molecular Modelling and Scientific Computing"
+    "High Performance Computing and Storage"
   ],
 
   "projects.cluster.title": [
@@ -26,17 +30,12 @@
   ],
   "projects.cluster.3": [
     "site.liopen", 
-      "Puppet (and Heira)",
+      "Puppet (and Hiera)",
     "site.liclose"
   ],
   "projects.cluster.4": [
     "site.liopen", 
       "Ansible",
-    "site.liclose"
-  ],
-  "projects.cluster.5": [
-    "site.liopen", 
-      "YAML and JSON",
     "site.liclose"
   ],
   "projects.cluster": [
@@ -46,7 +45,30 @@
     "projects.cluster.2",
     "projects.cluster.3",
     "projects.cluster.4",
-    "projects.cluster.5",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "projects.formats.title": [
+    "site.hopen",
+      "Data Representation and Configuration Formats",
+    "site.hclose"
+  ],
+  "projects.formats.1": [
+    "site.liopen", 
+      "YAML",
+    "site.liclose"
+  ],
+  "projects.formats.2": [
+    "site.liopen", 
+      "JSON",
+    "site.liclose"
+  ],
+  "projects.formats": [
+    "site.ulopen",
+    "projects.formats.title",
+    "projects.formats.1",
+    "projects.formats.2",
     "site.ulclose",
     "site.br"
   ],
@@ -118,7 +140,7 @@
   ],
   "projects.filesystems.10": [
     "site.liopen", 
-      "StoreNext SAN Storage",
+      "DMF6 and DMF7",
     "site.liclose"
   ],
   "projects.filesystems.11": [
@@ -151,9 +173,11 @@
   ],
 
   "site.pages.hpc": [
+    "projects.hpc.title",
     "projects.cluster",
     "projects.schedulers",
     "projects.filesystems",
+    "projects.formats",
     "site.return"
   ]
 }
