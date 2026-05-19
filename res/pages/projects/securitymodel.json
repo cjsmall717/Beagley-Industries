@@ -1,0 +1,37 @@
+{
+  "projects.security.title": [
+    "site.hopen",
+      "projects.security.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.security.title.text": [
+    "Security Model"
+  ],
+  "projects.security.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "Overview of Components and Architecture", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.security.overview.1": [
+    "site.popen", 
+      "OpenLDAP", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.security.overview": [
+    "projects.security.overview.title",
+    "projects.security.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.securitymodel": [
+    "projects.security.title",
+    "projects.security.overview",
+
+    "site.return"
+  ]
+}
+

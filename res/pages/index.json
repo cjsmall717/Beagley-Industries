@@ -24,6 +24,7 @@
     "./res/pages/projects/rebuild.json",
     "./res/pages/projects/toolrest.json",
 
+    "./res/pages/projects/hpc.json",
     "./res/pages/projects/osi.json",
     "./res/pages/projects/aim.json",
     "./res/pages/projects/dbs.json",

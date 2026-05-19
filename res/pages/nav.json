@@ -90,6 +90,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.hpc": [
+    "<li class=\"li-link\" onclick=\"loadPage('hpc');\">",
+    "site.lopen",
+    "High Performance Computing and Storage Infrastructure",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.osi": [
     "<li class=\"li-link\" onclick=\"loadPage('osi');\">",
     "site.lopen",

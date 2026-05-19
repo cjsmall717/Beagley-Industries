@@ -72,6 +72,11 @@
     "site.hopen", "Technical Competencies", "site.hclose"
   ],
  
+  "home.hpc": [
+    "site.ulopen",
+    "navigate.hpc",
+    "site.ulclose"
+  ],
   "home.osi": [
     "site.ulopen",
     "navigate.osi",
@@ -162,6 +167,7 @@
     "home.toolrest",
     "site.br",
     "home.competencies.title",
+    "home.hpc",
     "home.osi",
     "home.aim",
     "home.dbs",

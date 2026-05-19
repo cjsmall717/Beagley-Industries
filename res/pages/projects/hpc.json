@@ -1,0 +1,159 @@
+{
+  "projects.hpc.title":[
+    "site.hopen",
+      "projects.hpc.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.hpc.title.text":[
+    "Molecular Modelling and Scientific Computing"
+  ],
+
+  "projects.cluster.title": [
+    "site.hopen",
+      "Cluster Management Software, Orchestration and Automation",
+    "site.hclose"
+  ],
+  "projects.cluster.1": [
+    "site.liopen", 
+      "Bright Cluster Manager",
+    "site.liclose"
+  ],
+  "projects.cluster.2": [
+    "site.liopen", 
+      "Kubernetes",
+    "site.liclose"
+  ],
+  "projects.cluster.3": [
+    "site.liopen", 
+      "Puppet (and Heira)",
+    "site.liclose"
+  ],
+  "projects.cluster.4": [
+    "site.liopen", 
+      "Ansible",
+    "site.liclose"
+  ],
+  "projects.cluster.5": [
+    "site.liopen", 
+      "YAML and JSON",
+    "site.liclose"
+  ],
+  "projects.cluster": [
+    "site.ulopen",
+    "projects.cluster.title",
+    "projects.cluster.1",
+    "projects.cluster.2",
+    "projects.cluster.3",
+    "projects.cluster.4",
+    "projects.cluster.5",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "projects.schedulers.title": [
+    "site.hopen",
+      "Scheduler Software",
+    "site.hclose"
+  ],
+  "projects.schedulers.1": [
+    "site.liopen", 
+      "PBS and PBS pro",
+    "site.liclose"
+  ],
+  "projects.schedulers.2": [
+    "site.liopen", 
+      "Slurm",
+    "site.liclose"
+  ],
+  "projects.schedulers.3": [
+    "site.liopen", 
+      "Yarn",
+    "site.liclose"
+  ],
+  "projects.schedulers": [
+    "site.ulopen",
+    "projects.schedulers.title",
+    "projects.schedulers.1",
+    "projects.schedulers.2",
+    "projects.schedulers.3",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "projects.filesystems.title": [
+    "site.hopen",
+      "Scalable, High Performance Filesystems and Object Stores",
+    "site.hclose"
+  ],
+  "projects.filesystems.4": [
+    "site.liopen", 
+      "Lustre",
+    "site.liclose"
+  ],
+  "projects.filesystems.5": [
+    "site.liopen", 
+      "GPFS (Spectrum Scale)",
+    "site.liclose"
+  ],
+  "projects.filesystems.6": [
+    "site.liopen", 
+      "Gluster",
+    "site.liclose"
+  ],
+  "projects.filesystems.7": [
+    "site.liopen", 
+      "Minio object store",
+    "site.liclose"
+  ],
+  "projects.filesystems.8": [
+    "site.liopen", 
+      "Scality Ring object store",
+    "site.liclose"
+  ],
+  "projects.filesystems.9": [
+    "site.liopen", 
+      "StoreNext SAN Storage",
+    "site.liclose"
+  ],
+  "projects.filesystems.10": [
+    "site.liopen", 
+      "StoreNext SAN Storage",
+    "site.liclose"
+  ],
+  "projects.filesystems.11": [
+    "site.liopen", 
+      "Bluearc, now Hitachi NAS Storage",
+    "site.liclose"
+  ],
+  "projects.filesystems.12": [
+    "site.liopen", 
+      "Xyratech, Cray, now HPE ClusterStor Lustre Appliance",
+    "site.liclose"
+  ],
+  "projects.filesystems": [
+    "site.ulopen",
+    "projects.filesystems.title",
+    "projects.filesystems.1",
+    "projects.filesystems.2",
+    "projects.filesystems.3",
+    "projects.filesystems.4",
+    "projects.filesystems.5",
+    "projects.filesystems.6",
+    "projects.filesystems.7",
+    "projects.filesystems.8",
+    "projects.filesystems.9",
+    "projects.filesystems.10",
+    "projects.filesystems.11",
+    "projects.filesystems.12",
+    "site.ulclose",
+    "site.br"
+  ],
+
+  "site.pages.hpc": [
+    "projects.cluster",
+    "projects.schedulers",
+    "projects.filesystems",
+    "site.return"
+  ]
+}
