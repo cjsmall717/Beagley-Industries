@@ -165,7 +165,24 @@
     "projects.security.gallery.title",
     "projects.security.gallery.embed"
   ],
-  
+
+"projects.acl.title": [
+    "site.hopen", 
+      "XFS and NFSv4 Access Control Lists.",
+    "site.hclose"
+  ],
+"projects.acl.1": [
+    "site.liopen", 
+    "site.liclose"
+  ],
+  "projects.acl.demo": [
+    "site.ulopen",
+    "projects.acl.title",
+    "projects.acl.1",
+    "site.ulclose",
+    "site.br"
+  ],
+
 
   "site.pages.securitymodel": [
     "projects.security.title",

@@ -250,4 +250,7 @@
 ./res/img/content/projects/rebuild/2/lathe17.jpg
 ./res/img/content/projects/rebuild/2/lathe25.jpg
 ./res/img/content/projects/rebuild/2/lathe26.jpg
-./res/img/content/projects/securitymodel/turnip.jpg
+./res/img/content/projects/securitymodel/1.jpg
+./res/img/content/projects/securitymodel/2.jpg
+./res/img/content/projects/securitymodel/3.jpg
+./res/img/content/projects/securitymodel/4.jpg

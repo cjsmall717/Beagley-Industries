@@ -1,0 +1,14 @@
+{
+  "gallery.text.1": [
+    "Diagram of physical disk layout, VG and LV allocations and filesystem layout."
+  ],
+  "gallery.text.2": [
+    "Example ACLs for Zookeeper (994) user and service account keytabs, in addition to client keytab."
+  ],
+  "gallery.text.3": [
+    "LDAP query against gidNumber=994. From the transcript, it is apparent that GSSAPI was used for authentication and SASL was transparently used to mediate that transaction."
+  ],
+  "gallery.text.4": [
+    "SSH login session on forge, my VM host. The list of mounts, the multidevice status (software RAID1) and representative NFSv4 ACL statuses can be seen in the transcript."
+  ]
+}
