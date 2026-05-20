@@ -152,12 +152,26 @@
     "site.br"
   ],
 
+  "projects.security.gallery.title":[
+    "Turnip - Disk Partitioning and Data Layout"
+  ],
+  "projects.security.gallery.embed": [
+    "site.iopen",
+      "securitymodel",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.security.gallery": [
+    "projects.security.gallery.title",
+    "projects.security.gallery.embed"
+  ],
   
 
   "site.pages.securitymodel": [
     "projects.security.title",
     "projects.security.overview",
     "projects.security.components",
+    "projects.security.gallery",
 
     "site.return"
   ]
