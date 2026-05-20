@@ -141,6 +141,11 @@
     "navigate.thermite",
     "site.ulclose"
   ],
+  "home.iga": [
+    "site.ulopen",
+    "navigate.iga",
+    "site.ulclose"
+  ],
   "home.inspirations": [
     "navigate.inspirations",
     "site.br"
@@ -182,6 +187,7 @@
     "home.uni",
     "home.bhp",
     "home.thermite",
+    "home.iga",
     "site.br",
     "home.inspirations",
     "site.br",

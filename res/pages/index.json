@@ -37,6 +37,7 @@
     "./res/pages/projects/early.json",
     "./res/pages/projects/uni.json",
     "./res/pages/projects/bhp.json",
-    "./res/pages/projects/thermite.json"
+    "./res/pages/projects/thermite.json",
+    "./res/pages/projects/iga.json"
   ]
 }

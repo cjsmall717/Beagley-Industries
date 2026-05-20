@@ -181,6 +181,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.iga": [
+    "<li class=\"li-link\" onclick=\"loadPage('iga');\">",
+    "site.lopen",
+    "A Shopping Expedition",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",

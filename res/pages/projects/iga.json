@@ -1,0 +1,55 @@
+{
+  "projects.anecdotes.title":[
+    "site.hopen",
+      "projects.anecdotes.title",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.anecdotes.title":[
+    "Some Anecdotes"
+  ],
+
+  "projects.iga.title": [
+    "site.hopen", 
+      "A Shopping Expedition; a Systems Failure &mdash; No Fire",
+    "site.hclose"
+  ],
+  "projects.iga.1": [
+    "site.popen", 
+      "Broken systems grate on me, but never so much as when they eat into my time (my most valuable asset), or when they otherwise intrude on my existence.",
+    "site.pclose"
+  ],
+  "projects.iga.2": [
+    "site.popen", 
+      "Some years ago, I stopped at my local IGA supermarket to acquire the usual bread, milk and other sundries. The queue was, seemingly, unprecedented, ",
+      "as it made its serpentine path through the shop. I'd not long moved to the suburb and was not overly familiar with the shop nor the staff. I watched ",
+      "for a minute and realised that they had two young girls on the checkouts; one had not completed her RSA course and was prohibited from serving customers ",
+      "wanting to purchase alcoholc beverages; the other was driving a register that had a malfunctioning eftpos terminal and was, consequently, unable to ",
+      "process electronic transactions.",
+    "site.pclose"
+  ],
+  "projects.iga.3": [
+    "site.popen", 
+      "From across the shop I called out to the, apparently, more experienced of the two, \"Oi, she's working half speed because of RSA, and you're working ",
+      "less than half speed because of the EFTPOS issue. It would make more sense for your mate to work your til, and for you to run at full speed on your ",
+      "mate's til. Where's your manager???\". A short conversation ensued, then they just swapped places &mdash; just like that. I wasn't rude at all but ",
+      "the other customers were all looking at me as though I'd just taken a piss on the floor. The line began to move quickly though, following that minor ",
+      "remediation. Their manager ought to have seen the issue and addressed it. It seems that people don't think, and those that do are reluctant to take ",
+      "comand if there is a perceived lack of mandate or authority to do so.",
+    "site.pclose"
+  ],
+  "projects.iga": [
+    "projects.iga.title",
+    "site.br",
+    "projects.iga.1",
+    "projects.iga.2",
+    "projects.iga.3",
+    "site.br"
+  ],
+
+  "site.pages.iga": [
+    "projects.anecdotes.title",
+    "projects.iga",
+    "site.return"
+  ]
+}

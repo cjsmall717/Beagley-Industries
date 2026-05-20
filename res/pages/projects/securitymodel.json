@@ -166,20 +166,33 @@
     "projects.security.gallery.embed"
   ],
 
-"projects.acl.title": [
+  "projects.acl.title": [
     "site.hopen", 
       "XFS and NFSv4 Access Control Lists.",
     "site.hclose"
   ],
-"projects.acl.1": [
-    "site.liopen", 
-    "site.liclose"
-  ],
-  "projects.acl.demo": [
+  "projects.acl.1": [
+    "site.popen",
+      "My physical systems are constrained by their components and configurations. The constraints place limits on what could be achieved in terms of virtualised systems.",
+      "The main onsiderations, in terms of security were:",
+    "site.pclose",
     "site.ulopen",
+      "site.liopen", 
+        "A secure means of distributing keys and keytabs across the infrastructure.",
+      "site.liclose",
+      "site.liopen", 
+        "Simple, high-level ownership (root) and ACL-based access &mdash; XFS ACLs for local access, and NFSv4 ACLs for remote access.",
+      "site.liclose",
+      "site.liopen", 
+        "The whole of the Identity Management infrastructure is configured using a few scripts and ldif format files. KRB5 principals were defined using a set of scripts, as ",
+        "were service ACLs. The obvious evolution of this would be an ansible approach, however, the priorities lie elsewhere. ",
+      "site.liclose",
+    "site.ulclose",
+    "site.br"
+  ],
+  "projects.acl": [
     "projects.acl.title",
     "projects.acl.1",
-    "site.ulclose",
     "site.br"
   ],
 
@@ -189,6 +202,7 @@
     "projects.security.overview",
     "projects.security.components",
     "projects.security.gallery",
+    "projects.acl",
 
     "site.return"
   ]
