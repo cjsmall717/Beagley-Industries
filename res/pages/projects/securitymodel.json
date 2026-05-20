@@ -173,8 +173,8 @@
   ],
   "projects.acl.1": [
     "site.popen",
-      "My physical systems are constrained by their components and configurations. The constraints place limits on what could be achieved in terms of virtualised systems.",
-      "The main onsiderations, in terms of security were:",
+      "My physical systems are constrained by their hardware configurations and available resources. These limitations necessarily influenced the scale and composition ",
+      "of the virtualised infrastructure.",
     "site.pclose",
     "site.ulopen",
       "site.liopen", 
