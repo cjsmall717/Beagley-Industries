@@ -196,6 +196,50 @@
     "site.br"
   ],
 
+  "projects.opsec.title": [
+    "site.hopen",
+      "Operational Security.",
+    "site.hclose"
+  ],
+
+  "projects.opsec.1": [
+    "site.popen",
+      "My physical systems are modest. The degree of operational security attainable is constrained by cost; however, critical data is stored on RAID1 ",
+      "mirrored storage pairs, and full image backups are periodically written to separate offline media.",
+    "site.popen",
+    "site.ulopen",
+      "site.liopen",
+        "My laptop has been configured with both a primary root volume and a secondary backup root volume. This permits a full copy of the root filesystem ",
+        "to be maintained as a hot standby environment.",
+      "site.liclose",
+      "site.liopen",
+        "System upgrades can be applied to the offline root volume prior to deployment.",
+      "site.liclose",
+      "site.liopen",
+        "Limited testing may be performed by chrooting into the offline environment before conducting a full boot test.",
+      "site.liclose",
+      "site.liopen",
+        "In the event that problems manifest after the upgraded system is booted, the system can be trivially failed back to the previous root environment.",
+      "site.liclose",
+      "site.liopen",
+        "Minor issues may often be repaired in an <i>ad hoc</i> fashion without requiring full rollback.",
+      "site.liclose",
+      "site.liopen",
+        "Issues that do not warrant failback, but are not immediately resolvable, can frequently be worked around by chrooting back into the previous root ",
+        "volume whilst the upgraded environment remains operational.",
+      "site.liclose",
+      "site.liopen",
+        "Additional recovery and maintenance operations are facilitated using tools such as qemu-nbd, permitting offline mounting and manipulation of virtual ",
+        "machine disk images for repair, migration, and recovery purposes.",
+      "site.liclose",
+    "site.ulclose",
+    "site.br"
+  ],
+  "projects.opsec": [
+    "projects.opsec.title",
+    "projects.opsec.1",
+    "site.br"
+  ],
 
   "site.pages.securitymodel": [
     "projects.security.title",
@@ -203,6 +247,7 @@
     "projects.security.components",
     "projects.security.gallery",
     "projects.acl",
+    "projects.opsec",
 
     "site.return"
   ]
