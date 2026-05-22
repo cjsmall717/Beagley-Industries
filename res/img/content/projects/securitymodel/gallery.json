@@ -9,6 +9,11 @@
     "LDAP query against gidNumber=994. From the transcript, it is apparent that GSSAPI was used for authentication and SASL was transparently used to mediate that transaction."
   ],
   "gallery.text.4": [
-    "SSH login session on forge, my VM host. The list of mounts, the multidevice status (software RAID1) and representative NFSv4 ACL statuses can be seen in the transcript."
+    "SSH login session on 'forge', my VM host. The list of mounts, the multidevice status (software RAID1) and representative NFSv4 ACL statuses can be seen in the transcript."
+  ],
+  "gallery.text.5": [
+    "Parts list for a new machine, 'forge'. When I moved on from the position I held at the time, I lost access to a very significant test/development environment. ",
+    "There was only one thing for it; to build a new machine at home. This was ontemporaneously with building my Harley luggage rack and restoring the front window of our house. ",
+    "We'd had a renovation done. Somehow the front window had been overlooked. It was disassembled, painted, and re-puttied - old school!"
   ]
 }

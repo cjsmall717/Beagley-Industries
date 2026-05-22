@@ -153,7 +153,9 @@
   ],
 
   "projects.security.gallery.title":[
-    "Turnip - Disk Partitioning and Data Layout"
+    "site.hopen", 
+      "Turnip - Disk Partitioning and Data Layout",
+    "site.hclose"
   ],
   "projects.security.gallery.embed": [
     "site.iopen",
@@ -233,6 +235,9 @@
         "machine disk images for repair, migration, and recovery purposes.",
       "site.liclose",
     "site.ulclose",
+    "site.br",
+    "site.popen",
+      "Forge, my VM hosting machine, was built on a budget, but with performance in mind as well as data security to the extent possible.", 
     "site.br"
   ],
   "projects.opsec": [
@@ -241,6 +246,21 @@
     "site.br"
   ],
 
+  "projects.opsec.gallery.title":[
+    "site.hopen", 
+      "What Forge Might Have Been...",
+    "site.hclose" 
+  ],
+  "projects.opsec.gallery.embed": [
+    "site.iopen",
+      "opsec",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.opsec.gallery": [
+    "projects.opsec.gallery.title",
+    "projects.opsec.gallery.embed"
+  ],
   "site.pages.securitymodel": [
     "projects.security.title",
     "projects.security.overview",
@@ -248,6 +268,7 @@
     "projects.security.gallery",
     "projects.acl",
     "projects.opsec",
+    "projects.opsec.gallery",
 
     "site.return"
   ]
