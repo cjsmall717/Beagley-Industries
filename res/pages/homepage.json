@@ -1,26 +1,6 @@
 {
   "home.projects.title": [
-    "site.hopen", "Selected Work", "site.hclose", "site.br"
-  ],
-  "home.clamp": [
-    "site.ulopen",
-    "navigate.clamp",
-    "site.ulclose"
-  ],
-  "home.luggagebox": [
-    "site.ulopen",
-    "navigate.luggagebox",
-    "site.ulclose"
-  ],
-  "home.hydrogel": [
-    "site.ulopen",
-    "navigate.hydrogel",
-    "site.ulclose"
-  ],
-  "home.sickles": [
-    "site.ulopen",
-    "navigate.sickles",
-    "site.ulclose"
+    "site.hopen", "Selected Work: Systems Engineering and Projects", "site.hclose"
   ],
   "home.hadoopcluster": [
     "site.ulopen",
@@ -32,6 +12,37 @@
     "navigate.securitymodel",
     "site.ulclose"
   ],
+  "home.hydrogel": [
+    "site.ulopen",
+    "navigate.hydrogel",
+    "site.ulclose"
+  ],
+  "home.luggagebox": [
+    "site.ulopen",
+    "navigate.luggagebox",
+    "site.ulclose"
+  ],
+  "home.clamp": [
+    "site.ulopen",
+    "navigate.clamp",
+    "site.ulclose"
+  ],
+  "home.sickles": [
+    "site.ulopen",
+    "navigate.sickles",
+    "site.ulclose"
+  ],
+  "home.projects": [
+    "home.projects.title",
+    "home.hadoopcluster",
+    "home.securitymodel",
+    "home.hydrogel",
+    "home.luggagebox",
+    "home.clamp",
+    "home.sickles",
+    "site.br"
+  ],
+
   "home.foundation.title": [
     "site.hopen", "Foundational Work", "site.hclose"
   ],
@@ -50,6 +61,14 @@
     "navigate.greenhouse",
     "site.ulclose"
   ],
+  "home.foundation": [
+    "home.foundation.title",
+    "home.hotstuff",
+    "home.tooling",
+    "home.greenhouse",
+    "site.br"
+  ],
+
   "home.latherestoration.title": [
     "site.hopen", "Restoration of Ancient, Cast Iron Wood Lathe", "site.hclose"
   ],
@@ -68,10 +87,17 @@
     "navigate.toolrest",
     "site.ulclose"
   ],
+  "home.latherestoration": [
+    "home.latherestoration.title",
+    "home.latheacq",
+    "home.rebuild",
+    "home.toolrest",
+    "site.br"
+  ],
+
   "home.competencies.title": [
     "site.hopen", "Technical Competencies", "site.hclose"
   ],
- 
   "home.hpc": [
     "site.ulopen",
     "navigate.hpc",
@@ -117,6 +143,52 @@
     "navigate.lab",
     "site.ulclose"
   ],
+  "home.competencies": [
+    "home.competencies.title",
+    "home.hpc",
+    "home.osi",
+    "home.aim",
+    "home.dbs",
+    "home.mon",
+    "home.prg",
+    "home.doc",
+    "home.sci",
+    "home.lab",
+    "site.br"
+  ],
+
+  "home.research.title": [
+    "site.hopen", "Research and Publications", "site.hclose"
+  ],
+  "home.research.metabolites": [
+    "site.ulopen",
+    "navigate.metabolites",
+    "site.ulclose"
+  ],
+  "home.research.composites": [
+    "site.ulopen",
+    "navigate.composites",
+    "site.ulclose"
+  ],
+  "home.research.intro": [
+    "site.popen",
+      "Prior to moving into systems engineering and infrastructure work, I worked in chemistry, conducting polymers, intelligent materials, supramolecular ",
+      "systems, biomaterials, and electrochemical composites. Although my career trajectory ultimately shifted toward large-scale systems engineering and ",
+      "operational infrastructure, the scientific and experimental disciplines developed during this period strongly influenced my later engineering philosophy.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "Research work included natural product biosynthesis, conducting polymer-hydrogel composites, electrochemical systems, responsive materials, and ",
+      "intelligent biomaterials, resulting in multiple peer-reviewed publications and conference papers.",
+    "site.pclose"
+  ],
+  "home.research": [
+    "home.research.title",
+    "home.research.intro",
+    "home.research.metabolites",
+    "home.research.composites",
+    "site.br"
+  ],
 
   "home.reverie.title": [
     "site.hopen", "Reverie", "site.hclose"
@@ -146,49 +218,28 @@
     "navigate.iga",
     "site.ulclose"
   ],
-  "home.inspirations": [
-    "navigate.inspirations",
-    "site.br"
-  ],
-  "site.pages.homepage": [
-    "site.who",
-    "site.br",
-    "home.projects.title",
-    "home.hadoopcluster",
-    "home.securitymodel",
-    "home.hydrogel",
-    "home.luggagebox",
-    "home.clamp",
-    "home.sickles",
-    "site.br",
-    "home.foundation.title",
-    "home.hotstuff",
-    "home.tooling",
-    "home.greenhouse",
-    "site.br",
-    "home.latherestoration.title",
-    "home.latheacq",
-    "home.rebuild",
-    "home.toolrest",
-    "site.br",
-    "home.competencies.title",
-    "home.hpc",
-    "home.osi",
-    "home.aim",
-    "home.dbs",
-    "home.mon",
-    "home.prg",
-    "home.doc",
-    "home.sci",
-    "home.lab",
-    "site.br",
+  "home.reverie": [
     "home.reverie.title",
     "home.early",
     "home.uni",
     "home.bhp",
     "home.thermite",
     "home.iga",
-    "site.br",
+    "site.br"
+  ],
+
+  "home.inspirations": [
+    "navigate.inspirations",
+    "site.br"
+  ],
+
+  "site.pages.homepage": [
+    "site.who",
+    "home.competencies",
+    "home.projects",
+    "home.latherestoration",
+    "home.research",
+    "home.reverie",
     "home.inspirations",
     "site.br",
     "site.beagle"

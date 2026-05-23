@@ -1,0 +1,37 @@
+{
+  "projects.metabolites.title": [
+    "site.hopen",
+      "projects.metabolites.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.metabolites.title.text": [
+    ""
+  ],
+  "projects.metabolites.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.metabolites.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.metabolites.overview": [
+    "projects.metabolites.overview.title",
+    "projects.metabolites.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.metabolites": [
+    "projects.metabolites.title",
+    "projects.metabolites.overview",
+
+    "site.return"
+  ]
+}
+

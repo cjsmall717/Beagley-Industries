@@ -34,6 +34,9 @@
     "./res/pages/projects/sci.json",
     "./res/pages/projects/lab.json",
 
+    "./res/pages/projects/metabolites.json",
+    "./res/pages/projects/composites.json",
+
     "./res/pages/projects/early.json",
     "./res/pages/projects/uni.json",
     "./res/pages/projects/bhp.json",

@@ -188,6 +188,20 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.metabolites": [
+    "<li class=\"li-link\" onclick=\"loadPage('metabolites');\">",
+    "site.lopen",
+    "Secondary Metabolites",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.composites": [
+    "<li class=\"li-link\" onclick=\"loadPage('composites');\">",
+    "site.lopen",
+    "Conducting Polymer Hydrogel Composites",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",

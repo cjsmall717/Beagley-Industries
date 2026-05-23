@@ -1,0 +1,37 @@
+{
+  "projects.composites.title": [
+    "site.hopen",
+      "projects.composites.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.composites.title.text": [
+    ""
+  ],
+  "projects.composites.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.composites.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.overview": [
+    "projects.composites.overview.title",
+    "projects.composites.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.composites": [
+    "projects.composites.title",
+    "projects.composites.overview",
+
+    "site.return"
+  ]
+}
+
