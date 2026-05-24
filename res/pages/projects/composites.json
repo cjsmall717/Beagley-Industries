@@ -17,7 +17,9 @@
   ],
   "projects.composites.overview.1": [
     "site.popen", 
-      "", 
+      "<a class=\"li-link\" onclick=\"loadPage('hydrogel');\">",
+        "Conducting Polymer—Hydrogel Systems",
+      "</a>",
     "site.pclose",
     "site.br"
   ],
