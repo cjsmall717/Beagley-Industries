@@ -5,13 +5,46 @@
     "site.hclose",
     "site.br"
   ],
+  
+  "projects.linux": [
+    "site.ulopen",
+      "site.liopen",
+        "Slackware",
+      "site.liclose",
+      "site.liopen",
+        "Arch",
+      "site.liclose",
+      "site.liopen",
+        "Fedora Core",
+      "site.liclose",
+      "site.liopen",
+        "Debian",
+      "site.liclose",
+      "site.liopen",
+        "Mint",
+      "site.liclose",
+      "site.liopen",
+        "CentOS -> Rocky",
+      "site.liclose",
+      "site.liopen",
+        "Suse (Base OS for CrayOS)",
+      "site.liclose",
+      "site.liopen",
+        "Ubuntu",
+      "site.liclose",
+      "site.liopen",
+        "RHEL (Required for GPFS and Lustre)",
+      "site.liclose",
+    "site.ulclose"
+  ],
+
   "projects.osi.title.text":[
     "Operating Systems and Infrastructure"
   ],
-
   "projects.osi.demo.1": [
     "site.liopen", 
       "Linux",
+      "projects.linux",
     "site.liclose"
   ],
   "projects.osi.demo.2": [
