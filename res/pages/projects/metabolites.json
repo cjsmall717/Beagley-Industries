@@ -3,6 +3,12 @@
     "site.hopen",
       "projects.metabolites.title.text",
     "site.hclose",
+    "site.br",
+    "site.popen",
+      "My longstanding interest in secondary metabolites extends beyond formal research into the broader ecological and pharmacological roles of terpenoids, ",
+      "sesquiterpene lactones, flavonoids, anthocyanins and related compounds. If I were to ever revisit chemistry-pertinent research, then, this class of ",
+      "Natural Products would be very high on my priority list.",
+    "site.pclose",
     "site.br"
   ],
 
