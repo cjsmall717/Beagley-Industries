@@ -5,33 +5,112 @@
     "site.hclose",
     "site.br"
   ],
+
   "projects.metabolites.title.text": [
-    ""
+    "Secondary Metabolites Chemistry"
   ],
   "projects.metabolites.overview.title": [
     "site.br", 
     "site.hopen", 
-      "", 
+      "Early Organic Chemistry / Natural Products",
     "site.hclose",
     "site.br"
   ],
   "projects.metabolites.overview.1": [
     "site.popen", 
-      "", 
+      "β-Carboline Derived Alkaloids from Marine Organisms (1988)", 
     "site.pclose",
     "site.br"
   ],
+  "projects.metabolites.overview.2": [
+    "site.popen", 
+      "Polypropionate Metabolites from Siphonaria zelandica (1988)", 
+    "site.pclose",
+    "site.br"
+  ],
+
   "projects.metabolites.overview": [
     "projects.metabolites.overview.title",
     "projects.metabolites.overview.1",
+    "projects.metabolites.overview.2",
     "site.br" 
   ],
+
+  "projects.metabolites.pubs.title": [
+    "site.hopen", 
+    "Reports and Publications",
+    "site.hclose", 
+    "site.br"
+  ],
+  "projects.metabolites.pubs.1": [
+    "site.popen", 
+      "C.J. Small. β-Carboline Derived Alkaloids from Marine Organisms: A literature review and experimental report for CHEM340, (06/1988)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.metabolites.pubs.2": [
+    "site.popen", 
+      "C.J. Small. Polypropionate Metabolites from Siphonaria zelandica: A literature review and experimental report for CHEM340. (11/1988)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.metabolites.pubs.3": [
+    "site.popen", 
+      "C.J. Small. Biosynthesis and structure of streptonigrin. (06/1989)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.metabolites.pubs.4": [
+    "site.popen", 
+      "C.J. Small. Biosynthetic studies on Siphonariid Metabolites. (11/1989)",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.metabolites.pubs.5": [
+    "site.popen", 
+      "M.J. Garson, C.J. Small, B.W. Skelton, P. Thinapong and A.H. White, Structural and Stereochemical Correlations of Polypropionate Metabolites: ",
+       "Revision of the Relative Stereochemistry of Pectinatone by X-Ray Structure Analysis. <b><i>J C S. Perkin Trans I</i></b> (1990)",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.metabolites.pubs.6": [
+    "site.popen", 
+      "M.J. Garson, D.D. Jones, C.J. Small, Jun Liang and Jon Clardy. Biosynthetic Studies on Polypropionates: A Stereochemical Model for Siphonarins ",
+      "A and B from the Pulmonate Limpet Siphonaria Zelandica. <b><i>J C S. Perkin Trans I </i></b> (1990)",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.metabolites.pubs.7": [
+    "site.popen", 
+      "Mary Garson, David Jones, Christopher Small, Jun Liang and Jon Clardy, Biosynthetic studies on polypropionates: A stereochemical model for siphonarins ",
+      "A and B from the pulmonate limpet siphonaria zelandica <b><i>Tetrahedron Letters</i></b> (1994)",
+    "site.pclose",
+    "site.popen", 
+      "https://doi.org/10.1016/0040-4039(94)85042-9",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.metabolites.pubs": [
+    "projects.metabolites.pubs.title",
+    "projects.metabolites.pubs.1",
+    "projects.metabolites.pubs.2",
+    "projects.metabolites.pubs.3",
+    "projects.metabolites.pubs.4",
+    "projects.metabolites.pubs.5",
+    "projects.metabolites.pubs.6",
+    "projects.metabolites.pubs.7",
+    "site.br" 
+  ],
+
 
   "site.pages.metabolites": [
     "projects.metabolites.title",
     "projects.metabolites.overview",
+    "projects.metabolites.pubs",
 
     "site.return"
   ]
 }
-
