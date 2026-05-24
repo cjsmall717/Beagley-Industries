@@ -172,9 +172,10 @@
   ],
   "home.research.intro": [
     "site.popen",
-      "Prior to moving into systems engineering and infrastructure work, I worked in chemistry, conducting polymers, intelligent materials, supramolecular ",
-      "systems, biomaterials, and electrochemical composites. Although my career trajectory ultimately shifted toward large-scale systems engineering and ",
-      "operational infrastructure, the scientific and experimental disciplines developed during this period strongly influenced my later engineering philosophy.",
+      "My technical background predates my infrastructure and HPC work. Prior to moving into systems engineering and infrastructure work, I worked in ",
+      "chemistry, conducting polymers, intelligent materials, supramolecular systems, biomaterials, and electrochemical composites. Although my career ",
+      "trajectory ultimately shifted toward large-scale systems engineering and operational infrastructure, the scientific and experimental disciplines ",
+      "developed during this period strongly influenced my later engineering philosophy.",
     "site.pclose",
     "site.br",
     "site.popen",
