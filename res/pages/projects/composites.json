@@ -6,7 +6,7 @@
     "site.br"
   ],
   "projects.composites.title.text": [
-    ""
+    "Conducting Polymers: Polymer Modified Electrodes, and Hydrogel Composite Materials"
   ],
   "projects.composites.overview.title": [
     "site.br", 
@@ -27,9 +27,75 @@
     "site.br" 
   ],
 
+  "projects.composites.pubs.title": [
+    "site.br", 
+    "site.hopen", 
+      "Publications", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.1": [
+    "site.popen", 
+      "K. Gilmore, A.J. Hodgson, B. Luan, C.J. Small, and G.G. Wallace. Preparation of Conducting Polymer-Hydrogel Composites. <b><i>Polymer Gels and Networks</i></b> 2:135–143, (1994)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.2": [
+    "site.popen", 
+      "K. Gilmore, A.J. Hodgson, C.J. Small, and G.G. Wallace. Conducting Polymer-Hydrogel Composites. <i>20<sup>th</sup> Australian Polymer Symposium, Adelaide</i>",
+      "RACI - Polymer Division (1995)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.3": [
+    "site.popen", 
+      "J. Mansouri, C.J. Small, C.O. Too, and G.G. Wallace. Assembly of Conducting Polymer Networks inside Hydrogel Structures. <b><i>SPIE</i></b> 2716:8–19, (1996)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.4": [
+    "site.popen", 
+      "G.G. Wallace, G. Spinks C.J. Small, H. Eisazadeh. Coaxing Predictable Behaviour from Unstable (Intelligent) Polymer Systems: Processing ",
+      "Dynamic Systems. <b><i>Intelligent Material Systems and Structures</i></b> 6(3):301–306, (1995)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.5": [
+    "site.popen", 
+      "J.N. Barisci, P.C. Murray, C.J. Small, and G.G. Wallace. Studies into the Preparation and Analytical Application of Polypyrrole Coated ",
+      "Microelectrodes for Determination of Aluminium. <b><i>Electroanalysis</i></b> 8:330-335 (1996)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.6": [
+    "site.popen", 
+      "G.G. Wallace, H. Zhao, C.O. Too, and C.J. Small. Novel conducting polymer-polyelectrolyte composites <b><i>Synth. Met.</i></b> 84:323-326, (1997)",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.composites.pubs.7": [
+    "site.popen", 
+      "C.J. Small, C.O. Too and G.G. Wallace. Responsive conducting polymer-hydrogel composites. <b><i>Polymer Gels and Networks</i></b> 5:251-265, (1997)",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.composites.pubs": [
+    "projects.composites.pubs.title",
+    "projects.composites.pubs.1",
+    "projects.composites.pubs.2",
+    "projects.composites.pubs.3",
+    "projects.composites.pubs.4",
+    "projects.composites.pubs.5",
+    "projects.composites.pubs.6",
+    "projects.composites.pubs.7",
+    "site.br" 
+  ],
+
   "site.pages.composites": [
     "projects.composites.title",
     "projects.composites.overview",
+    "projects.composites.pubs",
 
     "site.return"
   ]
