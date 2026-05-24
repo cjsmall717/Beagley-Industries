@@ -53,8 +53,9 @@
     "site.popen", 
       "1974 was a difficult year &mdash; the first time I experienced tyranny directly, and the first time I confronted it head-on. Recently, ",
       "I asked my father a couple of times, if he had intervened and resolved the difficulties that I, and my classmates had been subjected to. ",
-      "He told me that he had not. I have no idea if it was my action, or that of another child's parent that resulted in a positive outcome, ",
-      "but either way, it was a welcome change.",
+      "Why would he  have done so? He's the only one I know who might have intervened but I kept my own troubles to myself &mdash; he never ",
+      "really knew. I have no idea if it was my action, or that of another child's parent that resulted in a positive outcome, but either way, ",
+      "it was a welcome change.",
     "site.pclose", 
     "site.br"
   ],
@@ -62,9 +63,9 @@
     "site.popen", 
       "I recall the old dragon, lurking on the verandah, like some neurotic Scylla waiting to swoop on some kid that had wandered 'out of bounds'. ",
       "In my case &mdash; Terrified as I was, I was there to confront her. I walked out onto the verandah, which had an ancient, greyed timber ",
-      "floor and partially enclosed front wall of red brick. That section of the school was built in 1882. As I wandered out the nun, still in ",
-      "Summer habit, loomed from between pigeon holes, seemingly straight out of the brickwork in a manner that modern children might associate ",
-      "with the T-1000. I was fully expecting the usual hiding but, for some reason, she listened to what I had to say and then told me to go ",
+      "floor and partially enclosed front wall of red brick. That section of the school was built in 1882. As I wandered out the teacher loomed ",
+      "from between pigeon holes, seemingly straight out of the brickwork in a manner that modern children might associate with the T-1000. I was ",
+      "fully expecting the usual hiding but, for some reason, she listened to what I had to say and then told me to go ",
       "back to the playground. I'd failed, but at least I'd tried.",
     "site.pclose", 
     "site.br"
@@ -101,7 +102,7 @@
     "site.popen", 
        "She had forgotten, apparently, because it did not happen. I confronted her one day and asked when I was getting the book. Looking down ",
        "at me, she told me that she did not remember having said that I was to have the upgraded book. She asked if I thought I could read it. ",
-       "I responded, \"Yes, Sister, I think so!\" &mdash; I'd already read it cover to cover, and my favourite bits, dozens of times over, in ",
+       "I responded, \"Yes, Miss, I think so!\" &mdash; I'd already read it cover to cover, and my favourite bits, dozens of times over, in ",
        "the two years previous.",
     "site.pclose", 
     "site.br"
