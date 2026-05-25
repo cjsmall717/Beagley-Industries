@@ -14,20 +14,20 @@
   ],
   "projects.thermite.cautionary.1": [
     "site.popen", 
-      "Hot metal looks almost the same as cold metal, below a certain temperature. In daylight, metal that glows",
-      "incandescent red in the dark can look unremarkable, but looks can be deceiving and sometimes the 'feel' of",
-      "a thing can convey information about item's average kinetic energy far better than it appearance can. To be",
+      "Hot metal looks almost the same as cold metal, below a certain temperature. In daylight, metal that glows ",
+      "incandescent red in the dark can look unremarkable, but looks can be deceiving and sometimes the 'feel' of ",
+      "a thing can convey information about item's average kinetic energy far better than it appearance can. To be ",
       "sure, due care is a far better substitute than the surprising realisation that, <b>\"YOW!!! THAT'S HOT!!!\"</b>",
     "site.pclose",
     "site.br"
   ],
   "projects.thermite.cautionary.2": [
     "site.popen", 
-      "I'm reminded of an incident in one of my senior chemistry classes in high school. A classmate had been holding",
-      "his ruler in a blue bunsen flame for some time. After awhile, he put his hand up and asked, as he held the ruler",
-      "aloft, \"Hey, Sir, how hot would I have to heat this before it melts?\" The unsuspecting teacher reached towards",
-      "the ruler. It was a slow-motion train-wreck. It was inconceivable that the kid would not pull the ruler back.",
-      "With a yelp of pain, anger, surprise and ignominy, the teacher turned a funny shade of purple and started yelling.",
+      "I'm reminded of an incident in one of my senior chemistry classes in high school. A classmate had been holding ",
+      "his ruler in a blue bunsen flame for some time. After awhile, he put his hand up and asked, as he held the ruler ",
+      "aloft, \"Hey, Sir, how hot would I have to heat this before it melts?\" The unsuspecting teacher reached towards ",
+      "the ruler. It was a slow-motion train-wreck. It was inconceivable that the kid would not pull the ruler back. ",
+      "With a yelp of pain, anger, surprise and ignominy, the teacher turned a funny shade of purple and started yelling. ",
       "Hot metal looks <i>exactly like cold metal</i>.",
     "site.pclose",
     "site.br"
@@ -62,7 +62,7 @@
   ],
   "projects.thermite.cautionary.6": [
     "site.popen",
-    "This was another of those times when I caused the problem, belatedly understood the danger, and took immediate,",
+    "This was another of those times when I caused the problem, belatedly understood the danger, and took immediate, ",
     "though not risk free (my own life and limb) steps to ameliorate the problem. In this instance, the rusty steel ",
     "crucible coupled with the high magnesium aluminium alloy was a potential disaster. Magnesium-bearing alloys can ",
     "burn intensely once ignited and may react dangerously with water or oxidised contaminants.",
