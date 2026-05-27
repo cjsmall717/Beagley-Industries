@@ -56,7 +56,7 @@
       "Corporate buzzwords alone do not make systems secure. Although ideas such as \"Essential Eight\", \"Zero Trust\", and similar frameworks are ",
       "gaining momentum throughout the Noosphere, they are not substitutes for disciplined system design, sound operational practice, and rigorous ",
       "implementation. The danger posed by 'buzzword governance' is that genuine rigour may be displaced by a kind of security theatre built around ",
-      "procedural tokenism.",
+      "procedural tokenism. For similar reasons, I did not implement the likes of clevis and tang.",
     "site.pclose"
   ],
   "projects.security.overview.6": [
@@ -73,6 +73,15 @@
       "Identity Management umbrella.",
     "site.pclose"
   ],
+  "projects.security.overview.8": [
+    "site.popen", 
+      "All physical disk partitions, with the exception of those hosting UEFI boot filesystems are encrypted with LUKS. The disks are first written with ",
+      "cryptographically random data. LVM Volume Groups are created over the LUKS-encrypted disks. Keys are stored on USB sticks. The initial intent was ",
+      "to resin-seal them inside some 2\" x 1/4\"x.s. steel tube with a couple of tangs welded on, to screw the container down, then drill out the phillips-heads ",
+      "to make removal less trivial. On re-evaluating my use-case, the seneitivity of my data, and the probability of physical intrusion the measures ",
+      "were deemed excessive.",
+    "site.pclose"
+  ],
   "projects.security.overview": [
     "projects.security.overview.title",
     "projects.security.overview.1",
@@ -82,6 +91,7 @@
     "projects.security.overview.5",
     "projects.security.overview.6",
     "projects.security.overview.7",
+    "projects.security.overview.8",
     "site.br" 
   ],
 
