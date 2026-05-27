@@ -78,7 +78,7 @@
       "All physical disk partitions, with the exception of those hosting UEFI boot filesystems are encrypted with LUKS. The disks are first written with ",
       "cryptographically random data. LVM Volume Groups are created over the LUKS-encrypted disks. Keys are stored on USB sticks. The initial intent was ",
       "to resin-seal them inside some 2\" x 1/4\"x.s. steel tube with a couple of tangs welded on, to screw the container down, then drill out the phillips-heads ",
-      "to make removal less trivial. On re-evaluating my use-case, the seneitivity of my data, and the probability of physical intrusion the measures ",
+      "to make removal less trivial. On re-evaluating my use-case, the sensitivity of my data, and the probability of physical intrusion the measures ",
       "were deemed excessive.",
     "site.pclose"
   ],
