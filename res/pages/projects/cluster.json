@@ -1,0 +1,52 @@
+{
+  "projects.cluster.title": [
+    "site.hopen",
+      "projects.cluster.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.cluster.title.text": [
+    "A New High Availability Cluster"
+  ],
+  "projects.cluster.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "Requirements", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.cluster.overview.1": [
+    "site.popen", 
+      "Simplicity! Above all else, with the exception of high assurance, the cluster must be simple. Where complexity encroaches, it must be elegant ", 
+      "and it must solve a specific problem &mdash; not introduce complexity for the sake of complexity.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.cluster.overview.2": [
+    "site.popen", 
+      "High Availability, and High Assurance! No data corruption, high uptime, data recovery.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.cluster.overview.3": [
+    "site.popen", 
+      "Modest cost.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.cluster.overview": [
+    "projects.cluster.overview.title",
+    "projects.cluster.overview.1",
+    "projects.cluster.overview.2",
+    "projects.cluster.overview.3",
+    "site.br" 
+  ],
+
+  "site.pages.cluster": [
+    "projects.cluster.title",
+    "projects.cluster.overview",
+
+    "site.return"
+  ]
+}
+

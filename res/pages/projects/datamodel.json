@@ -1,0 +1,37 @@
+{
+  "projects.datamodel.title": [
+    "site.hopen",
+      "projects.datamodel.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.datamodel.title.text": [
+    ""
+  ],
+  "projects.datamodel.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.datamodel.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.datamodel.overview": [
+    "projects.datamodel.overview.title",
+    "projects.datamodel.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.datamodel": [
+    "projects.datamodel.title",
+    "projects.datamodel.overview",
+
+    "site.return"
+  ]
+}
+
