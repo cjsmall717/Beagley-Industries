@@ -247,7 +247,9 @@
     "site.ulclose",
     "site.br",
     "site.popen",
-      "Forge, my VM hosting machine, was built on a budget, but with performance in mind as well as data security to the extent possible.", 
+      "Forge, my VM hosting machine, was built on a budget, but with performance in mind as well as data security to the extent possible. My current cluster ", 
+      "work is being completed on forge. In due course a second, similarly appointed machine will be acquired to establish a physical cluster to host my ",
+      "virtualisation system.",
     "site.br"
   ],
   "projects.opsec": [
