@@ -1,0 +1,86 @@
+{
+  "projects.current.title": [
+    "site.hopen",
+      "projects.current.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.current.title.text": [
+    "HA Slackware Cluster Build"
+  ],
+  "projects.current.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "Progress notes", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.current.overview.1": [
+    "site.popen", 
+      "Slackware Current (2026/05/01) Image was built to build necessary cluster code.", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.overview.2": [
+    "site.popen", 
+      "A Slackware64-current gold base image was built.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.overview.3": [
+    "site.popen", 
+      "Corosync, Pacemaker, DRBD and dependencies were packaged, as source, from git repos then built using modified scripts from the ", "site.links.slackbuild", " site. ",
+      "Code was compiled and packaged so that it can later be installed into a gold image from which qcow2 snapshots would be created for each node.", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.overview.4": [
+    "site.popen", 
+      "A Slackware64-current gold base image with HA components was built. This is the base image from which the .",
+      "two cluster nodes were built. The cluster images were built as snapshots and the configuration was captured ",
+      "so that ansible code can be written once the config is determined and proven to be operationally correct.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.overview.5": [
+    "site.popen", 
+      "The images were pulled into my Virtualisation platform, covert (Chris' Own Virtualisation Environment for Research and Testing) and the qcow images were ",
+      "created for the two member nodes, <i>dee</i>, and <i>dum</i>. The cluster is to be called <i>tweedle</i>. A mock-up of a witness node/quorum manager is being ",
+      "considered. It's name is likely to be <i>alice</i>",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.overview": [
+    "projects.current.overview.title",
+    "projects.current.overview.1",
+    "projects.current.overview.2",
+    "projects.current.overview.3",
+    "projects.current.overview.4",
+    "projects.current.overview.5",
+    "site.br" 
+  ],
+  "projects.current.gallery.title":[
+    "site.hopen", 
+      "A cluster Emerges...",
+    "site.hclose" 
+  ],
+  "projects.current.gallery.1": [
+    "site.iopen",
+      "current",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.current.gallery": [
+    "projects.current.gallery.title",
+    "projects.current.gallery.1"
+  ],
+
+  "site.pages.current": [
+    "projects.current.title",
+    "projects.current.overview",
+    "projects.current.gallery",
+
+    "site.return"
+  ]
+}
+

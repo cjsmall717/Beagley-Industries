@@ -1,4 +1,10 @@
 {
+  "site.url.slackbuild": [
+    "http://slackbuils.org/"
+  ],
+  "site.links.slackbuild": [
+    "site.urlopen", "site.url.slackbuild", "site.urlclose", "SlackBuilds.org", "site.lclose"
+  ],
   "site.url.slackware": [
     "http://www.slackware.com/"
   ],

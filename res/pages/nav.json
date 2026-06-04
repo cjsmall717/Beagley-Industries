@@ -1,4 +1,11 @@
 {
+  "navigate.current": [
+    "<li class=\"li-link\" onclick=\"loadPage('current');\">",
+    "site.lopen",
+    "Current Project: status",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.gardening.garden": [
     "<li class=\"li-link\" onclick=\"loadPage('garden');\">",
     "site.lopen",

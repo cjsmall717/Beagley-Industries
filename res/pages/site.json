@@ -106,10 +106,16 @@
     "site.pclose",
     "site.br"
   ],
+  "site.current.3": [
+    "site.popen",
+    "navigate.current",
+    "site.pclose"
+  ],
   "site.current": [
     "site.current.title",
     "site.current.1",
     "site.current.2",
+    "site.current.3",
     "site.br"
   ]
 }

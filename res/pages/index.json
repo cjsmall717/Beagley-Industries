@@ -9,6 +9,7 @@
     "./res/pages/videos.json",
     "./res/pages/inspirations.json",
 
+    "./res/pages/projects/current.json",
     "./res/pages/projects/luggagebox.json",
     "./res/pages/projects/clamp.json",
     "./res/pages/projects/hydrogel.json",

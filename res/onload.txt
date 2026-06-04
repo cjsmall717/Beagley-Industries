@@ -256,3 +256,4 @@
 ./res/img/content/thumbnails/securitymodel/4.jpg
 ./res/img/content/thumbnails/securitymodel/5.jpg
 ./res/img/content/thumbnails/opsec/1.jpg
+./res/img/content/thumbnails/current/1.jpg
