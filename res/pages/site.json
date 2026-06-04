@@ -90,14 +90,14 @@
       "architectures whilst being, itself, a reference architecture. Corosync, Pacemaker and Heartbeat will be used to provide node membership, resource management, ",
       "failover, and service orchestration. Future work may include automated power management and node control using either an AVR-based controller or an FPGA ",
       "implementation to facilitate power sequencing, remote recovery, and experimental cluster-management functions. The first goal is a correctly functioning HA ",
-      "cluster because there are still those customers who want a simple HA environment without the overhead of Kubernetes.",
+      "cluster. There remain many workloads for which a simple, well-understood HA environment is more appropriate than a Kubernetes deployment.",
     "site.pclose",
     "site.br"
   ],
   "site.current.2": [
     "site.popen",
       "A secondary goal is to enhance the virtualisation platform I've developed over the past two decades. The objective is to minimise reliance on vendor-specific ",
-      "tooling and corporate dependencies wherever practical. Over that time I've seen a number of products altered, deprecated, or discontinued due to changes in ",
+      "tooling and externally controlled dependencies wherever practical. Over that time I've seen a number of products altered, deprecated, or discontinued due to changes in ",
       "corporate strategy. It is my aim to build a stable and secure physical infrastructure layer upon which an over-subscribed virtualised environment can be deployed. ",
       "Documentation is considered a first-class deliverable of the greater project, as long-term maintainability depends upon it. The weakest part of almost every ",
       "system I have worked on was the documentation &mdash; in some cases wholly absent, in others incomplete, inaccurate, or poorly maintained. Everybody wants to ",
