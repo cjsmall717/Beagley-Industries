@@ -1,6 +1,12 @@
 {
   "gallery.text.1": [
     "Screenshot of cluster status as seen by dum."
+  ],
+  "gallery.text.2": [
+    "Screenshot of DRBD status as seen by dee. Note, /dev/drbd0 is not mounted on dee."
+  ],
+  "gallery.text.3": [
+    "Screenshot of DRBD status as seen by dum. /dev/drbd0 is mounted on /var/data."
   ]
 }
 

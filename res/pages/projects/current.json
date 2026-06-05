@@ -50,6 +50,13 @@
     "site.pclose",
     "site.br"
   ],
+  "projects.current.overview.5": [
+    "site.popen", 
+      "DRBD has been configured with a private network. Disks were synchronised and failover tests independent of pacemaker/corosync. In an HA pair, DRBD volumes ",
+      "need to be set up and then managed by corosync. "
+    "site.pclose",
+    "site.br"
+  ],
   "projects.current.overview": [
     "projects.current.overview.title",
     "projects.current.overview.1",
