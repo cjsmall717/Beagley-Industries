@@ -17,7 +17,7 @@
   ],
   "projects.current.overview.1": [
     "site.popen", 
-      "Slackware Current (2026/05/01) Image was built to build necessary cluster code.", 
+      "A Slackware64-current (2026-05-01) build environment was created to compile the software components required for the HA cluster reference architecture.",
     "site.pclose",
     "site.br"
   ],
@@ -45,8 +45,8 @@
   "projects.current.overview.5": [
     "site.popen", 
       "The images were pulled into my Virtualisation platform, covert (Chris' Own Virtualisation Environment for Research and Testing) and the qcow images were ",
-      "created for the two member nodes, <i>dee</i>, and <i>dum</i>. The cluster is to be called <i>tweedle</i>. A mock-up of a witness node/quorum manager is being ",
-      "considered. It's name is likely to be <i>alice</i>",
+      "created for the two member nodes, <i>dee</i>, and <i>dum</i>. The two cluster nodes were named dee and dum, collectively forming the Tweedle cluster. A ",
+      "witness/quorum node is being considered and will likely be named <i>alice</i>",
     "site.pclose",
     "site.br"
   ],
@@ -85,22 +85,146 @@
   "projects.current.discussion.title": [
     "site.br", 
     "site.hopen", 
-      "Conclusion", 
+      "Discussion", 
     "site.hclose",
     "site.br"
   ],
   "projects.current.discussion.1": [
     "site.popen", 
-      "DRBD has been built and configured and was synchronising with the secondary node. Corosync and Pacemaker were built and synchronised to achieve quorum. A timing",
-      "impeded proper functioning of the cluster so it has been parked, pending acquisition of additional physical hardware. Focus has now switched to building a SLURM ",
-      "based reference cluster with Singularity/Apptainer containers as functional units to be deployed by SLURM. This is reminiscent of the Cray Urika-CS methodology. ",
-      "A key focus will be multi-tenancy, fast deployment, and simple management for scientific workloads.",
+      "DRBD, Corosync and Pacemaker were successfully built and integrated to the point where cluster quorum, failover and storage replication could be demonstrated ",
+      "independently. A timing-related issue affecting stable operation during failback remains unresolved. Because the current implementation is hosted entirely within ",
+      "a virtual environment sharing common physical storage, further investigation has been deferred pending access to additional physical hardware. Focus has now ",
+      "switched to building a SLURM based reference cluster with Singularity/Apptainer containers as functional units to be deployed by SLURM. This is reminiscent of ",
+      "the Cray Urika-CS methodology. A key focus will be multi-tenancy, fast deployment, and simple management for scientific workloads.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.2": [
+    "site.popen", 
+      "The resulting environment naturally separates into several independent architectural planes. ",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.3": [
+    "site.popen", 
+      "The Infrastructure Plane provides storage, virtualisation, image ",
+      "management and deployment services. This functionality is primarily provided by COVERT. The Identity Plane provides authentication, authorisation and service ",
+      "identity through OpenLDAP, MIT Kerberos5 and supporting infrastructure. The Workload Plane contains the actual reference architectures, including high-availability ",
+      "clusters, Hadoop environments and scientific computing clusters. The Data Plane remains largely independent of the workloads themselves. Applications interact with ",
+      "data through filesystem access and associated permissions rather than through application-specific security mechanisms. ",
+      "This separation allows workloads to be rebuilt, replaced or upgraded without requiring significant changes to either the identity infrastructure or the underlying ",
+      "deployment platform.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.4": [
+    "site.popen", 
+      "The vision was greater, far, than either time, or resources permitted. That's not a bad thing &mdash; the design has been reasonably stable aver the past decade with minor ",
+      "changes being introduced when augmented functionality was required to support a new scenario. I'd intended, at some point, to be able to store definitions for images, ",
+      "and to be able to call Qemu or Singularity (now Apptainer) as required. An important reason behind my resistance to migraton of my system to KVM was that I had non-intel ",
+      "architectures that I needed to support &mdash; these being ARM, NIOS-2, Pacoblaze, and i386. In one of my prior roles, I often assisted users in running non-intel images ",
+      "up as part of their work. Being able to prototype their use-case for them was a valuable service that I was able to provide.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.5": [
+    "site.popen", 
+      "Some important considerations arose during my attempt to conceptualise my system make it simpler. The security model is implemented as a foundational service rather ",
+      "than as an application feature. In this respect it bears some resemblance to aspects of the Cray Urika-GX architecture. The resulting scientific cluster architecture ",
+      "is more reminiscent of a Cray Urika-CS, especially in terms of it being Slurm-centric, and depending on singularity containers. Management and metadata storage have been ",
+      "abstracted into one functional unit. Security and identity has been abstracted into another plane &mdash; and not just for users, but for the hosts as well. Each ",
+      "system is built on a qcow2 image that is derived from a gold image. Each platform is built around some type of cluster solution (eg. Corosync, Hadoop, or traditional ",
+      "HPC architecture.). ",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.6": [
+    "site.popen", 
+      "The security model is built from the bottom up and resides outside any of the architectures. It is built on OpenLDAP, MIT Kerberos5, and makes use of Cyrus-SASL and ",
+      "file/directory-level ACLs. The Scientific Computing Reference Architecture has been designed with multi-tenancy in mind. A central design principle is the separation ",
+      "of computation, scheduling, metadata and data. The scheduler manages work. Containers provide application environments. Identity services determine authorisation. ",
+      "Storage systems provide persistence. No individual component owns the entire workflow. The Identity and Authorisation components define what operations can be performed ",
+      "upon the data, and by whom. The programs and Singularity containers are separate, though, there is a use-case where acess to the actual programs might need to be ",
+      "restricted &mdash; and this is possible, too.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion.7": [
+    "site.popen", 
+      "I harp on security because it's difficult to 'bolt on later' but it is essential. I'm also very conscious of file ownership/permissions. It was not uncommon to encounter ",
+      "users who were not adept at dealing with unix file ownership. In fact, I had a discussion, on one occasion, with a group of veteran admins who did not have an appreciation for ",
+      "different ownership semantics, nor for the implementation-specific variation in these. It becomes even more of a concern when changes occur, people leave an organisation, and ",
+      "files are 'orphaned', in terms of ownership, if their credentials are deleted from the Identity management system. This is a serious concern and one that I have given a lot of ",
+      "thought to over the years. Ultimately, the problem being addressed is not merely authentication or authorisation, but provenance. Provenance must be recorded automatically ",
+      "wherever possible. Systems that rely upon users to manually maintain records of execution, ownership or data lineage will eventually fail because people change roles, move ",
+      "organisations, retire, or simply make mistakes. Scientific and industrial computing environments must be capable of demonstrating who performed a task, what data was used, ",
+      "what outputs were produced, and under which authority the work was executed. Patents, ownership of IP, claims of invention, litigation, valuation, National Security, ",
+      "evidentiary claims in terms of exculpatory evidence are all potentially riding on provenance. It's not a trivial problem &mdash; but it could be made more so.",
     "site.pclose",
     "site.br"
   ],
   "projects.current.discussion": [
     "projects.current.discussion.title",
-    "projects.current.discussion.1"
+    "projects.current.discussion.1",
+    "projects.current.discussion.2",
+    "projects.current.discussion.3",
+    "projects.current.discussion.4",
+    "projects.current.discussion.5",
+    "projects.current.discussion.6",
+    "projects.current.discussion.7"
+  ],
+
+  "projects.future.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "Future Work", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.future.overview.1": [
+    "site.popen", 
+      "Resolve DRBD failback timing issue.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview.2": [
+    "site.popen", 
+      "Revisit HA cluster using physical hardware.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview.3": [
+    "site.popen", 
+      "Complete SLURM reference architecture.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview.4": [
+    "site.popen", 
+      "Integrate Apptainer workloads.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview.5": [
+    "site.popen", 
+      "Demonstrate multi-tenancy and provenance.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview.6": [
+    "site.popen", 
+      "Extend COVERT deployment capabilities.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.future.overview": [
+    "projects.future.overview.title",
+    "projects.future.overview.1",
+    "projects.future.overview.2",
+    "projects.future.overview.3",
+    "projects.future.overview.4",
+    "projects.future.overview.5",
+    "projects.future.overview.6"
   ],
 
   "site.pages.current": [
@@ -108,6 +232,7 @@
     "projects.current.overview",
     "projects.current.gallery",
     "projects.current.discussion",
+    "projects.future.overview",
 
     "site.return"
   ]
