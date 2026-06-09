@@ -82,11 +82,32 @@
     "projects.current.gallery.title",
     "projects.current.gallery.1"
   ],
+  "projects.current.discussion.title": [
+    "site.br", 
+    "site.hopen", 
+      "Conclusion", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.current.discussion.1": [
+    "site.popen", 
+      "DRBD has been built and configured and was synchronising with the secondary node. Corosync and Pacemaker were built and synchronised to achieve quorum. A timing",
+      "impeded proper functioning of the cluster so it has been parked, pending acquisition of additional physical hardware. Focus has now switched to building a SLURM ",
+      "based reference cluster with Singularity/Apptainer containers as functional units to be deployed by SLURM. This is reminiscent of the Cray Urika-CS methodology. ",
+      "A key focus will be multi-tenancy, fast deployment, and simple management for scientific workloads.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.current.discussion": [
+    "projects.current.discussion.title",
+    "projects.current.discussion.1"
+  ],
 
   "site.pages.current": [
     "projects.current.title",
     "projects.current.overview",
     "projects.current.gallery",
+    "projects.current.discussion",
 
     "site.return"
   ]

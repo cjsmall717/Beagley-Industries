@@ -259,3 +259,4 @@
 ./res/img/content/projects/current/1.jpg
 ./res/img/content/projects/current/2.jpg
 ./res/img/content/projects/current/3.jpg
+./res/img/content/projects/current/4.jpg

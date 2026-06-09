@@ -7,6 +7,10 @@
   ],
   "gallery.text.3": [
     "Screenshot of DRBD status as seen by dum. /dev/drbd0 is mounted on /var/data."
+  ],
+  "gallery.text.4": [
+    "As home networks/labs go, mine is moderately complex"
   ]
+}
 }
 
