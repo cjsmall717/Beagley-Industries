@@ -2,6 +2,11 @@
   "home.projects.title": [
     "site.hopen", "Selected Work: Systems Engineering and Projects", "site.hclose"
   ],
+  "home.covert": [
+    "site.ulopen",
+    "navigate.covert",
+    "site.ulclose"
+  ],
   "home.hadoopcluster": [
     "site.ulopen",
     "navigate.hadoopcluster",

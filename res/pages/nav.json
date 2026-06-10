@@ -41,6 +41,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.covert": [
+    "<li class=\"li-link\" onclick=\"loadPage('covert');\">",
+    "site.lopen",
+    "Chris' Own Virtualisation Environment for Reasearch and Testing (COVERT)",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.hadoopcluster": [
     "<li class=\"li-link\" onclick=\"loadPage('hadoopcluster');\">",
     "site.lopen",
