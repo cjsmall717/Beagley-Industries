@@ -39,6 +39,7 @@
   ],
   "home.projects": [
     "home.projects.title",
+    "home.covert",
     "home.hadoopcluster",
     "home.securitymodel",
     "home.hydrogel",
