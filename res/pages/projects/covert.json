@@ -3,35 +3,170 @@
     "site.hopen",
       "projects.covert.title.text",
     "site.hclose",
+    "site.br",
+    "site.popen",
+      "Prior to 2008 my requirement for virtualisation was quite modest. For one thing, my hardware could not run any significant load. ",
+      "For another, I really only required it for the purpose of running one or two windows applications, on rare occasions, and for testing ",
+      "new Slackware distributions prior to deployment or upgrade.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "When I took a position with \"Cray, Australia\", I was unable to work on my customer's site until I had been inducted and, as a consequence, ",
+      "spent a few months in the office with not set schedule of work. I set about building some clusters of VMs so that I could learn how the PBS ",
+      "Scheduler works, and I also tried to get some mpich-based cluster applications working. It became apparent, very quickly, that separate scripts ",
+      "would not 'cut it'. I realised, later, that a static config with a shell or awk script was also not ideal. Thus was born the idea for COVERT, though, ",
+      "that name did not precipitate until some years later &mdash; a tongue in cheek dig at my job role at the time.",
+    "site.pclose",
     "site.br"
   ],
   "projects.covert.title.text": [
     "Chris' Own Virtualisation Enviroment for Research and Testing (COVERT)"
   ],
+
+  "projects.covert.keydesign.title":[
+    "site.hopen", 
+      "A Historical Account of COVERT", 
+    "site.hclose"
+  ],
+  "projects.covert.keydesign.1":[
+    "site.liopen",
+      "<b>2008 &mdash; Origins</b>", "site.br",
+      "site.bqopen",
+        "Initial virtual machine management platform", "site.br",
+        "Database-backed metadata and inventory", "site.br",
+        "XFig-based architecture documentation", "site.br",
+        "Early Lustre experimentation", "site.br",
+        "PBS-based workload scheduling", "site.br",
+      "site.bqclose",
+    "site.liclose"
+  ],
+  "projects.covert.keydesign.2":[
+    "site.liopen",
+      "<b>2014 &mdash; Platform Maturity</b>","site.br",
+      "site.bqopen",
+        "PostgreSQL-driven deployment and management", "site.br",
+        "Expanded inventory and provisioning capabilities", "site.br",
+        "Increasing separation of infrastructure and workload concerns", "site.br",
+      "site.bqclose",
+    "site.liclose"
+  ],
+  "projects.covert.keydesign.3":[
+    "site.liopen",
+      "<b>2018 &mdash; Infrastructure as Code</b>","site.br",
+      "site.bqopen",
+        "Introduction of Ansible-based configuration management", "site.br",
+        "Formalisation of security and identity architecture", "site.br",
+        "Greater emphasis on reproducibility and consistency", "site.br",
+      "site.bqclose",
+    "site.liclose"
+  ],
+  "projects.covert.keydesign.4":[
+    "site.liopen",
+      "<b>2025 &mdash; Reference Architectures</b>","site.br",
+      "site.bqopen",
+        "Reintroduction of Lustre-based storage", "site.br",
+        "SLURM workload management", "site.br",
+        "Hadoop reference cluster", "site.br",
+        "Scientific computing reference architecture", "site.br",
+        "Consolidation of deployment, identity and storage services", "site.br",
+      "site.bqclose",
+    "site.liclose"
+  ],
+  "projects.covert.keydesign.5":[
+    "site.liopen",
+      "<b>2026 &mdash; Provenance and Multi-Tenancy</b>","site.br",
+      "site.bqopen",
+        "Container-centric scientific workloads", "site.br",
+        "Multi-tenant execution model", "site.br",
+        "Kerberos-integrated workload execution", "site.br",
+        "Provenance-aware scheduling concepts", "site.br",
+        "Separation of Infrastructure, Identity, Workload and Data planes", "site.br",
+      "site.bqclose",
+    "site.liclose"
+  ],
+  "projects.covert.keydesign":[
+    "site.ulopen",
+    "projects.covert.keydesign.title",
+    "projects.covert.keydesign.1",
+    "projects.covert.keydesign.2",
+    "projects.covert.keydesign.3",
+    "projects.covert.keydesign.4",
+    "projects.covert.keydesign.5",
+    "site.ulclose",
+    "site.br"
+  ],
   "projects.covert.overview.title": [
     "site.br", 
     "site.hopen", 
-      "A Historical Account of COVERT", 
+      "Design Themes", 
     "site.hclose",
+    "site.br",
+    "site.popen",
+      "From its inception, COVERT existed to maintain configuration and to manage the complexity around Qemu command-line arguments. Although it has grown ",
+      "somewhat organically, there have always been goals in pursuit of:", 
+    "site.pclose",
     "site.br"
   ],
   "projects.covert.overview.1": [
     "site.popen", 
-      "", 
+      "Simplicity through abstraction", 
+    "site.pclose", 
+    "site.br"
+  ],
+  "projects.covert.overview.2": [
+    "site.popen", 
+      "Reproducible deployment", 
     "site.pclose",
     "site.br"
   ],
+  "projects.covert.overview.3": [
+    "site.popen", 
+      "Separation of concerns", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.covert.overview.4": [
+    "site.popen", 
+      "Strong identity and security foundations",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.covert.overview.5": [
+    "site.popen", 
+      "Preservation of configuration and operational provenance",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.covert.overview.6": [
+    "site.popen", 
+      "Support for heterogeneous computing environments",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.covert.overview.7": [
+    "site.popen", 
+      "Although the implementation has evolved substantially over time, many of the original design concepts remain visible in the current platform.",
+    "site.pclose",
+    "site.br"
+  ],
+
   "projects.covert.overview": [
     "projects.covert.overview.title",
     "projects.covert.overview.1",
+    "projects.covert.overview.2",
+    "projects.covert.overview.3",
+    "projects.covert.overview.4",
+    "projects.covert.overview.5",
+    "projects.covert.overview.6",
+    "projects.covert.overview.7",
     "site.br" 
   ],
 
   "site.pages.covert": [
     "projects.covert.title",
+    "projects.covert.keydesign",
     "projects.covert.overview",
 
     "site.return"
   ]
 }
-
