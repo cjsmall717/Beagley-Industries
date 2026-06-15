@@ -194,21 +194,27 @@
     "site.br"
   ],
   "projects.future.overview.3": [
-    "site.popen", 
-      "Complete SLURM reference architecture.",
-    "site.pclose",
+    "site.bqopen", 
+      "site.popen", "site.sopen", "Complete SLURM reference architecture.", "site.sclose", "site.pclose",
+      "site.br",
+      "site.popen", "Documentation being prepared.", "site.pclose",
+      "site.bqclose", 
     "site.br"
   ],
   "projects.future.overview.4": [
-    "site.popen", 
-      "Integrate Apptainer workloads.",
-    "site.pclose",
+    "site.bqopen", 
+      "site.popen", "site.sopen", "Integrate Apptainer workloads.", "site.sclose", "site.pclose",
+      "site.br",
+      "site.popen", "Documentation being prepared.", "site.pclose",
+    "site.bqclose", 
     "site.br"
   ],
   "projects.future.overview.5": [
-    "site.popen", 
-      "Demonstrate multi-tenancy and provenance.",
-    "site.pclose",
+    "site.bqopen", 
+      "site.popen", "site.sopen", "Demonstrate multi-tenancy and provenance.", "site.sclose", "site.pclose",
+      "site.br",
+      "site.popen", "Documentation being prepared.", "site.pclose",
+    "site.bqclose", 
     "site.br"
   ],
   "projects.future.overview.6": [

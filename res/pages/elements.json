@@ -5,6 +5,12 @@
   "site.wclose": [
     "</p>"
   ],
+  "site.sopen": [
+    "<s class=\"strikethrough-text\">"
+  ],
+  "site.sclose": [
+    "</s>"
+  ],
   "site.popen": [
     "<p class=\"normal-text\">"
   ],
