@@ -108,6 +108,16 @@
   ],
   "site.current.3": [
     "site.popen",
+      "By way of illustrating the points made, above, I've tried to recover info from various old hard-drives. All have been subject to the attentions of \"/bin/shred\", ",
+      "however, one disk dating from 2010 is partially readable. It's an OST from my Slackware-based lustre system. It prompted the question, \"How the hell did I do it?\"; ",
+      "the answer was later found on another disk &mdash; A DVD-R disk. A full source build tree, with build artifacts. I'd built a RHEL kernel on Slackware and booted my system ",
+      "using that kernel. I started perusing my data and found the DVD-R media to be 100% readable. DVD-RW, thus far, has been 25% readable for a smaller sample size. ",
+      "I have retained data that spans a period from 1991 to present. I've decided to interrupt my development work so that I can ensure that what I have is properly ",
+      "preserved &mdash; on optical media.",
+    "site.pclose"
+  ],
+  "site.current.4": [
+    "site.popen",
     "navigate.current",
     "site.pclose"
   ],
@@ -116,6 +126,7 @@
     "site.current.1",
     "site.current.2",
     "site.current.3",
+    "site.current.4",
     "site.br"
   ]
 }
