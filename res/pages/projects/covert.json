@@ -23,12 +23,12 @@
     "Chris' Own Virtualisation Enviroment for Research and Testing (COVERT)"
   ],
 
-  "projects.covert.keydesign.title":[
+  "projects.covert.history.title":[
     "site.hopen", 
       "A Historical Account of COVERT", 
     "site.hclose"
   ],
-  "projects.covert.keydesign.1":[
+  "projects.covert.history.1":[
     "site.liopen",
       "<b>2008 &mdash; Origins</b>", "site.br",
       "site.bqopen",
@@ -40,7 +40,7 @@
       "site.bqclose",
     "site.liclose"
   ],
-  "projects.covert.keydesign.2":[
+  "projects.covert.history.2":[
     "site.liopen",
       "<b>2014 &mdash; Platform Maturity</b>","site.br",
       "site.bqopen",
@@ -50,7 +50,7 @@
       "site.bqclose",
     "site.liclose"
   ],
-  "projects.covert.keydesign.3":[
+  "projects.covert.history.3":[
     "site.liopen",
       "<b>2018 &mdash; Infrastructure as Code</b>","site.br",
       "site.bqopen",
@@ -60,7 +60,7 @@
       "site.bqclose",
     "site.liclose"
   ],
-  "projects.covert.keydesign.4":[
+  "projects.covert.history.4":[
     "site.liopen",
       "<b>2025 &mdash; Reference Architectures</b>","site.br",
       "site.bqopen",
@@ -72,7 +72,7 @@
       "site.bqclose",
     "site.liclose"
   ],
-  "projects.covert.keydesign.5":[
+  "projects.covert.history.5":[
     "site.liopen",
       "<b>2026 &mdash; Provenance and Multi-Tenancy</b>","site.br",
       "site.bqopen",
@@ -84,88 +84,94 @@
       "site.bqclose",
     "site.liclose"
   ],
-  "projects.covert.keydesign":[
+  "projects.covert.history":[
     "site.ulopen",
-    "projects.covert.keydesign.title",
-    "projects.covert.keydesign.1",
-    "projects.covert.keydesign.2",
-    "projects.covert.keydesign.3",
-    "projects.covert.keydesign.4",
-    "projects.covert.keydesign.5",
+    "projects.covert.history.title",
+    "projects.covert.history.1",
+    "projects.covert.history.2",
+    "projects.covert.history.3",
+    "projects.covert.history.4",
+    "projects.covert.history.5",
     "site.ulclose",
     "site.br"
   ],
-  "projects.covert.overview.title": [
+  "projects.covert.keydesign.title": [
     "site.br", 
     "site.hopen", 
-      "Design Themes", 
+      "Design Themes and Philosophy", 
     "site.hclose",
     "site.br",
     "site.popen",
       "From its inception, COVERT existed to maintain configuration and to manage the complexity around Qemu command-line arguments. Although it has grown ",
-      "somewhat organically, there have always been goals in pursuit of:", 
+      "somewhat organically, recent public events have brought its underlying philosophy into sharp relief. The ongoing, catastrophic data spills across the ",
+      "health and telco sectors are not accidental anomalies; they are the predictable, structural consequence of modern enterprise IT bloat and 'flowchart admins'.",
     "site.pclose",
+    "site.br",
+    "site.popen",
+      "Modern corporate IT has abandoned foundational engineering in favour of multi-layered, vendor-locked stacks. When you pile commercial hypervisors, ",
+      "opaque web-auth layers, and unsafe, un-audited SUID root wrappers on top of physical hardware, vulnerability accumulates aggressively at the interfaces. ",
+      "We see the consequences of this corporate irresponsibility across the landscape &mdash; where medical research institutes for example are sold massive, ",
+      "convoluted enterprise solutions they cannot easily apply to their core business, when the baseline reality is that they just want to execute BLAST or ",
+      "other bioinformatics workloads deterministically under a Slurm scheduler. COVERT rejects this vendor-driven over-engineering entirely. It enforces strict ",
+      "goals in pursuit of:",
+     "site.pclose",
     "site.br"
   ],
-  "projects.covert.overview.1": [
+  "projects.covert.keydesign.1": [
     "site.popen", 
-      "Simplicity through abstraction", 
+      "Simplicity through abstraction",
     "site.pclose", 
     "site.br"
   ],
-  "projects.covert.overview.2": [
+  "projects.covert.keydesign.2": [
     "site.popen", 
-      "Reproducible deployment", 
+      "Reproducible deployment",
     "site.pclose",
     "site.br"
   ],
-  "projects.covert.overview.3": [
+  "projects.covert.keydesign.3": [
     "site.popen", 
       "Separation of concerns", 
     "site.pclose",
     "site.br"
   ],
-  "projects.covert.overview.4": [
+  "projects.covert.keydesign.4": [
     "site.popen", 
       "Strong identity and security foundations",
     "site.pclose",
     "site.br"
   ],
-  "projects.covert.overview.5": [
+  "projects.covert.keydesign.5": [
     "site.popen", 
       "Preservation of configuration and operational provenance",
     "site.pclose",
     "site.br"
   ],
-  "projects.covert.overview.6": [
+  "projects.covert.keydesign.6": [
     "site.popen", 
-      "Support for heterogeneous computing environments",
-    "site.pclose",
-    "site.br"
-  ],
-  "projects.covert.overview.7": [
-    "site.popen", 
-      "Although the implementation has evolved substantially over time, many of the original design concepts remain visible in the current platform.",
+      "Support for containers, heterogeneous computing environments, and various bootstrapping mechanisms",
     "site.pclose",
     "site.br"
   ],
 
-  "projects.covert.overview": [
-    "projects.covert.overview.title",
-    "projects.covert.overview.1",
-    "projects.covert.overview.2",
-    "projects.covert.overview.3",
-    "projects.covert.overview.4",
-    "projects.covert.overview.5",
-    "projects.covert.overview.6",
-    "projects.covert.overview.7",
-    "site.br" 
+  "projects.covert.keydesign": [
+    "projects.covert.keydesign.title",
+    "site.bqopen",
+    "projects.covert.keydesign.1",
+    "projects.covert.keydesign.2",
+    "projects.covert.keydesign.3",
+    "projects.covert.keydesign.4",
+    "projects.covert.keydesign.5",
+    "projects.covert.keydesign.6",
+    "projects.covert.keydesign.7",
+    "site.bclose",
+    "site.br"
   ],
 
   "site.pages.covert": [
     "projects.covert.title",
+    "projects.covert.history",
     "projects.covert.keydesign",
-    "projects.covert.overview",
 
     "site.return"
   ]
