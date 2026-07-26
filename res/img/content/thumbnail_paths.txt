@@ -260,3 +260,4 @@
 ./res/img/content/thumbnails/current/2.jpg
 ./res/img/content/thumbnails/current/3.jpg
 ./res/img/content/thumbnails/current/4.jpg
+./res/img/content/thumbnails/covert/1/mq_arch.jpg

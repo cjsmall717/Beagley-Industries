@@ -188,10 +188,21 @@
     "site.br"
   ],
 
+  "projects.covert.diagram.embed.1": [
+    "site.iopen",
+      "covert/1",
+    "site.iclose",
+    "site.popen",
+      "Message system design",
+    "site.pclose",
+    "site.br"
+  ],
+
   "site.pages.covert": [
     "projects.covert.title",
     "projects.covert.history",
     "projects.covert.keydesign",
+    "projects.covert.diagram.embed.1",
 
     "site.return"
   ]
