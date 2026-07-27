@@ -184,7 +184,60 @@
     "projects.covert.keydesign.5",
     "projects.covert.keydesign.6",
     "projects.covert.keydesign.7",
-    "site.bclose",
+    "site.bqclose",
+    "site.br"
+  ],
+
+  "projects.covert.epiphany.title": [
+    "site.br", 
+    "site.hopen", 
+      "Epiphany!", 
+    "site.hclose",
+    "site.br",
+    "site.popen",
+      "COVERT was originally conceived as a means to manage a handful of disparate virtual machines for research, experimentation, and software evaluation. As the ",
+      "scope of my work expanded, the requirement naturally evolved into managing complete systems composed of relatively homogeneous nodes with a small number ",
+      "performing specialised roles.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "Although the physical deployment requirement does not (yet) exist, it has always been considered an inevitable direction of travel. Managing virtual machines ",
+      "over SSH, starting Apptainer containers, generating BOOTP/TFTP configurations for physical infrastructure, or orchestrating other deployment mechanisms are not ",
+      "fundamentally different problems. They are simply different implementations of the same conceptual operation: instantiate and manage a computational resource.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "The same observation applies elsewhere within the system. The XMPPlogger program is not really an XMPP application; it is a specialised instance of a more ",
+      "general concept &mdash; a messaging bridge. It receives structured messages from one messaging domain, interprets their semantics, and republishes them into ",
+      "another. XMPP is merely one endpoint. The same architectural pattern could equally bridge RabbitMQ to databases, REST services, monitoring systems, schedulers, ",
+      "or other messaging technologies.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "This realisation represents an important shift in the design philosophy behind COVERT. Rather than treating deployment methods, messaging technologies, or ",
+      "resource types as primary concepts, they become interchangeable implementations behind a common abstraction. The architecture is therefore driven by intent ",
+      "rather than by specific technologies. ",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "The COVERT database shall continue to serve as the canonical authority for persistent system state.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "JSON shall become the <i>lingua franca</i> for all inter-component transactions within the next-generation architecture, providing a common, ",
+      "implementation-independent representation of intent and state.",
+    "site.pclose",
+    "site.br",
+    "site.popen",
+      "A message bus shall form the communication substrate that binds otherwise independent components into a coherent distributed system. Components shall ",
+      "communicate by exchanging structured messages rather than by direct invocation, thereby promoting loose coupling, extensibility, and implementation independence.",
+    "site.pclose",
+    "site.br"
+  ],
+
+  "projects.covert.epiphany.1": [
+    "site.popen", 
+    "site.pclose", 
     "site.br"
   ],
 
@@ -198,10 +251,20 @@
     "site.br"
   ],
 
+  "projects.covert.epiphany": [
+    "projects.covert.epiphany.title",
+    "site.bqopen",
+    "projects.covert.epiphany.1",
+    "site.bclose",
+    "site.br"
+  ],
+
+
   "site.pages.covert": [
     "projects.covert.title",
     "projects.covert.history",
     "projects.covert.keydesign",
+    "projects.covert.epiphany",
     "projects.covert.diagram.embed.1",
 
     "site.return"
