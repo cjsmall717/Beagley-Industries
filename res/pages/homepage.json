@@ -198,7 +198,9 @@
   ],
 
   "home.reverie.title": [
-    "site.hopen", "Reverie", "site.hclose"
+    "site.hopen", 
+      "Reverie", 
+    "site.hclose"
   ],
   "home.early": [
     "site.ulopen",
@@ -236,8 +238,10 @@
   ],
 
   "home.inspirations": [
-    "navigate.inspirations",
-    "site.br"
+    "site.hopen", "About", "site.hclose",
+    "site.ulopen",
+      "navigate.inspirations",
+    "site.ulclose"
   ],
 
   "site.pages.homepage": [
