@@ -253,19 +253,39 @@
 
   "projects.covert.epiphany": [
     "projects.covert.epiphany.title",
-    "site.bqopen",
-    "projects.covert.epiphany.1",
-    "site.bclose",
+    "site.br",
+    "projects.covert.diagram.embed.1",
     "site.br"
   ],
-
+  
+  "projects.covert.principles": [
+    "site.br",
+    "site.hopen",
+      "Core Principles!",
+    "site.hclose",
+    "site.br",
+    "site.popen", 
+      "Design decisions for the next itertion of COVERT are founded the following core principles:",
+    "site.pclose", 
+    "site.br",
+    "site.olopen",
+      "site.oliopn", "Everything is an entity.", "site.olicls",
+      "site.oliopn", "All state changes occur through messages.", "site.olicls",
+      "site.oliopn", "Every message is immutable.", "site.olicls",
+      "site.oliopn", "Every message has identity, correlation and causation.", "site.olicls",
+      "site.oliopn", "Current state is derived from message history.", "site.olicls",
+      "site.oliopn", "Metadata is authoritative.", "site.olicls",
+      "site.oliopn", "Reports are generated from metadata, never manually maintained.", "site.olicls",
+    "site.olclose",
+    "site.br"
+  ],
 
   "site.pages.covert": [
     "projects.covert.title",
     "projects.covert.history",
     "projects.covert.keydesign",
     "projects.covert.epiphany",
-    "projects.covert.diagram.embed.1",
+    "projects.covert.principles",
 
     "site.return"
   ]

@@ -50,6 +50,18 @@
   "site.urlclose": [
     "\" target=\"_blank\" rel=\"noopener noreferrer\">"
   ],
+  "site.oliopn": [
+    "<li class=\"li-normal\">"
+  ],
+  "site.olicls": [
+    "</li>"
+  ],
+  "site.olopen": [
+    "<ol>"
+  ],
+  "site.olclose": [
+    "</ol>"
+  ],
   "site.liopen": [
     "<li class=\"li-normal\">"
   ],
