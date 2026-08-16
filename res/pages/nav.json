@@ -48,10 +48,10 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.kubepcluster": [
+  "navigate.kubescluster": [
     "<li class=\"li-link\" onclick=\"loadPage('kubescluster');\">",
     "site.lopen",
-    "Hybrid Distributed Systems Reference Architecture: Virtualised Kubernetes",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Kubernetes Cluster",
     "site.lclose",
     "site.liclose"
   ],
