@@ -11,6 +11,7 @@
 
     "./res/pages/projects/current.json",
     "./res/pages/projects/covert.json",
+    "./res/pages/projects/kubescluster.json",
     "./res/pages/projects/hadoopcluster.json",
     "./res/pages/projects/securitymodel.json",
     "./res/pages/projects/luggagebox.json",

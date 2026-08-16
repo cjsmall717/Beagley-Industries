@@ -1,0 +1,37 @@
+{
+  "projects.kubes.title": [
+    "site.hopen",
+      "projects.kubes.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.kubes.title.text": [
+    ""
+  ],
+  "projects.kubes.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.kubes.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.kubes.overview": [
+    "projects.kubes.overview.title",
+    "projects.kubes.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.kubes": [
+    "projects.kubes.title",
+    "projects.kubes.overview",
+
+    "site.return"
+  ]
+}
+

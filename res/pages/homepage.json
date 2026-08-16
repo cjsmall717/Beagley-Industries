@@ -7,6 +7,11 @@
     "navigate.covert",
     "site.ulclose"
   ],
+  "home.kubescluster": [
+    "site.ulopen",
+    "navigate.kubescluster",
+    "site.ulclose"
+  ],
   "home.hadoopcluster": [
     "site.ulopen",
     "navigate.hadoopcluster",
@@ -40,6 +45,7 @@
   "home.projects": [
     "home.projects.title",
     "home.covert",
+    "home.kubescluster",
     "home.hadoopcluster",
     "home.securitymodel",
     "home.hydrogel",

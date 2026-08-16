@@ -125,6 +125,7 @@
       "From its inception, COVERT existed to maintain configuration and to manage the complexity around Qemu command-line arguments. Although it has grown ",
       "somewhat organically, recent public events have brought its underlying philosophy into sharp relief. The ongoing, catastrophic data spills across the ",
       "health and telco sectors are not accidental anomalies; they are the predictable, structural consequence of modern enterprise IT bloat and 'flowchart admins'.",
+      "who are driven by procedural compliance and 'recipe-book reactiveness' rather than deep systems understanding.",
     "site.pclose",
     "site.br",
     "site.popen",
