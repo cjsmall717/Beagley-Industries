@@ -1,8 +1,14 @@
 {
     "gallery.text.1": [
-        "1."
+        "1. Placeholder figure until I can draw a proper diagram."
     ],
     "gallery.text.2": [
-        "2."
+        "2. Status screen showing thirteen virtual machines running under COVERT."
+    ],
+    "gallery.text.3": [
+        "3. Kubernetes node status showing a thirteen member cluster - One master and twelve workers."
+    ],
+    "gallery.text.4": [
+        "4. Kubernetes system status showing a healthy cluster."
     ]
 }

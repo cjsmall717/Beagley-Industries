@@ -261,3 +261,7 @@
 ./res/img/content/projects/current/3.jpg
 ./res/img/content/projects/current/4.jpg
 ./res/img/content/projects/covert/1/mq_arch.jpg
+./res/img/content/projects/kubescluster/1/1_topology.jpg
+./res/img/content/projects/kubescluster/2/1_covert.jpg
+./res/img/content/projects/kubescluster/2/2_nodes.jpg
+./res/img/content/projects/kubescluster/2/3_system.jpg

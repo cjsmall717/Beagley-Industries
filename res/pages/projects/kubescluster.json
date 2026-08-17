@@ -1,36 +1,76 @@
 {
-  "projects.kubes.title": [
+  "projects.kubescluster.title": [
     "site.hopen",
-      "projects.kubes.title.text",
+      "Kubernetes",
     "site.hclose",
     "site.br"
   ],
-  "projects.kubes.title.text": [
-    ""
-  ],
-  "projects.kubes.overview.title": [
+  "projects.kubescluster.overview.title": [
     "site.br", 
     "site.hopen", 
-      "", 
+      "Ma always said if you have nothing nice to say then don't say anything...", 
     "site.hclose",
     "site.br"
   ],
-  "projects.kubes.overview.1": [
+  "projects.kubescluster.overview.1": [
     "site.popen", 
-      "", 
+      "Modern enterprise seems to be built upon hte Kubernetes leviathan. As a consequence, it would be remiss to omit it from my set of reference clusters.", 
     "site.pclose",
     "site.br"
   ],
-  "projects.kubes.overview": [
-    "projects.kubes.overview.title",
-    "projects.kubes.overview.1",
+  "projects.kubescluster.overview.2": [
+    "site.popen", 
+      "Metadata descriptions for twenty worker nodes and a control-plane node were defined in COVERT. Given that Kubernetes has a dependency on systemd, ",
+      "and prior build experience was founded in virtuaised Arch linux, this distribution was chosen to host my Kubernetes reference architecture.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.kubescluster.overview.3": [
+    "site.popen", 
+      "Given that Kubernetes is not only dependent upon systemd, but 'has other hairs on it', the cluster name, <i>'Mons_Pubis'</i> was chosen to reflect nature of kubes ",
+      "and the obvious rhyming denigration.:-D That said, pragmatism must win at the end of the day. Here, then, is my venture into the distasteful realm of kubernetes.",
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.kubescluster.overview": [
+    "projects.kubescluster.overview.title",
+    "projects.kubescluster.overview.1",
+    "projects.kubescluster.overview.2",
+    "projects.kubescluster.overview.3",
     "site.br" 
   ],
+  "projects.kubescluster.embed.1": [
+    "site.iopen",
+      "kubescluster/1",
+    "site.iclose",
+    "site.popen",
+      "Virtualised Kubernetes Cluster Architecture",
+    "site.pclose",
+    "site.br"
+  ],
 
-  "site.pages.kubes": [
-    "projects.kubes.title",
-    "projects.kubes.overview",
+  "projects.kubescluster.gallery.title": [
+    "site.hopen", 
+      "Gallery", 
+    "site.hclose"
+  ],
+  "projects.kubescluster.gallery.embed": [
+    "site.iopen",
+      "kubescluster/2",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.kubescluster.gallery": [
+    "projects.kubescluster.gallery.title",
+    "projects.kubescluster.gallery.embed"
+  ],
 
+
+  "site.pages.kubescluster": [
+    "projects.kubescluster.title",
+    "projects.kubescluster.overview",
+    "projects.kubescluster.embed.1",
+    "projects.kubescluster.gallery",
     "site.return"
   ]
 }
