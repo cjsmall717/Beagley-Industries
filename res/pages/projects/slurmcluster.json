@@ -1,0 +1,37 @@
+{
+  "projects.slurmcluster.title": [
+    "site.hopen",
+      "projects.slurmcluster.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.slurmcluster.title.text": [
+    "Slurm Compute Cluster with Lustre Integration"
+  ],
+  "projects.slurmcluster.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.slurmcluster.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.slurmcluster.overview": [
+    "projects.slurmcluster.overview.title",
+    "projects.slurmcluster.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.slurmcluster": [
+    "projects.slurmcluster.title",
+    "projects.slurmcluster.overview",
+
+    "site.return"
+  ]
+}
+

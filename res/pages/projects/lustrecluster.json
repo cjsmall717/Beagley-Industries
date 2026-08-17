@@ -1,0 +1,37 @@
+{
+  "projects.lustrecluster.title": [
+    "site.hopen",
+      "projects.lustrecluster.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.lustrecluster.title.text": [
+    ""
+  ],
+  "projects.lustrecluster.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.lustrecluster.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.lustrecluster.overview": [
+    "projects.lustrecluster.overview.title",
+    "projects.lustrecluster.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.lustrecluster": [
+    "projects.lustrecluster.title",
+    "projects.lustrecluster.overview",
+
+    "site.return"
+  ]
+}
+

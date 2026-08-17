@@ -77,6 +77,14 @@
   ],
   "site.who.7": [
     "site.popen",
+      "In April of 2026 it became apparent that I required a new CV and a GitHub Pages site. It started as a humble set of static pages. My son ",
+      "assisted me in modernising my approach. On 2026/04/23 I uploaded my first respository to GitHub and have worked to consistently update the ",
+      "repo and to continue developent on my COVERT platform (described herein) and set of reference architectures.",
+    "site.pclose",
+    "site.br"
+  ],
+  "site.who.8": [
+    "site.popen",
       "site.links.slackware",
     "site.pclose",
     "site.br"
@@ -89,6 +97,7 @@
     "site.who.5",
     "site.who.6",
     "site.who.7",
+    "site.who.8",
     "site.br"
   ],
   "site.current.title": [

@@ -12,6 +12,21 @@
     "navigate.kubescluster",
     "site.ulclose"
   ],
+  "home.slurmcluster": [
+    "site.ulopen",
+    "navigate.slurmcluster",
+    "site.ulclose"
+  ],
+  "home.sparkcluster": [
+    "site.ulopen",
+    "navigate.sparkcluster",
+    "site.ulclose"
+  ],
+  "home.lustrecluster": [
+    "site.ulopen",
+    "navigate.lustrecluster",
+    "site.ulclose"
+  ],
   "home.hadoopcluster": [
     "site.ulopen",
     "navigate.hadoopcluster",
@@ -46,6 +61,9 @@
     "home.projects.title",
     "home.covert",
     "home.kubescluster",
+    "home.slurmcluster",
+    "home.sparkcluster",
+    "home.lustrecluster",
     "home.hadoopcluster",
     "home.securitymodel",
     "home.hydrogel",

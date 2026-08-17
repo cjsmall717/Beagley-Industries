@@ -55,6 +55,27 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.slurmcluster": [
+    "<li class=\"li-link\" onclick=\"loadPage('slurmcluster');\">",
+    "site.lopen",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Slurm (and Lustre) Cluster",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.sparkcluster": [
+    "<li class=\"li-link\" onclick=\"loadPage('sparkcluster');\">",
+    "site.lopen",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Spark Cluster",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.lustrecluster": [
+    "<li class=\"li-link\" onclick=\"loadPage('lustrecluster');\">",
+    "site.lopen",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Lustre Cluster and Standalone Instance",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.hadoopcluster": [
     "<li class=\"li-link\" onclick=\"loadPage('hadoopcluster');\">",
     "site.lopen",

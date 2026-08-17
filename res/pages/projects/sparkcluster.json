@@ -1,0 +1,37 @@
+{
+  "projects.sparkcluster.title": [
+    "site.hopen",
+      "projects.sparkcluster.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.sparkcluster.title.text": [
+    ""
+  ],
+  "projects.sparkcluster.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.sparkcluster.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.sparkcluster.overview": [
+    "projects.sparkcluster.overview.title",
+    "projects.sparkcluster.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.sparkcluster": [
+    "projects.sparkcluster.title",
+    "projects.sparkcluster.overview",
+
+    "site.return"
+  ]
+}
+
