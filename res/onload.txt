@@ -265,3 +265,4 @@
 ./res/img/content/thumbnails/kubescluster/2/1_covert.jpg
 ./res/img/content/thumbnails/kubescluster/2/2_nodes.jpg
 ./res/img/content/thumbnails/kubescluster/2/3_system.jpg
+./res/img/content/thumbnails/sparkcluster/1/1_spark.jpg

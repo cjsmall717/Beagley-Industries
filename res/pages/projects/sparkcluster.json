@@ -6,12 +6,12 @@
     "site.br"
   ],
   "projects.sparkcluster.title.text": [
-    ""
+    "Spark Cluster"
   ],
   "projects.sparkcluster.overview.title": [
     "site.br", 
     "site.hopen", 
-      "", 
+      "A five-node, standalone spark cluster comprising of one master and four compute nodes was built as a metadata definition within COVERT.", 
     "site.hclose",
     "site.br"
   ],
@@ -21,9 +21,19 @@
     "site.pclose",
     "site.br"
   ],
+  "projects.sparkcluster.embed.1": [
+    "site.iopen",
+      "sparkcluster/1",
+    "site.iclose",
+    "site.popen",
+      "Virtualised Spark Cluster Login page",
+    "site.pclose",
+    "site.br"
+  ],
   "projects.sparkcluster.overview": [
     "projects.sparkcluster.overview.title",
     "projects.sparkcluster.overview.1",
+    "projects.sparkcluster.embed.1",
     "site.br" 
   ],
 
