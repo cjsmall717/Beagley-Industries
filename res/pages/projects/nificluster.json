@@ -1,0 +1,37 @@
+{
+  "projects.nificluster.title": [
+    "site.hopen",
+      "projects.nificluster.title.text",
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.nificluster.title.text": [
+    "Nifi Data Ingestion and Routing Cluster"
+  ],
+  "projects.nificluster.overview.title": [
+    "site.br", 
+    "site.hopen", 
+      "", 
+    "site.hclose",
+    "site.br"
+  ],
+  "projects.nificluster.overview.1": [
+    "site.popen", 
+      "", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.nificluster.overview": [
+    "projects.nificluster.overview.title",
+    "projects.nificluster.overview.1",
+    "site.br" 
+  ],
+
+  "site.pages.nificluster": [
+    "projects.nificluster.title",
+    "projects.nificluster.overview",
+
+    "site.return"
+  ]
+}
+

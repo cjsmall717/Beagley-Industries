@@ -11,6 +11,7 @@
 
     "./res/pages/projects/current.json",
     "./res/pages/projects/covert.json",
+    "./res/pages/projects/nificluster.json",
     "./res/pages/projects/kubescluster.json",
     "./res/pages/projects/slurmcluster.json",
     "./res/pages/projects/sparkcluster.json",

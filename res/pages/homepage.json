@@ -7,6 +7,11 @@
     "navigate.covert",
     "site.ulclose"
   ],
+  "home.nificluster": [
+    "site.ulopen",
+    "navigate.nificluster",
+    "site.ulclose"
+  ],
   "home.kubescluster": [
     "site.ulopen",
     "navigate.kubescluster",
@@ -60,6 +65,7 @@
   "home.projects": [
     "home.projects.title",
     "home.covert",
+    "home.nificluster",
     "home.kubescluster",
     "home.slurmcluster",
     "home.sparkcluster",

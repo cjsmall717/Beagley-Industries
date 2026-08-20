@@ -48,6 +48,13 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.nificluster": [
+    "<li class=\"li-link\" onclick=\"loadPage('nificluster');\">",
+    "site.lopen",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Apache Nifi Cluster",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.kubescluster": [
     "<li class=\"li-link\" onclick=\"loadPage('kubescluster');\">",
     "site.lopen",
