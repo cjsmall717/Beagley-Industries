@@ -11,19 +11,29 @@
   "projects.nificluster.overview.title": [
     "site.br", 
     "site.hopen", 
-      "", 
+      "Four-node Apache Nifi cluster", 
     "site.hclose",
     "site.br"
   ],
   "projects.nificluster.overview.1": [
     "site.popen", 
-      "", 
+      "A four-node Apache Nifi cluster was built as a metadata definition within COVERT and deployed on a slackware base.", 
+    "site.pclose",
+    "site.br"
+  ],
+  "projects.nificluster.embed.1": [
+    "site.iopen",
+      "nificluster/1",
+    "site.iclose",
+    "site.popen",
+      "Virtualised Nifi Instance running on a single node during the familiarisation phase.",
     "site.pclose",
     "site.br"
   ],
   "projects.nificluster.overview": [
     "projects.nificluster.overview.title",
     "projects.nificluster.overview.1",
+    "projects.nificluster.embed.1",
     "site.br" 
   ],
 

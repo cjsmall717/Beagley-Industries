@@ -266,4 +266,4 @@
 ./res/img/content/projects/kubescluster/2/2_nodes.jpg
 ./res/img/content/projects/kubescluster/2/3_system.jpg
 ./res/img/content/projects/sparkcluster/1/1_spark.jpg
-./res/img/content/projects/nificluster/1_nifi_canvas.jpg
+./res/img/content/projects/nificluster/1/1_nifi_canvas.jpg
