@@ -21,25 +21,30 @@
     "site.pclose",
     "site.br"
   ],
-  "projects.nificluster.embed.1": [
-    "site.iopen",
-      "nificluster/1",
-    "site.iclose",
-    "site.popen",
-      "Virtualised Nifi Instance running on a single node during the familiarisation phase.",
-    "site.pclose",
-    "site.br"
-  ],
   "projects.nificluster.overview": [
     "projects.nificluster.overview.title",
     "projects.nificluster.overview.1",
-    "projects.nificluster.embed.1",
     "site.br" 
+  ],
+
+  "projects.nificluster.gallery.title": [
+    "site.hopen", "Gallery", "site.hclose"
+  ],
+  "projects.nificluster.gallery.embed.1": [
+    "site.iopen",
+    "nificluster",
+    "site.iclose",
+    "site.br"
+  ],
+  "projects.nificluster.gallery": [
+    "projects.nificluster.gallery.title",
+    "projects.nificluster.gallery.embed.1"
   ],
 
   "site.pages.nificluster": [
     "projects.nificluster.title",
     "projects.nificluster.overview",
+    "projects.nificluster.gallery",
 
     "site.return"
   ]

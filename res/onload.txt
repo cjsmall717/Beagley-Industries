@@ -267,3 +267,5 @@
 ./res/img/content/thumbnails/kubescluster/2/3_system.jpg
 ./res/img/content/thumbnails/sparkcluster/1/1_spark.jpg
 ./res/img/content/thumbnails/nificluster/1/1_nifi_canvas.jpg
+./res/img/content/thumbnails/nificluster/2/2_nifi_canvas.jpg
+./res/img/content/thumbnails/nificluster/3/3_rabbitmq.jpg
