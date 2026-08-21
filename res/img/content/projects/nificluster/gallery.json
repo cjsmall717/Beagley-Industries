@@ -1,5 +1,11 @@
 {
     "gallery.text.1": [
         "1. Placeholder image. Nifi cluster is still under construction."
+    ],
+    "gallery.text.2": [
+        "2. A more complex workflow that reads from a rabbitMQ queue and makes a routing decision based on a JSON attribute."
+    ],
+    "gallery.text.3": [
+        "3. RabbitMQ management screen. The connected channel is the AMQPconsumer in the Nifi model."
     ]
 }
