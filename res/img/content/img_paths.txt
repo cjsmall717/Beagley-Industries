@@ -269,3 +269,4 @@
 ./res/img/content/projects/nificluster/1/1_nifi_canvas.jpg
 ./res/img/content/projects/nificluster/2/2_nifi_canvas.jpg
 ./res/img/content/projects/nificluster/3/3_rabbitmq.jpg
+./res/img/content/projects/nificluster/4/4_nifi_cluster.jpg
