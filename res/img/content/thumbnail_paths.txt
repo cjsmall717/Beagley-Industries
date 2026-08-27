@@ -270,3 +270,6 @@
 ./res/img/content/thumbnails/nificluster/2/2_nifi_canvas.jpg
 ./res/img/content/thumbnails/nificluster/3/3_rabbitmq.jpg
 ./res/img/content/thumbnails/nificluster/4/4_nifi_cluster.jpg
+./res/img/content/thumbnails/nificluster/5/5_nifi_cluster_fo.jpg
+./res/img/content/thumbnails/nificluster/6/6_nifi_cluster_proc.jpg
+./res/img/content/thumbnails/nificluster/7/7_zk_clusterstat.jpg
