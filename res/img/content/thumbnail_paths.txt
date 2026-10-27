@@ -58,6 +58,10 @@
 ./res/img/content/thumbnails/sickles/8/handle0_1.jpg
 ./res/img/content/thumbnails/sickles/8/sickle4_2.jpg
 ./res/img/content/thumbnails/sickles/9/sickle4_3.jpg
+./res/img/content/thumbnails/sickles/12/sickle12_0.jpg
+./res/img/content/thumbnails/sickles/12/sickle12_1.jpg
+./res/img/content/thumbnails/sickles/12/sickle12_2.jpg
+./res/img/content/thumbnails/sickles/12/sickle12_3.jpg
 ./res/img/content/thumbnails/greenhouse/1/supportsAndRoof.jpg
 ./res/img/content/thumbnails/greenhouse/2/floorAndWalkway.jpg
 ./res/img/content/thumbnails/greenhouse/3/wallSection.jpg

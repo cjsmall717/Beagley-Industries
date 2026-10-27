@@ -195,6 +195,15 @@
         "site.pclose",
         "site.br"
     ],
+    "projects.sickles.gallery.embed.12": [
+        "site.iopen",
+        "sickles/12",
+        "site.iclose",
+        "site.popen",
+        "Experimental billhook in stages of construction.",
+        "site.pclose",
+        "site.br"
+    ],
     "projects.sickles.gallery.embed": [
         "projects.sickles.gallery.embed.1",
         "projects.sickles.gallery.embed.2",
@@ -207,6 +216,7 @@
         "projects.sickles.gallery.embed.9",
         "projects.sickles.gallery.embed.10",
         "projects.sickles.gallery.embed.11",
+        "projects.sickles.gallery.embed.12",
         "site.br"
     ],
     "projects.sickles.gallery": [
